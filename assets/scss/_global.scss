@@ -1,0 +1,165 @@
+@import "./mixins/mixins";
+@import "variables";
+
+
+
+// ==== Globals ====
+
+:root {
+	font-size: 62.5%; // We are changing the value of rem to 1rem = 10px instead of default 1rem = 16px because of the easier calculations
+}
+
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+	-webkit-tap-highlight-color: transparent;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "regular", Arial, Helvetica, sans-serif;
+    font-size: $medium-small;
+}
+
+
+
+// ==== Inline elements ====
+
+h1 {
+
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+
+h4 {
+
+}
+
+h5 {
+
+}
+
+h6 {
+
+}
+
+a {
+
+	&:hover {
+
+	}
+}
+
+p {
+
+}
+
+strong {
+
+}
+
+blockquote {
+
+}
+
+
+
+// ==== Block elements ====
+
+img {
+    max-width: 100%;
+}
+
+blockquote {
+
+}
+
+
+
+// ==== Lists ====
+
+ul {
+
+	li {
+
+	}
+}
+
+ol {
+
+	li {
+
+	}
+}
+
+
+
+// ==== Text aligment ====
+
+.text-center {
+	text-align: center;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.text-right {
+	text-align: right;
+}
+
+
+
+// ==== Positioning ====
+
+.relative {
+	position: relative;
+}
+
+.absolute {
+	position: absolute;
+}
+
+
+
+// ==== Transforms ====
+
+.rotate {
+    transform: rotate(180deg);
+}
+
+
+
+// ==== Display ====
+
+.display-block {
+	display: block;
+}
+
+.display-inline-block {
+	display: inline-block;
+}
+
+.display-inline {
+	display: inline;
+}
+
+.display-flex {
+	display: flex;
+}
+
+.display-grid {
+	display: grid;
+}
+
+.display-none {
+	display: none;
+}

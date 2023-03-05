@@ -1,0 +1,15 @@
+@import "../colors";
+
+// ==== Background colors ====
+
+.bg-white {
+  background-color: #fff;
+}
+
+.bg-light {
+  background-color: $primary-color;
+}
+
+.bg-blue {
+  background-color: $secondary-color;
+}
