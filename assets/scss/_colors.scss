@@ -1,0 +1,48 @@
+// ==== Colors ====
+
+$blue: #141DF0;
+$indigo: #4E3FFB;
+$light-green: #7DF4DC;
+$gray: #222222;
+$white: #FFFFFF;
+$black: #000000;
+
+
+
+// ==== Brand colors ====
+
+$primary-color: $blue;
+$secondary-color: $indigo;
+$tertiary-color: $light-green;
+
+
+
+// ==== Text colors ====
+
+.text-color-white {
+	color: $white;
+}
+
+.text-color-black {
+	color: $black;
+}
+
+.text-color-gray {
+	color: $gray;
+}
+
+
+
+// ==== Link colors ====
+
+.link-color-white {
+    color: $white;
+}
+
+.link-color-black {
+    color: $black;
+}
+
+.link-color-gray {
+	color: $gray;
+}
