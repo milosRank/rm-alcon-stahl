@@ -1,19 +1,22 @@
 // ==== Colors ====
 
-$blue: #141DF0;
-$indigo: #4E3FFB;
-$light-green: #7DF4DC;
-$gray: #222222;
+$navy-blue: #070D1D;
+$blue: #006DA3;
 $white: #FFFFFF;
-$black: #000000;
+$black: #282828;
+$pure-black: #000000;
+$gray: #3E3E3E;
+$light-gray: #969696;
 
 
 
 // ==== Brand colors ====
 
-$primary-color: $blue;
-$secondary-color: $indigo;
-$tertiary-color: $light-green;
+$primary-color: $navy-blue;
+$secondary-color: $black;
+$tertiary-color: $gray;
+$fourth-color: $blue;
+$fifth-color: $light-gray;
 
 
 
@@ -24,25 +27,9 @@ $tertiary-color: $light-green;
 }
 
 .text-color-black {
-	color: $black;
+	color: $secondary-color;
 }
 
 .text-color-gray {
-	color: $gray;
-}
-
-
-
-// ==== Link colors ====
-
-.link-color-white {
-    color: $white;
-}
-
-.link-color-black {
-    color: $black;
-}
-
-.link-color-gray {
-	color: $gray;
+	color: $tertiary-color;
 }

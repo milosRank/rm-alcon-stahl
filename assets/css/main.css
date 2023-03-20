@@ -23,23 +23,11 @@
 }
 
 .text-color-black {
-  color: #000000;
+  color: #282828;
 }
 
 .text-color-gray {
-  color: #222222;
-}
-
-.link-color-white {
-  color: #FFFFFF;
-}
-
-.link-color-black {
-  color: #000000;
-}
-
-.link-color-gray {
-  color: #222222;
+  color: #3E3E3E;
 }
 
 /* 
@@ -48,29 +36,34 @@
 /* 
 	==== Fonts ==== 
 */
+/*
+    Fonts:
+        1. Primary - PlusJakartaSans
+        2. Secondary - Sora
+*/
 @font-face {
-  font-family: "regular";
-  src: url("../fonts/Roboto-Regular.woff");
+  font-family: "primary-regular";
+  src: url("../fonts/PlusJakartaSans-Regular.woff");
   font-display: swap;
 }
 @font-face {
-  font-family: "medium";
-  src: url("../fonts/Roboto-Medium.woff");
+  font-family: "primary-italic";
+  src: url("../fonts/PlusJakartaSans-Italic.woff");
   font-display: swap;
 }
 @font-face {
-  font-family: "light";
-  src: url("../fonts/Roboto-Light.woff");
+  font-family: "secondary-regular";
+  src: url("../fonts/Sora-Regular.woff");
   font-display: swap;
 }
 @font-face {
-  font-family: "semi-bold";
-  src: url("../fonts/Roboto-Black.woff");
+  font-family: "secondary-bold";
+  src: url("../fonts/Sora-Bold.woff");
   font-display: swap;
 }
 @font-face {
-  font-family: "bold";
-  src: url("../fonts/Roboto-Bold.woff");
+  font-family: "secondary-semi-bold";
+  src: url("../fonts/Sora-SemiBold.woff");
   font-display: swap;
 }
 /* 
@@ -81,35 +74,35 @@
 }
 
 .text-color-black {
-  color: #000000;
+  color: #282828;
 }
 
 .text-color-gray {
-  color: #222222;
-}
-
-.link-color-white {
-  color: #FFFFFF;
-}
-
-.link-color-black {
-  color: #000000;
-}
-
-.link-color-gray {
-  color: #222222;
+  color: #3E3E3E;
 }
 
 .bg-white {
-  background-color: #fff;
+  background-color: #FFFFFF;
 }
 
-.bg-light {
-  background-color: #141DF0;
+.bg-navy-blue {
+  background-color: #070D1D;
 }
 
-.bg-blue {
-  background-color: #4E3FFB;
+.bg-black {
+  background-color: #282828;
+}
+
+.bg-pure-black {
+  background-color: #000000;
+}
+
+.bg-gray {
+  background-color: #3E3E3E;
+}
+
+.bg-light-gray {
+  background-color: #969696;
 }
 
 /* 
@@ -120,23 +113,11 @@
 }
 
 .text-color-black {
-  color: #000000;
+  color: #282828;
 }
 
 .text-color-gray {
-  color: #222222;
-}
-
-.link-color-white {
-  color: #FFFFFF;
-}
-
-.link-color-black {
-  color: #000000;
-}
-
-.link-color-gray {
-  color: #222222;
+  color: #3E3E3E;
 }
 
 :root {
@@ -153,12 +134,107 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: "regular", Arial, Helvetica, sans-serif;
-  font-size: 2rem;
+  font-family: "primary-regular", Arial, Helvetica, sans-serif;
+  font-size: 1.8rem;
+  color: #282828;
+}
+
+h1 {
+  font-family: "secondary-bold", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 4.8rem;
+  line-height: 4.8rem;
+  color: #3E3E3E;
+  margin-bottom: 5.5rem;
+  margin-top: 0;
+}
+
+h2 {
+  font-family: "secondary-bold", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 4rem;
+  line-height: 4rem;
+  color: #3E3E3E;
+  margin-bottom: 5rem;
+  margin-top: 0;
+}
+
+h3 {
+  font-family: "secondary-bold", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 3.2rem;
+  line-height: 3.2rem;
+  color: #3E3E3E;
+  margin-bottom: 3.5rem;
+  margin-top: 0;
+}
+
+h4 {
+  font-family: "secondary-bold", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: initial;
+  line-height: initial;
+  color: #3E3E3E;
+  margin-bottom: 3rem;
+  margin-top: 0;
+}
+
+h5 {
+  font-family: "secondary-bold", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: initial;
+  line-height: initial;
+  color: #3E3E3E;
+  margin-bottom: 2.5rem;
+  margin-top: 0;
+}
+
+h6 {
+  font-family: "secondary-bold", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: initial;
+  line-height: initial;
+  color: #3E3E3E;
+  margin-bottom: 2rem;
+  margin-top: 0;
+}
+
+a {
+  color: #006DA3;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+p {
+  font-size: 1.8rem;
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+p:last-child {
+  margin-bottom: 0;
+}
+
+strong {
+  font-family: "secondary-semi-bold", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 1.8rem;
+  line-height: 1.8rem;
 }
 
 img {
   max-width: 100%;
+}
+
+ul {
+  margin-top: 0;
+  padding-left: 25px;
+}
+
+ol {
+  margin-top: 0;
+  padding-left: 25px;
 }
 
 .text-center {
