@@ -3,13 +3,25 @@
 // ==== Background colors ====
 
 .bg-white {
-  background-color: #fff;
+  background-color: $white;
 }
 
-.bg-light {
-  background-color: $primary-color;
+.bg-navy-blue {
+    background-color: $primary-color;
 }
 
-.bg-blue {
-  background-color: $secondary-color;
+.bg-black {
+    background-color: $secondary-color;
+}
+
+.bg-pure-black {
+    background-color: $pure-black;
+}
+
+.bg-gray {
+    background-color: $tertiary-color;
+}
+
+.bg-light-gray {
+    background-color: $fifth-color;
 }

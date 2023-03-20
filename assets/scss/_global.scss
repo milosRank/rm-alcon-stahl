@@ -19,8 +19,9 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: "regular", Arial, Helvetica, sans-serif;
-    font-size: $medium-small;
+    font-family: $font-primary-regular;
+    font-size: $small;
+    color: $secondary-color;
 }
 
 
@@ -28,46 +29,68 @@ body {
 // ==== Inline elements ====
 
 h1 {
-
+    @include font($font-secondary-bold, normal, $extra-large, $extra-large);
+    color: $tertiary-color;
+    margin-bottom: 5.5rem;
+    margin-top: 0;
 }
 
 h2 {
-
+    @include font($font-secondary-bold, normal, $medium-large, $medium-large);
+    color: $tertiary-color;
+    margin-bottom: 5rem;
+    margin-top: 0;
 }
 
 h3 {
-
+    @include font($font-secondary-bold, normal, $large, $large);
+    color: $tertiary-color;
+    margin-bottom: 3.5rem;
+    margin-top: 0;
 }
 
 h4 {
-
+    @include font($font-secondary-bold, normal, initial, initial);
+    color: $tertiary-color;
+    margin-bottom: 3rem;
+    margin-top: 0;
 }
 
 h5 {
-
+    @include font($font-secondary-bold, normal, initial, initial);
+    color: $tertiary-color;
+    margin-bottom: 2.5rem;
+    margin-top: 0;
 }
 
 h6 {
-
+    @include font($font-secondary-bold, normal, initial, initial);
+    color: $tertiary-color;
+    margin-bottom: 2rem;
+    margin-top: 0;
 }
 
 a {
+    color: $fourth-color;
+    text-decoration: none;
 
 	&:hover {
-
+        text-decoration: underline;
 	}
 }
 
 p {
+    font-size: $small;
+    margin-bottom: 30px;
+    margin-top: 0;
 
+    &:last-child {
+        margin-bottom: 0;
+    }
 }
 
 strong {
-
-}
-
-blockquote {
-
+    @include font($font-secondary-semi-bold, normal, $small, $small);
 }
 
 
@@ -78,26 +101,18 @@ img {
     max-width: 100%;
 }
 
-blockquote {
-
-}
-
 
 
 // ==== Lists ====
 
 ul {
-
-	li {
-
-	}
+    margin-top: 0;
+    padding-left: 25px;
 }
 
 ol {
-
-	li {
-
-	}
+    margin-top: 0;
+    padding-left: 25px;
 }
 
 
