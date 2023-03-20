@@ -369,3 +369,7 @@ desktop.ini
 # Ignore Node modules
 node_modules
 package-lock.json
+
+# Ignore generated CSS files
+assets/css/main.css
+assets/css/bootstrap.css

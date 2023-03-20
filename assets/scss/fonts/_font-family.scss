@@ -1,41 +1,50 @@
 // ==== Font family ====
 
+/*
+    Fonts:
+        1. Primary - PlusJakartaSans
+        2. Secondary - Sora
+*/
+
 @font-face {
-    font-family: "regular";
-    src: url("../fonts/Roboto-Regular.woff");
+    font-family: "primary-regular";
+    src: url("../fonts/PlusJakartaSans-Regular.woff");
     font-display: swap;
 }
 
 @font-face {
-    font-family: "medium";
-    src: url("../fonts/Roboto-Medium.woff");
+    font-family: "primary-italic";
+    src: url("../fonts/PlusJakartaSans-Italic.woff");
     font-display: swap;
 }
 
 @font-face {
-    font-family: "light";
-    src: url("../fonts/Roboto-Light.woff");
+    font-family: "secondary-regular";
+    src: url("../fonts/Sora-Regular.woff");
     font-display: swap;
 }
 
 @font-face {
-    font-family: "semi-bold";
-    src: url("../fonts/Roboto-Black.woff");
+    font-family: "secondary-bold";
+    src: url("../fonts/Sora-Bold.woff");
     font-display: swap;
 }
 
 @font-face {
-    font-family: "bold";
-    src: url("../fonts/Roboto-Bold.woff");
+    font-family: "secondary-semi-bold";
+    src: url("../fonts/Sora-SemiBold.woff");
     font-display: swap;
 }
-
-
 
 // ==== Font variables =====
 
-$font-regular: "regular", Arial, Helvetica, sans-serif;
-$font-medium: "medium", Arial, Helvetica, sans-serif;
-$font-light: "light", Arial, Helvetica, sans-serif;
-$font-semi-bold: "semi-bold", Arial, Helvetica, sans-serif;
-$font-bold: "bold", Arial, Helvetica, sans-serif;
+// Primary fonts
+$font-primary-regular: "primary-regular", Arial, Helvetica, sans-serif;
+$font-primary-italic: "primary-italic", Arial, Helvetica, sans-serif;
+
+
+// Secondary fonts
+$font-secondary-regular: "secondary-regular", Arial, Helvetica, sans-serif;
+$font-secondary-bold: "secondary-bold", Arial, Helvetica, sans-serif;
+$font-secondary-semi-bold: "secondary-semi-bold", Arial, Helvetica, sans-serif;
+// $font-secondary-italic: "secondary-italic", Arial, Helvetica, sans-serif;
