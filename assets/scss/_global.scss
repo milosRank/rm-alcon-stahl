@@ -178,3 +178,14 @@ ol {
 .display-none {
 	display: none;
 }
+
+
+
+// ==== Bootstrap overriden classes ====
+
+@media(min-width: 1700px) {
+
+    .container {
+        max-width: 1600px;
+    }
+}
