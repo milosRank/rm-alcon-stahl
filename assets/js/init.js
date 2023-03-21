@@ -1,7 +1,26 @@
-// ==== This is init.js file. In this file all main function initializations will be stored. ====
+// ==== This is init.js file. In this file all function initializations will be stored. ====
 
 
-// Initialize functions inside this event
-window.addEventListener("load",() => {
-    
+
+// ==== LOAD EVENT ====
+
+window.addEventListener("load", () => {
+    floatingHeader(100);
+    initDropdown(".header__links-list");
+});
+
+
+
+// ==== SCROLL EVENT ====
+
+document.addEventListener("scroll", function() {
+    getScrollDirection();
+    floatingHeader(100);
+});
+
+
+
+// ==== RESIZE EVENT ====
+
+window.addEventListener("resize", function() {				
 });

@@ -19,7 +19,7 @@
 	==== Variables ==== 
 */
 .text-color-white {
-  color: #FFFFFF;
+  color: #FCFBFB;
 }
 
 .text-color-black {
@@ -70,7 +70,7 @@
 	==== Backgrounds ==== 
 */
 .text-color-white {
-  color: #FFFFFF;
+  color: #FCFBFB;
 }
 
 .text-color-black {
@@ -82,7 +82,7 @@
 }
 
 .bg-white {
-  background-color: #FFFFFF;
+  background-color: #FCFBFB;
 }
 
 .bg-navy-blue {
@@ -109,7 +109,7 @@
 	==== Global ==== 
 */
 .text-color-white {
-  color: #FFFFFF;
+  color: #FCFBFB;
 }
 
 .text-color-black {
@@ -285,15 +285,106 @@ ol {
   display: none;
 }
 
+@media (min-width: 1700px) {
+  .container {
+    max-width: 1600px;
+  }
+}
 /* 
 	==== Partials ==== 
 */
 /* Header */
+header {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  font-size: 16px;
+  transition: transform 0.2s ease-out;
+}
+header.hide {
+  transform: translateY(-100%);
+  transition: transform 0.2s ease-out;
+}
+header.bg-blue {
+  background-color: #0A1839;
+}
+header.bg-transparent {
+  background-color: transparent;
+}
+header.bg-white .site-logo .logo__figure {
+  fill: #6D6D6D;
+}
+header.bg-white .site-logo .logo__text {
+  fill: #104867;
+}
+header .header {
+  padding: 40px 0;
+}
+header .header__inner {
+  display: flex;
+  align-items: center;
+}
+header .logo-holder {
+  margin-right: 175px;
+}
+header .links-holder .links-holder__inner ul {
+  display: flex;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+header .links-holder .links-holder__inner ul.active {
+  display: block;
+}
+header .links-holder .links-holder__inner nav > ul > li > ul {
+  display: none;
+  position: absolute;
+}
+header .links-holder .links-holder__inner ul li {
+  list-style: none;
+  margin-right: 50px;
+  position: relative;
+}
+header .links-holder .links-holder__inner ul li.dropdown-parent {
+  padding-right: 18px;
+}
+header .links-holder .links-holder__inner ul li:last-child {
+  margin-right: 0;
+}
+header .links-holder .links-holder__inner ul li .dropdown-button {
+  position: absolute;
+  right: 0;
+  top: 10px;
+}
+header .links-holder .links-holder__inner a {
+  color: #282828;
+}
+
+header.floating-header {
+  transform: 0.2s ease-out;
+}
+
+header.blurry-header {
+  background-color: rgba(252, 251, 251, 0.9);
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
+}
+
 /* Page Headers */
 /* Footer */
 /* 
 	==== Components ==== 
 */
+.dropdown-button {
+  min-width: unset;
+  border: 0;
+  padding: 0;
+  font-size: 0;
+  line-height: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+
 /* 
 	==== Sections ==== 
 */

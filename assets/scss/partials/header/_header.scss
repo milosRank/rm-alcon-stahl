@@ -1,0 +1,98 @@
+header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    font-size: 16px;
+    transition:  transform 0.2s ease-out;
+
+    &.hide {
+        transform: translateY(-100%);
+        transition:  transform 0.2s ease-out;
+    }
+
+    &.bg-blue {
+        background-color: $navy-light-blue;
+    }
+
+    &.bg-transparent {
+        background-color: transparent;
+    }
+
+    &.bg-white {
+
+        .site-logo .logo__figure {
+            fill: #6D6D6D
+        }
+
+        .site-logo .logo__text {
+            fill: #104867
+        }
+    }
+
+    .header {
+        padding: 40px 0;
+    }
+
+    .header__inner {
+        display: flex;
+        align-items: center;
+    }
+
+    .logo-holder {
+        margin-right: 175px;
+    }
+
+    .links-holder .links-holder__inner {
+
+        ul {
+            display: flex;
+            padding-left: 0;
+            margin-bottom: 0;
+        }
+
+        ul.active {
+            display: block;
+        }
+
+        nav > ul > li > ul {
+            display: none;
+            position: absolute;
+        }
+
+        ul li {
+            list-style: none;
+            margin-right: 50px;
+            position: relative;
+        }
+
+        ul li.dropdown-parent {
+            padding-right: 18px;
+        }
+
+        ul li:last-child {
+            margin-right: 0;
+        }
+
+        ul li .dropdown-button {
+            position: absolute;
+            right: 0;
+            top: 10px;
+        }
+
+        a {
+            color: $secondary-color;
+        }
+    }
+}
+
+
+// ==== Modificator 2. ====
+header.floating-header {
+    transform: 0.2s ease-out;
+}
+
+header.blurry-header {
+    background-color: rgba(252, 251, 251, 0.9);
+    backdrop-filter: blur(2px);
+}
