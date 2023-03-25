@@ -1,0 +1,39 @@
+/*
+    ==== FOOTER ====
+
+    Description: 
+        This is footer of website. Also, this file contains styles for the postfooter of the website.
+    
+    Modificators:
+        No modificators.
+*/
+
+
+footer {
+    background-color: $primary-color;
+
+    .container {
+        max-width: unset;
+    }
+    
+    .footer__inner {
+        display: flex;
+        padding: 110px 160px;
+    }
+
+    .footer__inner {
+        
+        .footer__logo-holder,
+        .footer__content-holder {
+            width: 50%;
+        }
+    }
+
+    .footer__logo-holder .site-logo {
+
+        .logo__figure,
+        .logo__text {
+            fill: $white;
+        }
+    }
+}
