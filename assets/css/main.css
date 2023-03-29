@@ -52,6 +52,11 @@
   font-display: swap;
 }
 @font-face {
+  font-family: "primary-medium";
+  src: url("../fonts/PlusJakartaSans-Medium.woff");
+  font-display: swap;
+}
+@font-face {
   font-family: "secondary-regular";
   src: url("../fonts/Sora-Regular.woff");
   font-display: swap;
@@ -294,6 +299,32 @@ ol {
 	==== Partials ==== 
 */
 /* Header */
+/*
+    ==== HEADER ====
+
+    Description: 
+        This is header of website. Also, this file contains style header dropdown.
+
+    Modificators:
+
+    1. Hide header
+
+        Description:             Hides header
+        Hook element selector:   header
+        Class to add:            hide
+
+    2. Floating header
+
+        Description:             Sets behaviour of header when user scroll the page
+        Hook element selector:   header
+        Class to add:            floating-header
+
+    3. Header background color
+
+        Description:             Sets background color of the header
+        Hook element selector:   header
+        Class to add:            bg-white || bg-navy-blue || bg-transparent
+*/
 header {
   position: fixed;
   left: 0;
@@ -306,7 +337,7 @@ header.hide {
   transform: translateY(-100%);
   transition: transform 0.2s ease-out;
 }
-header.bg-blue {
+header.bg-navy-blue {
   background-color: #0A1839;
 }
 header.bg-transparent {
@@ -370,10 +401,169 @@ header.blurry-header {
           backdrop-filter: blur(2px);
 }
 
+header .links-holder .header__links-list > .dropdown-parent > ul {
+  background-color: #0A1839;
+  position: absolute;
+  padding: 25px 40px;
+  z-index: 2;
+  min-width: 350px;
+  border-radius: 8px;
+  left: -40px;
+  top: calc(100% + 50px);
+}
+header .links-holder .header__links-list > .dropdown-parent > ul > li {
+  padding: 20px 0 20px 28px;
+  border-bottom: 1px solid rgba(252, 251, 251, 0.3019607843);
+}
+header .links-holder .header__links-list > .dropdown-parent > ul > li:last-child {
+  border-bottom: none;
+}
+
+header.bg-navy-blue .links-holder .header__links-list > .dropdown-parent > ul,
+header.bg-transparent .links-holder .header__links-list > .dropdown-parent > ul {
+  background-color: #0A1839;
+  color: #FCFBFB;
+}
+header.bg-navy-blue .links-holder .header__links-list > .dropdown-parent > ul > li,
+header.bg-transparent .links-holder .header__links-list > .dropdown-parent > ul > li {
+  color: #FCFBFB;
+}
+header.bg-navy-blue .links-holder .header__links-list > .dropdown-parent > ul > li a,
+header.bg-transparent .links-holder .header__links-list > .dropdown-parent > ul > li a {
+  color: #FCFBFB;
+}
+
+header.bg-white .links-holder .header__links-list > .dropdown-parent > ul {
+  background-color: #FCFBFB;
+  color: #282828;
+}
+header.bg-white .links-holder .header__links-list > .dropdown-parent > ul > li {
+  border-bottom-color: rgba(40, 40, 40, 0.3);
+  color: #282828;
+}
+header.bg-white .links-holder .header__links-list > .dropdown-parent > ul > li a {
+  color: #282828;
+}
+
+@media (max-width: 1699px) {
+  .header .links-holder .header__links-list > .dropdown-parent > ul {
+    top: calc(100% + 40px);
+  }
+}
 /* Page Headers */
 /* Footer */
+/*
+    ==== FOOTER ====
+
+    Description: 
+        This is footer of website. Also, this file contains styles for the postfooter of the website.
+
+    Modificators:
+        No modificators.
+*/
+footer {
+  background-color: #070D1D;
+  font-size: 1.6rem;
+}
+footer a {
+  color: #FCFBFB;
+  font-size: inherit;
+  display: inline-block;
+}
+footer p {
+  font-size: inherit;
+  margin-bottom: 10px;
+  color: #FCFBFB;
+}
+footer p:last-child {
+  margin-bottom: 0;
+}
+footer p + a {
+  margin-top: 20px;
+}
+footer a + p {
+  margin-top: 10px;
+}
+footer .container {
+  max-width: unset;
+}
+footer .footer__inner {
+  display: flex;
+  padding: 110px 160px;
+}
+footer .footer__inner .footer__logo-holder,
+footer .footer__inner .footer__content-holder {
+  width: 50%;
+}
+footer .footer__logo-holder .site-logo .logo__figure,
+footer .footer__logo-holder .site-logo .logo__text {
+  fill: #FCFBFB;
+}
+footer .footer__content-holder .footer__content-holder__inner {
+  display: flex;
+}
+footer .footer__content-holder .footer__content-holder__inner ul {
+  margin-bottom: 0;
+  padding-left: 0;
+}
+footer .footer__content-holder .footer__content-holder__inner ul li {
+  list-style: none;
+  margin-bottom: 20px;
+}
+footer .footer__content-holder .footer__content-holder__inner ul li:last-child {
+  margin-bottom: 0;
+}
+footer .footer__content-holder .box .box__title {
+  margin-bottom: 40px;
+}
+footer .footer__content-holder .box .box__title h1,
+footer .footer__content-holder .box .box__title h2,
+footer .footer__content-holder .box .box__title h3,
+footer .footer__content-holder .box .box__title h4,
+footer .footer__content-holder .box .box__title h5,
+footer .footer__content-holder .box .box__title h6 {
+  font-family: "primary-regular", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  color: #A7BFC7;
+  margin-bottom: 0;
+}
+footer .footer__content-holder .box .box__content-subtitle {
+  margin-bottom: 20px;
+}
+footer .footer__content-holder .box .box__content-subtitle h1,
+footer .footer__content-holder .box .box__content-subtitle h2,
+footer .footer__content-holder .box .box__content-subtitle h3,
+footer .footer__content-holder .box .box__content-subtitle h4,
+footer .footer__content-holder .box .box__content-subtitle h5,
+footer .footer__content-holder .box .box__content-subtitle h6 {
+  font-family: "primary-medium", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  color: #FCFBFB;
+  margin-bottom: 0;
+}
+footer .footer__content-holder .box.box__menu {
+  margin-right: 150px;
+}
+footer .footer__content-holder .box.box__contact .box__content a {
+  display: block;
+}
+
 /* 
 	==== Components ==== 
+*/
+/*
+    ==== BUTTONS ====
+
+    Component description:
+        All types of buttons
+
+    Modificators:
+
+    1. Primary button
+
+        Description:             Primary button styles
+        Hook element selector:   button,a
+        Class to add:            .button--primary
 */
 .dropdown-button {
   min-width: unset;
@@ -385,8 +575,63 @@ header.blurry-header {
   cursor: pointer;
 }
 
+/*
+    ==== FORMS ====
+
+    Component description:
+        Form elements
+
+    Modificators:
+        No modificators.
+*/
+/*
+    ==== SEPARATOR ====
+
+    Component description:
+        Separator elements
+
+    Modificators:
+
+    1. Narrow separator
+
+        Description:             Set a narrow separator
+        Hook element selector:   .line-separator
+        Class to add:            narrow
+
+    2. Wide separator
+
+        Description:             Set a wide separator
+        Hook element selector:   .line-separator
+        Class to add:            wide
+*/
+.line-separator {
+  max-width: 100%;
+  height: 1px;
+  background-color: #A7BFC7;
+}
+.line-separator.narrow {
+  width: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.line-separator.wide {
+  width: 100%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
 /* 
 	==== Sections ==== 
+*/
+/*
+    ==== TEXT-AND-IMAGE ====
+
+    Description: 
+        These are text and image boxes of website.
+
+    Modificators:
+        No modificators.
+
 */
 /* 
 	==== Page specifics ==== 

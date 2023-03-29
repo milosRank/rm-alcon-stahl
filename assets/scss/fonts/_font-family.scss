@@ -19,6 +19,12 @@
 }
 
 @font-face {
+    font-family: "primary-medium";
+    src: url("../fonts/PlusJakartaSans-Medium.woff");
+    font-display: swap;
+}
+
+@font-face {
     font-family: "secondary-regular";
     src: url("../fonts/Sora-Regular.woff");
     font-display: swap;
@@ -41,6 +47,7 @@
 // Primary fonts
 $font-primary-regular: "primary-regular", Arial, Helvetica, sans-serif;
 $font-primary-italic: "primary-italic", Arial, Helvetica, sans-serif;
+$font-primary-medium: "primary-medium", Arial, Helvetica, sans-serif;
 
 
 // Secondary fonts
