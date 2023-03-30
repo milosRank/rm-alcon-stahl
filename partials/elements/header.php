@@ -29,10 +29,6 @@
                                     <ul class="header__links-list">
                                         <li>
                                             <a href="#">O nama</a>
-
-                                            <ul>
-                                                <li><a href="#">Link Level 2</a></li>
-                                            </ul>
                                         </li>
                                         <li>
                                             <a href="#">Nerđajući čelici (Inox materijali)</a>
@@ -45,6 +41,31 @@
                                         </li>
                                         <li>
                                             <a href="#">Pumpe</a>
+                                            <ul>
+                                                <li><a href="#">Vijčane pumpe</a></li>
+                                                <li>
+                                                    <a href="#">Centrifugalne pumpe</a>
+                                                    <ul>
+                                                        <li><a href="#">Pumpe sa zaptivačima vratila</a></li>
+                                                        <li><a href="#">Pumpe sa magnetnom spojnicom</a></li>
+                                                        <li><a href="#">Pumpe koje su potopljene u fluid</a></li>
+                                                        <li><a href="#">Višestepene pumpe</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li><a href="#">Aksijalne ili propelerne</a></li>
+                                                <li>
+                                                    <a href="#">Zavojne pumpe</a>
+                                                    <ul>
+                                                        <li><a href="#">Pumpe za preradu otpadnih voda i otpadnih hemikalija</a></li>
+                                                        <li><a href="#">Dozirne pumpe</a></li>
+                                                        <li><a href="#">Pumpe za prehrambenu industriju</a></li>
+                                                        <li><a href="#">Pumpe za razne industrije</a></li>
+                                                        <li><a href="#">Vertikalne pumpe</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li><a href="#">Peristaltičke pumpe</a></li>
+                                                <li><a href="#">Macenatori</a></li>
+                                            </ul>
                                         </li>
                                         <li>
                                             <a href="#">Kontakt</a>
