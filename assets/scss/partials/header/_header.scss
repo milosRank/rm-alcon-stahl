@@ -51,6 +51,7 @@ header {
 
     // ==== Modificator 3. ====
     &.bg-white {
+        box-shadow: 0px 1px 20px 1px rgba(126, 126, 126, 0.25);
 
         .site-logo .logo__figure {
             fill: #6D6D6D
@@ -83,7 +84,7 @@ header {
         }
 
         ul.active {
-            display: block;
+            display: block !important;
         }
 
         nav > ul > li > ul {
@@ -106,9 +107,10 @@ header {
         }
 
         ul li .dropdown-button {
+            padding: 10px;
             position: absolute;
-            right: 0;
-            top: 10px;
+            right: -10px;
+            top: 0;
         }
 
         a {
@@ -117,86 +119,100 @@ header {
     }
 }
 
-
 // ==== Modificator 2. ====
 header.floating-header {
     transform: 0.2s ease-out;
 }
 
-header.blurry-header {
-    background-color: rgba(252, 251, 251, 0.9);
-    backdrop-filter: blur(2px);
-}
-
-
 // Dropdown start
 header .links-holder  {
 
     .header__links-list > .dropdown-parent > ul {
-        background-color: $sixth-color;
+        background-color: #060E26;
         position: absolute;
-        padding: 25px 40px;
+        padding: 20px 40px;
         z-index: 2;
-        min-width: 350px;
-        border-radius: 8px;
+        min-width: 375px;
         left: -40px;
         top: calc(100% + 50px);
+        color: $white;
+        border-radius: 3px;
+
+        &::before {
+            @include pseudo("",32px,16px,absolute);
+            background-image: url("../img/icons/icon--header-dropdown-triangle-blue.svg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            top: -16px;
+            left: 40px;
+        }
+
+        li {
+            margin-right: 0;
+            position: relative;
+        }
 
         & > li {
             padding: 20px 0 20px 28px;
-            border-bottom: 1px solid #FCFBFB4D;
+            color: $white;
+
+            &::before {
+                @include pseudo("",17px,17px,absolute);
+                left: 0;
+                top: 23px;
+                background-image: url("../img/logos/site-logo--mini-white.svg");
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+
+            &::after {
+                @include pseudo("",212px,1px,absolute);
+                background-color: rgba(252, 251, 251, 0.3);
+                left: 0;
+                bottom: 0;
+            }
+
+            &:last-child::after {
+                content: none;
+            }
+
+            a {
+                color: $white;
+            }
+
+            .dropdown-button {
+                position: static;
+            }
+
+            .dropdown-button svg path {
+                fill: $white;
+            }
         }
 
         & > li:last-child {
-            border-bottom: none
+            border-bottom: none;
         }
     }
-}
 
-// Choose type of dropdown depending on type of header
+    // Third level
+    .header__links-list > .dropdown-parent > ul > li > ul {
+        display: none;
 
-// ==== Navy blue and transparent header ====
-header.bg-navy-blue,
-header.bg-transparent {
+        & > li {
+            margin-bottom: 20px;
 
-    .links-holder {
-
-        .header__links-list > .dropdown-parent > ul {
-            background-color: $sixth-color;
-            color: $white;
-
-            & > li {
-                color: $white;
-                
-                a {
-                    color: $white;
-                }
+            &:first-child {
+                margin-top: 40px;
             }
         }
-    }
-}
 
-// ====   header ====
-header.bg-white {
-
-    .links-holder {
-
-        .header__links-list > .dropdown-parent > ul {
-            background-color: $white;
-            color: $secondary-color;
-                
-
-            & > li {
-                border-bottom-color: rgba(40, 40, 40, 0.3);
-                color: $secondary-color;
-
-                a {
-                    color: $secondary-color;
-                } 
-            }
+        a {
+            font-family: $font-primary-light-italic;
         }
     }
 }
+
+
 
 @media(max-width: 1699px) {
 

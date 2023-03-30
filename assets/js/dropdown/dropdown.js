@@ -41,8 +41,10 @@ function initDropdown(firstLevelLinksClass) {
             // This if statement provide that only first level will get a dropdown-parent class
             if(parent.parentElement == firstLevelLinksParent) parent.classList.add("dropdown-parent");
 
-            // Append button to his parent
-            parent.innerHTML += button.outerHTML;
+            // Append button after parentLink
+            let parentLink = parent.querySelector(":scope > a");
+            parentLink.outerHTML += button.outerHTML;
+
 
             // Recursive function
             addDropdownButtons(parent.querySelectorAll(":scope > ul > li"));
