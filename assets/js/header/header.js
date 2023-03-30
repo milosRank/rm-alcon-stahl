@@ -35,11 +35,9 @@ function floatingHeader() {
     // If header is 114px or more distance from the top
     if(offsetTop >= 114) {
         header.classList.add("floating-header");
-        header.classList.add("blurry-header");
     }
     else {
         header.classList.remove("floating-header");
-        header.classList.remove("blurry-header");
     }
 
 }
