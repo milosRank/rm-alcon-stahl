@@ -166,7 +166,7 @@ header .links-holder  {
             }
 
             &::after {
-                @include pseudo("",212px,1px,absolute);
+                @include pseudo("",100%,1px,absolute);
                 background-color: rgba(252, 251, 251, 0.3);
                 left: 0;
                 bottom: 0;

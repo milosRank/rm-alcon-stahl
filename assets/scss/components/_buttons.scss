@@ -37,7 +37,7 @@ button,
     border-radius: 60px;
     outline: none;
     background-color: transparent;
-    @include font($font-primary-regular,initial, $small,$small);
+    @include font($font-primary-light,initial, $small,$small);
     text-align: center;
     transition: 0.3s ease;
     cursor: pointer;
