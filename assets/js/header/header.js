@@ -2,33 +2,38 @@
 // Header
 var header = document.querySelector("header");
 
-// var isMenuActive = () => !!document.querySelector(".main-menu.active");
-
-// Main menu
-// var mainMenuContainer = document.querySelector("header .main-menu");
-
-// var popup = document.querySelector("#popup");
 
 /**
  * This function is making header show/hide and change its colors 
  * depending on scroll direction, position of the user on the page etc...
  * 
- * @returns {void}
+ * @returns {Void}
  */
 function floatingHeader() {
     
     // Exit function if there is no header
     if(!header) return;
 
+    var dropdownParentsList = header.querySelectorAll(".dropdown-parent > ul");
+
+    // Returns if dropdown is active or not(true/false)
+    let isDropdownActive = () => Array.from(dropdownParentsList).some(dropdown => dropdown.classList.contains("active"));
+
     // Top distance of the scroll
     var offsetTop = document.documentElement.scrollTop;
 
-    // If scroll direction is "downscroll", and dropdown is "notactive" hide header and do not transform it
-    if(scrollDirection == "downscroll"/* && !isMenuActive() */) {
+    // If scroll direction is "downscroll" and if dropdown is not active
+    if(scrollDirection == "downscroll" && !isDropdownActive())
+    {
+        // Hide header
         header.classList.add("hide");
+
+        // Exit
         return;
     }
-    else {
+    else
+    {
+        // Show header
         header.classList.remove("hide");
     }
 
@@ -39,5 +44,4 @@ function floatingHeader() {
     else {
         header.classList.remove("floating-header");
     }
-
 }

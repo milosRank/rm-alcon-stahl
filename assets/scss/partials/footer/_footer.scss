@@ -36,14 +36,10 @@ footer {
     a + p {
         margin-top: 10px;
     }
-
-    .container {
-        max-width: unset;
-    }
     
     .footer__inner {
         display: flex;
-        padding: 110px 160px;
+        padding: 110px 0;
     }
 
     .footer__inner {

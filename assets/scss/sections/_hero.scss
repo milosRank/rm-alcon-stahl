@@ -1,0 +1,38 @@
+.hero-section {
+    min-height: calc(100vh - 122px);
+    padding: 195px 0 163px 0;
+    background-color: $sixth-color;
+
+    .hero__inner {
+        margin: 0 200px;
+        padding-top: 30px;
+        background-image: url("../img/hero/hero-section-background.jpg");
+        background-repeat: no-repeat;
+        background-position: 100% 0;
+    }
+
+    .hero__inner .hero__title {
+        margin-bottom: 375px;
+        color: $white;
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-size: 56px;
+            line-height: 75px;
+            margin-bottom: 0;
+            color: inherit;
+        }
+
+        .subtitle {
+            margin-top: 24px;
+            color: inherit;
+            font-family: $font-primary-light-italic;
+            font-size: 24px;
+            line-height: 32px;
+        }
+    }
+}
