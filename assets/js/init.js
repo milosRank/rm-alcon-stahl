@@ -5,7 +5,7 @@
 // ==== LOAD EVENT ====
 
 window.addEventListener("load", () => {
-    floatingHeader(100);
+    floatingHeader();
     initDropdown(".header__links-list");
 });
 
@@ -15,7 +15,7 @@ window.addEventListener("load", () => {
 
 document.addEventListener("scroll", function() {
     getScrollDirection();
-    floatingHeader(100);
+    floatingHeader();
 });
 
 
