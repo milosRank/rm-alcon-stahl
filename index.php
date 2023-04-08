@@ -9,6 +9,9 @@
     <!-- CSS -->
     <?php include 'partials/resources/styles.php';?>
 
+    <!-- FAVICON -->
+    <?php include 'partials/resources/favicon.php';?>
+
     <title>Homepage | RM Alcon Stahl</title>
 
 </head>
@@ -24,68 +27,30 @@
 
         <main> <!-- Main start -->
 
-            <!-- Section name start -->
-            <section class="section-name">
+            <!-- Hero section start -->
+            <section class="hero-section">
                 <div class="container-fluid">
                     <div class="wrapper">
                         <div class="container">
 
-                            <!-- Section name inner start -->
-                            <div class="section-name__inner">
+                            <!-- Hero inner start -->
+                            <div class="hero__inner">
 
-                                <div>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, deserunt.</p>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, deserunt.</p>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, deserunt.</p>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, deserunt.</p>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, deserunt.</p>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, deserunt.</p>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, deserunt.</p>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, deserunt.</p>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, deserunt.</p>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, deserunt.</p>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, deserunt.</p>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, deserunt.</p>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, deserunt.</p>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, deserunt.</p>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, deserunt.</p>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, deserunt.</p>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, deserunt.</p>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, deserunt.</p>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, deserunt.</p>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, deserunt.</p>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, deserunt.</p>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, deserunt.</p>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, deserunt.</p>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, deserunt.</p>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, deserunt.</p>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, deserunt.</p>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, deserunt.</p>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, deserunt.</p>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, deserunt.</p>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, deserunt.</p>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, deserunt.</p>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, deserunt.</p>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, deserunt.</p>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, deserunt.</p>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, deserunt.</p>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, deserunt.</p>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, deserunt.</p>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, deserunt.</p>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, deserunt.</p>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, deserunt.</p>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, deserunt.</p>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, deserunt.</p>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, deserunt.</p>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, deserunt.</p>
+                                <div class="hero__title">
+                                    <h1>Uvoz i veleprodaja materijala od <div class="font-primary-regular">nerđajućeg čelika</div></h1>
+                                    <div class="subtitle">RM Alkon Stahl d.o.o.</div>
                                 </div>
 
-                            </div> <!-- Section name inner end -->
+                                <div class="cta-wrapper">
+                                    <a class="button button--secondary big-arrow-down">O nama</a>
+                                </div>
+
+                            </div> <!-- Hero inner end -->
 
                         </div>
                     </div>
                 </div>
-            </section> <!-- Section name end -->
+            </section> <!-- Hero section end -->
 
         </main> <!-- Main end -->
 
