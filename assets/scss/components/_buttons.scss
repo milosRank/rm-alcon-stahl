@@ -29,6 +29,7 @@ $button-color-blue: #070D1D;
 
 button,
 .button {
+    position: relative;
     display: inline-block;
     width: auto;
     min-width: 120px;
@@ -41,7 +42,6 @@ button,
     text-align: center;
     transition: 0.3s ease;
     cursor: pointer;
-    text-transform: uppercase;
     
     &:hover {
         transition: 0.3s ease;
@@ -92,5 +92,31 @@ a.button {
         background-color: $button-color-blue;
         border-color: transparent;
         color: $button-color-white;
+    }
+}
+
+.button.big-arrow-down {
+    padding-right: 45px;
+    transition: background-color 0.3s ease;
+
+    &::after {
+        content: "";
+        width: 17px;
+        height: 18px;
+        background-image: url("../img/icons/button/icon--big-arrow-down-white.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        top: 50%;
+        right: 20px;
+        transform: translateY(-50%);
+    }
+
+    &:hover {
+        transition: background-color 0.3s ease;
+    }
+
+    &:hover::after {
+        background-image: url("../img/icons/button/icon--big-arrow-down-blue.svg");
     }
 }
