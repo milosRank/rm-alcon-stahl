@@ -774,14 +774,15 @@ a.button:hover {
   background-color: #0A1839;
 }
 .hero-section .hero__inner {
-  margin: 0 200px;
+  margin: 0 205px;
   padding-top: 30px;
   background-image: url("../img/hero/hero-section-background.jpg");
   background-repeat: no-repeat;
   background-position: 100% 0;
+  background-size: 656px 654px;
 }
 .hero-section .hero__inner .hero__title {
-  margin-bottom: 375px;
+  margin-bottom: 345px;
   color: #FCFBFB;
 }
 .hero-section .hero__inner .hero__title h1,
@@ -804,7 +805,48 @@ a.button:hover {
 }
 
 /*
-    ==== TEXT-AND-IMAGE ====
+    ==== TEXT AND IMAGE ====
+
+    Description: 
+        These are text and image boxes of website.
+
+    Modificators:
+        No modificators.
+
+*/
+.text-and-image {
+  padding-top: 250px;
+  padding-bottom: 250px;
+}
+.text-and-image .text-and-image__inner {
+  display: flex;
+  align-items: center;
+}
+.text-and-image .text-and-image__inner .text,
+.text-and-image .text-and-image__inner .image {
+  width: 50%;
+}
+.text-and-image .text-and-image__inner .text .part-content:not(:last-child) {
+  margin-bottom: 100px;
+}
+.text-and-image .text-and-image__inner .text .title {
+  margin-bottom: 50px;
+}
+.text-and-image .text-and-image__inner .text .title h1,
+.text-and-image .text-and-image__inner .text .title h2,
+.text-and-image .text-and-image__inner .text .title h3,
+.text-and-image .text-and-image__inner .text .title h4,
+.text-and-image .text-and-image__inner .text .title h5,
+.text-and-image .text-and-image__inner .text .title h6 {
+  font-size: 4rem;
+  margin-bottom: 0;
+}
+.text-and-image .text-and-image__inner .text p {
+  line-height: 25px;
+}
+
+/*
+    ==== TABLE AND IMAGE ====
 
     Description: 
         These are text and image boxes of website.
