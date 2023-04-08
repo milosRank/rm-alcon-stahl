@@ -4,15 +4,16 @@
     background-color: $sixth-color;
 
     .hero__inner {
-        margin: 0 200px;
+        margin: 0 205px;
         padding-top: 30px;
         background-image: url("../img/hero/hero-section-background.jpg");
         background-repeat: no-repeat;
         background-position: 100% 0;
+        background-size: 656px 654px;
     }
 
     .hero__inner .hero__title {
-        margin-bottom: 375px;
+        margin-bottom: 345px;
         color: $white;
 
         h1,

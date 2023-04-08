@@ -1,5 +1,5 @@
 /*
-    ==== TEXT-AND-IMAGE ====
+    ==== TEXT AND IMAGE ====
 
     Description: 
         These are text and image boxes of website.
@@ -8,3 +8,43 @@
         No modificators.
 
 */
+
+.text-and-image {
+    padding-top: 250px;
+    padding-bottom: 250px;
+
+    .text-and-image__inner {
+        display: flex;
+        align-items: center;
+
+        .text,
+        .image {
+            width: 50%;
+        }
+    }
+
+    .text-and-image__inner .text {
+
+        .part-content:not(:last-child) {
+            margin-bottom: 100px;
+        }
+
+        .title {
+            margin-bottom: 50px;
+
+            h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            h6 {
+                font-size: $medium-large;
+                margin-bottom: 0;
+            }
+        }
+
+        p {
+            line-height: 25px;
+        }
+    }
+}
