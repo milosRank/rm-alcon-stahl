@@ -371,6 +371,22 @@ header.bg-white .site-logo .logo__figure {
 header.bg-white .site-logo .logo__text {
   fill: #104867;
 }
+header.bg-navy-light-blue {
+  background-color: #0A1839;
+  box-shadow: none;
+}
+header.bg-navy-light-blue .site-logo .logo__figure {
+  fill: #FCFBFB;
+}
+header.bg-navy-light-blue .site-logo .logo__text {
+  fill: #FCFBFB;
+}
+header.bg-navy-light-blue .links-holder .links-holder__inner a {
+  color: #FCFBFB;
+}
+header.bg-navy-light-blue .dropdown-button path {
+  fill: #FCFBFB;
+}
 header .header {
   padding: 40px 0;
 }
