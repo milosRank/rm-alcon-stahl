@@ -54,11 +54,33 @@ header {
         box-shadow: 0px 1px 20px 1px rgba(126, 126, 126, 0.25);
 
         .site-logo .logo__figure {
-            fill: #6D6D6D
+            fill: #6D6D6D;
         }
 
         .site-logo .logo__text {
-            fill: #104867
+            fill: #104867;
+        }
+    }
+
+    // ==== Modificator 3. ====
+    &.bg-navy-light-blue {
+        background-color: $navy-light-blue;
+        box-shadow: none;
+
+        .site-logo .logo__figure {
+            fill: $white;
+        }
+
+        .site-logo .logo__text {
+            fill: $white;
+        }
+
+        .links-holder .links-holder__inner a {
+            color: $white;
+        }
+
+        .dropdown-button path {
+            fill: $white;
         }
     }
 
