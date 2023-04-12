@@ -21,8 +21,11 @@
     <!-- Page wrapper start -->
     <div class="page-warpper">
 
-    <!-- Header -->
-    <?php include 'partials/elements/header.php';?>
+        <!-- Header start -->
+        <?php
+            $header_bg_color = "bg-navy-blue"; // Set header background color
+            include 'partials/elements/header.php';
+        ?> <!-- Header end -->
 
 
         <main> <!-- Main start -->
@@ -126,8 +129,8 @@
         </main> <!-- Main end -->
 
 
-    <!-- Footer -->
-    <?php include 'partials/elements/footer.php';?>
+        <!-- Footer -->
+        <?php include 'partials/elements/footer.php';?>
 
     </div> <!-- Page wrapper end -->
 

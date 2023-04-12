@@ -1,5 +1,5 @@
         <!-- Header start -->
-        <header class="bg-white">
+        <header class="<?php echo $header_bg_color; ?>">
             <div class="container-fluid">
                 <div class="wrapper">
                     <div class="container">
