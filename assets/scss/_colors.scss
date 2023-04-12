@@ -23,6 +23,18 @@ $sixth-color: $navy-light-blue;
 
 // ==== Text colors ====
 
+.text-color-navy-blue {
+    color: $primary-color;
+}
+
+.text-color-navy-light-blue {
+    color: $sixth-color;
+}
+
+.text-color-blue {
+    color: $fourth-color;
+}
+
 .text-color-white {
 	color: $white;
 }
@@ -31,6 +43,14 @@ $sixth-color: $navy-light-blue;
 	color: $secondary-color;
 }
 
+.text-color-pure-black {
+	color: $pure-black;
+}
+
 .text-color-gray {
 	color: $tertiary-color;
+}
+
+.text-color-light-gray {
+	color: $fifth-color;
 }

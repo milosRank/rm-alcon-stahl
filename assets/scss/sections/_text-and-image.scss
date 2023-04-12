@@ -5,7 +5,12 @@
         These are text and image boxes of website.
     
     Modificators:
-        No modificators.
+
+    1. Text and image reverse
+    
+        Description:             Revert position of image and text (image to left, text to right)
+        Hook element selector:   text-and-image
+        Class to add:            text-and-image--reversed
 
 */
 
@@ -21,6 +26,10 @@
         .image {
             width: 50%;
         }
+    }
+
+    .text-and-image__inner .image {
+        padding-left: 170px;
     }
 
     .text-and-image__inner .text {
@@ -46,5 +55,18 @@
         p {
             line-height: 25px;
         }
+    }
+}
+
+// ==== Modificator 1. ====
+.text-and-image.text-and-image--reversed {
+
+    .text-and-image__inner {
+        flex-direction: row-reverse;
+    }
+
+    .text-and-image__inner .image {
+        padding-left: 0;
+        padding-right: 170px;
     }
 }

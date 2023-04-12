@@ -78,6 +78,24 @@ a {
 	&:hover {
         text-decoration: underline;
 	}
+
+    &.download-link {
+        display: inline-block;
+        position: relative;
+        padding-left: 26px;
+        color: $secondary-color;
+        text-decoration: underline;
+
+        &::before {
+            @include pseudo("",16px,16px,absolute);
+            background-image: url("../img/icons/button/icon--download.svg");
+            background-position: center;
+            background-size: cover;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    }
 }
 
 p {
@@ -109,6 +127,37 @@ img {
 ul {
     margin-top: 0;
     padding-left: 25px;
+}
+
+ul.pdf-list {
+    padding-left: 0;
+    
+    li {
+        display: block;
+        margin-bottom: 20px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    li a {
+        display: inline-block;
+        position: relative;
+        padding-left: 26px;
+        color: $secondary-color;
+        text-decoration: underline;
+
+        &::before {
+            @include pseudo("",16px,16px,absolute);
+            background-image: url("../img/icons/button/icon--download.svg");
+            background-position: center;
+            background-size: cover;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    }
 }
 
 ol {
