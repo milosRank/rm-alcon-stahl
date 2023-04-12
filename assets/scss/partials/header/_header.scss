@@ -40,8 +40,38 @@ header {
     }
 
     // ==== Modificator 3. ====
-    &.bg-navy-blue {
+    &.bg-navy-blue:not(.floating-header) {
         background-color: $sixth-color;
+        box-shadow: none;
+
+        .links-holder .links-holder__inner a {
+            color: $white;
+        }
+
+        .dropdown-button svg path {
+            fill: $white;
+        }
+
+        .site-logo .logo__figure {
+            fill: $white;
+        }
+
+        .site-logo .logo__text {
+            fill: $white;
+        }
+    }
+
+    &.bg-navy-blue.floating-header {
+        background-color: $white;
+        box-shadow: 0px 1px 20px 1px rgba(126, 126, 126, 0.25);
+
+        .site-logo .logo__figure {
+            fill: #6D6D6D;
+        }
+
+        .site-logo .logo__text {
+            fill: #104867;
+        }
     }
 
     // ==== Modificator 3. ====
@@ -159,14 +189,14 @@ header .links-holder  {
         top: calc(100% + 50px);
         color: $white;
         border-radius: 3px;
-        max-height: 520px;
-        overflow-y: scroll;
-        -ms-overflow-style: none;
-        scrollbar-width: none;
+        // max-height: 520px;
+        // overflow-y: scroll;
+        // -ms-overflow-style: none;
+        // scrollbar-width: none;
     
-        &::-webkit-scrollbar {
-            display: none;
-        }
+        // &::-webkit-scrollbar {
+        //     display: none;
+        // }
 
         &::before {
             @include pseudo("",32px,16px,absolute);

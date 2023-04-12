@@ -23,7 +23,7 @@ function floatingHeader() {
     var offsetTop = document.documentElement.scrollTop;
 
     // If scroll direction is "downscroll" and if dropdown is not active
-    if(scrollDirection == "downscroll" && !isDropdownActive())
+    if(scrollDirection == "downscroll" && !isDropdownActive() && offsetTop >= 122)
     {
         // Hide header
         header.classList.add("hide");
@@ -38,10 +38,12 @@ function floatingHeader() {
     }
 
     // If header is 114px or more distance from the top
-    if(offsetTop >= 114) {
+    if(offsetTop >= 122)
+    {
         header.classList.add("floating-header");
     }
-    else {
+    else
+    {
         header.classList.remove("floating-header");
     }
 }
