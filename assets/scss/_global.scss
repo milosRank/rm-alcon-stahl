@@ -131,6 +131,7 @@ ul {
 
 ul.pdf-list {
     padding-left: 0;
+    margin-bottom: 0;
     
     li {
         display: block;
@@ -241,5 +242,18 @@ ol {
 
     .container {
         max-width: 1600px;
+    }
+}
+
+@media(max-width:576px) {
+
+    .container-fluid {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .container {
+        padding-right: 34px;
+        padding-left: 34px;
     }
 }

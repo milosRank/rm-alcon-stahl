@@ -122,3 +122,69 @@ footer {
         }
     }
 }
+
+
+
+// RESPONSIVE
+
+@media(max-width: 991px) {
+
+    footer {
+        
+        .footer__inner .footer__logo-holder {
+            width: 40%;
+        }
+
+        .footer__inner .footer__content-holder {
+            width: 60%;
+        }
+
+        .footer__content-holder .box.box__menu {
+            margin-right: 50px;
+        }
+    }
+
+}
+
+@media(max-width: 767px) {
+
+    footer {
+
+        .footer__inner {
+            flex-direction: column;
+        }
+
+        .footer__inner .footer__logo-holder {
+            width: 100%;
+            margin-bottom: 50px;
+        }
+
+        .footer__inner .footer__content-holder {
+            width: 100%;
+        }
+    }
+}
+
+@media(max-width: 576px) {
+    
+    footer {
+        font-size: 1.4rem;
+
+        .footer__inner {
+            padding-top: 100px;
+            padding-bottom: 100px;
+        }
+
+        .footer__inner .footer__logo-holder {
+            display: none;
+        }
+
+        .footer__content-holder .footer__content-holder__inner {
+            flex-direction: column;
+        }
+
+        .footer__content-holder .box {
+            width: 100%;
+        }
+    }
+}
