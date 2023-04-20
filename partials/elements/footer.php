@@ -58,7 +58,7 @@
                                             <h6>Magacin veleprodaje,mesto izdavanja robe</h6>
                                         </div>
                                         <p>Sesta industrijska br.2, 22330 Nova Pazova</p>
-                                        <p>Radno vreme: <br> ponedeljak - petak od 8:00h do 16:00 h</p>
+                                        <p>Radno vreme: <br> ponedeljak - petak od 8:00h do 16:00h</p>
                                         <a href="mailto:goran@rmalkon.co.rs">goran@rmalkon.co.rs</a>
                                         <!-- Subarea end -->
 
@@ -75,7 +75,7 @@
                                         <a href="tel:+381117554483">+381-(0)11/7554-483</a>
                                         <a href="tel:+381117555686">+381-(0)11/7555-686</a>
                                         <a href="tel:+381113055488">+381-(0)11/3055-488</a>
-                                        <p>Radno vreme: <br> ponedeljak - petak od 8:00h do 16:00 h</p>
+                                        <p>Radno vreme: <br> ponedeljak - petak od 8:00h do 16:00h</p>
                                         <a href="mailto:office@rmalkon.co.rs">office@rmalkon.co.rs</a>
                                         <!-- Subarea end -->
 

@@ -275,6 +275,8 @@ header .links-holder  {
 
 
 
+// RESPONSIVE
+
 @media(max-width: 1699px) {
 
     .header {
@@ -285,5 +287,13 @@ header .links-holder  {
                 top: calc(100% + 40px);
             }
         }
+    }
+}
+
+@media(max-width: 1399px) {
+    
+    // TODO On this view convert header link into sidebar menu
+    header {
+
     }
 }
