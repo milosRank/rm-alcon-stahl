@@ -25,6 +25,12 @@ $button-color-blue: #070D1D;
     line-height: 0;
     background-color: transparent;
     cursor: pointer;
+    transition: 0.2s ease-out;
+
+    &.active {
+        transform: rotate(180deg);
+        transition: 0.2s ease-out;
+    }
 }
 
 button,

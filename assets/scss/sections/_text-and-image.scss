@@ -2,14 +2,14 @@
     ==== TEXT AND IMAGE ====
 
     Description: 
-        These are text and image boxes of website.
+        Text and image section.
     
     Modificators:
 
     1. Text and image reverse
     
         Description:             Revert position of image and text (image to left, text to right)
-        Hook element selector:   text-and-image
+        Hook element selector:   .text-and-image
         Class to add:            text-and-image--reversed
 
 */
@@ -68,5 +68,84 @@
     .text-and-image__inner .image {
         padding-left: 0;
         padding-right: 170px;
+    }
+}
+
+
+
+// RESPONSIVE
+
+@media(max-width: 991px) {
+
+    .text-and-image {
+        padding-top: 100px;
+        padding-bottom: 100px;
+
+        .text-and-image__inner {
+            flex-direction: column;
+        }
+
+        .text-and-image__inner .text {
+            width: 100%;
+        }
+
+        .text-and-image__inner .text .part-content:not(:last-child) {
+            margin-bottom: 50px;
+        }
+
+        .text-and-image__inner .image {
+            width: 100%;
+            padding-left: 0;
+            margin-top: 50px;
+        }
+
+        // ==== Modificator 1. ====
+        &.text-and-image--reversed {
+
+            .text-and-image__inner  {
+                flex-direction: column;
+            }
+
+            .text-and-image__inner .text {
+                width: 100%;
+            }
+
+            .text-and-image__inner .image {
+                width: 100%;
+                padding-right: 0;
+            }
+        }
+    }
+}
+
+@media(max-width: 576px) {
+
+    .text-and-image {
+
+        .text-and-image__inner .text {
+    
+            .title {
+    
+                h1,
+                h2,
+                h3,
+                h4,
+                h5,
+                h6 {
+                    font-size: $small;
+                    line-height: 22px;
+                }
+            }
+    
+            p {
+                font-size: 1.4rem;
+                line-height: 20px;
+            }
+
+            ul.pdf-list {
+                font-size: 1.4rem;
+                line-height: 18px;
+            }
+        }
     }
 }
