@@ -127,6 +127,16 @@ footer {
 
 // RESPONSIVE
 
+@media(max-width: 1200px) {
+
+    footer {
+
+        .footer__content-holder .box.box__menu {
+            margin-right: 50px;
+        }
+    }
+}
+
 @media(max-width: 991px) {
 
     footer {
@@ -138,12 +148,7 @@ footer {
         .footer__inner .footer__content-holder {
             width: 60%;
         }
-
-        .footer__content-holder .box.box__menu {
-            margin-right: 50px;
-        }
     }
-
 }
 
 @media(max-width: 767px) {
