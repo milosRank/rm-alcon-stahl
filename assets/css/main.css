@@ -87,6 +87,16 @@
   font-display: swap;
 }
 @font-face {
+  font-family: "primary-semi-bold";
+  src: url("../fonts/PlusJakartaSans-SemiBold.woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "primary-bold";
+  src: url("../fonts/PlusJakartaSans-Bold.woff");
+  font-display: swap;
+}
+@font-face {
   font-family: "secondary-regular";
   src: url("../fonts/Sora-Regular.woff");
   font-display: swap;
@@ -234,8 +244,8 @@ h1 {
 }
 
 h2 {
-  font-family: "secondary-bold", Arial, Helvetica, sans-serif;
-  font-weight: normal;
+  font-family: "primary-semi-bold", Arial, Helvetica, sans-serif;
+  font-weight: 700;
   font-size: 4rem;
   line-height: 4rem;
   color: #3E3E3E;
@@ -244,8 +254,8 @@ h2 {
 }
 
 h3 {
-  font-family: "secondary-bold", Arial, Helvetica, sans-serif;
-  font-weight: normal;
+  font-family: "primary-bold", Arial, Helvetica, sans-serif;
+  font-weight: 700;
   font-size: 3.2rem;
   line-height: 3.2rem;
   color: #3E3E3E;
@@ -254,8 +264,8 @@ h3 {
 }
 
 h4 {
-  font-family: "secondary-bold", Arial, Helvetica, sans-serif;
-  font-weight: normal;
+  font-family: "primary-bold", Arial, Helvetica, sans-serif;
+  font-weight: 700;
   font-size: initial;
   line-height: initial;
   color: #3E3E3E;
@@ -264,8 +274,8 @@ h4 {
 }
 
 h5 {
-  font-family: "secondary-bold", Arial, Helvetica, sans-serif;
-  font-weight: normal;
+  font-family: "primary-bold", Arial, Helvetica, sans-serif;
+  font-weight: 700;
   font-size: initial;
   line-height: initial;
   color: #3E3E3E;
@@ -274,8 +284,8 @@ h5 {
 }
 
 h6 {
-  font-family: "secondary-bold", Arial, Helvetica, sans-serif;
-  font-weight: normal;
+  font-family: "primary-bold", Arial, Helvetica, sans-serif;
+  font-weight: 700;
   font-size: initial;
   line-height: initial;
   color: #3E3E3E;
@@ -338,6 +348,7 @@ ul {
 
 ul.pdf-list {
   padding-left: 0;
+  margin-bottom: 0;
 }
 ul.pdf-list li {
   display: block;
@@ -365,6 +376,9 @@ ul.pdf-list li a::before {
   left: 0;
   top: 50%;
   transform: translateY(-50%);
+}
+ul.pdf-list li a:hover {
+  text-decoration: none;
 }
 
 ol {
@@ -425,6 +439,16 @@ ol {
     max-width: 1600px;
   }
 }
+@media (max-width: 576px) {
+  .container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .container {
+    padding-right: 34px;
+    padding-left: 34px;
+  }
+}
 /* 
 	==== Partials ==== 
 */
@@ -453,7 +477,7 @@ ol {
 
         Description:             Sets background color of the header
         Hook element selector:   header
-        Class to add:            bg-white || bg-navy-blue || bg-transparent
+        Class to add:            bg-white || bg-navy-blue |\ | bg-transparent
 */
 header {
   position: fixed;
@@ -462,6 +486,7 @@ header {
   top: 0;
   font-size: 16px;
   transition: transform 0.2s ease-out;
+  z-index: 100;
 }
 header.hide {
   transform: translateY(-100%);
@@ -749,6 +774,69 @@ footer .footer__content-holder .box.box__contact .box__content a {
   display: block;
 }
 
+@media (max-width: 991px) {
+  footer .footer__inner .footer__logo-holder {
+    width: 40%;
+  }
+  footer .footer__inner .footer__content-holder {
+    width: 60%;
+  }
+  footer .footer__content-holder .box.box__menu {
+    margin-right: 50px;
+  }
+}
+@media (max-width: 767px) {
+  footer .footer__inner {
+    flex-direction: column;
+  }
+  footer .footer__inner .footer__logo-holder {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  footer .footer__inner .footer__content-holder {
+    width: 100%;
+  }
+}
+@media (max-width: 576px) {
+  footer {
+    font-size: 1.4rem;
+  }
+  footer .footer__inner {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  footer .footer__inner .footer__logo-holder {
+    display: none;
+  }
+  footer .footer__content-holder .footer__content-holder__inner {
+    flex-direction: column;
+  }
+  footer .footer__content-holder .box {
+    width: 100%;
+  }
+}
+/* Postfooter */
+.postfooter {
+  color: #FCFBFB;
+  background-color: #070D1D;
+  text-align: right;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  position: relative;
+  border-top: 1px solid #FCFBFB;
+}
+.postfooter p {
+  color: #FCFBFB;
+  text-align: right;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+@media (max-width: 576px) {
+  .postfooter {
+    display: none;
+  }
+}
 /* 
 	==== Components ==== 
 */
@@ -774,6 +862,11 @@ footer .footer__content-holder .box.box__contact .box__content a {
   line-height: 0;
   background-color: transparent;
   cursor: pointer;
+  transition: 0.2s ease-out;
+}
+.dropdown-button.active {
+  transform: rotate(180deg);
+  transition: 0.2s ease-out;
 }
 
 button,
@@ -951,14 +1044,14 @@ a.button:hover {
     ==== TEXT AND IMAGE ====
 
     Description: 
-        These are text and image boxes of website.
+        Text and image section.
 
     Modificators:
 
     1. Text and image reverse
 
         Description:             Revert position of image and text (image to left, text to right)
-        Hook element selector:   text-and-image
+        Hook element selector:   .text-and-image
         Class to add:            text-and-image--reversed
 
 */
@@ -1004,6 +1097,55 @@ a.button:hover {
   padding-right: 170px;
 }
 
+@media (max-width: 991px) {
+  .text-and-image {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .text-and-image .text-and-image__inner {
+    flex-direction: column;
+  }
+  .text-and-image .text-and-image__inner .text {
+    width: 100%;
+  }
+  .text-and-image .text-and-image__inner .text .part-content:not(:last-child) {
+    margin-bottom: 50px;
+  }
+  .text-and-image .text-and-image__inner .image {
+    width: 100%;
+    padding-left: 0;
+    margin-top: 50px;
+  }
+  .text-and-image.text-and-image--reversed .text-and-image__inner {
+    flex-direction: column;
+  }
+  .text-and-image.text-and-image--reversed .text-and-image__inner .text {
+    width: 100%;
+  }
+  .text-and-image.text-and-image--reversed .text-and-image__inner .image {
+    width: 100%;
+    padding-right: 0;
+  }
+}
+@media (max-width: 576px) {
+  .text-and-image .text-and-image__inner .text .title h1,
+  .text-and-image .text-and-image__inner .text .title h2,
+  .text-and-image .text-and-image__inner .text .title h3,
+  .text-and-image .text-and-image__inner .text .title h4,
+  .text-and-image .text-and-image__inner .text .title h5,
+  .text-and-image .text-and-image__inner .text .title h6 {
+    font-size: 1.8rem;
+    line-height: 22px;
+  }
+  .text-and-image .text-and-image__inner .text p {
+    font-size: 1.4rem;
+    line-height: 20px;
+  }
+  .text-and-image .text-and-image__inner .text ul.pdf-list {
+    font-size: 1.4rem;
+    line-height: 18px;
+  }
+}
 /*
     ==== TABLE AND IMAGE ====
 

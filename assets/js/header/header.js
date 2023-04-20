@@ -23,19 +23,19 @@ function floatingHeader() {
     var offsetTop = document.documentElement.scrollTop;
 
     // If scroll direction is "downscroll" and if dropdown is not active
-    if(scrollDirection == "downscroll" && !isDropdownActive() && offsetTop >= 122)
-    {
-        // Hide header
-        header.classList.add("hide");
+    // if(scrollDirection == "downscroll" && !isDropdownActive() && offsetTop >= 122)
+    // {
+    //     // Hide header
+    //     header.classList.add("hide");
 
-        // Exit
-        return;
-    }
-    else
-    {
-        // Show header
-        header.classList.remove("hide");
-    }
+    //     // Exit
+    //     return;
+    // }
+    // else
+    // {
+    //     // Show header
+    //     header.classList.remove("hide");
+    // }
 
     // If header is 114px or more distance from the top
     if(offsetTop >= 122)

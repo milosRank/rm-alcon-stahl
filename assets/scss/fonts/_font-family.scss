@@ -6,6 +6,10 @@
         2. Secondary - Sora
 */
 
+
+
+// ==== Primary font ====
+
 @font-face {
     font-family: "primary-regular";
     src: url("../fonts/PlusJakartaSans-Regular.woff");
@@ -37,6 +41,21 @@
 }
 
 @font-face {
+    font-family: "primary-semi-bold";
+    src: url("../fonts/PlusJakartaSans-SemiBold.woff");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "primary-bold";
+    src: url("../fonts/PlusJakartaSans-Bold.woff");
+    font-display: swap;
+}
+
+
+// ==== Secondary font ====
+
+@font-face {
     font-family: "secondary-regular";
     src: url("../fonts/Sora-Regular.woff");
     font-display: swap;
@@ -62,6 +81,8 @@ $font-primary-light: "primary-light", Arial, Helvetica, sans-serif;
 $font-primary-italic: "primary-italic", Arial, Helvetica, sans-serif;
 $font-primary-light-italic: "primary-light-italic", Arial, Helvetica, sans-serif;
 $font-primary-medium: "primary-medium", Arial, Helvetica, sans-serif;
+$font-primary-semi-bold: "primary-semi-bold", Arial, Helvetica, sans-serif;
+$font-primary-bold: "primary-bold", Arial, Helvetica, sans-serif;
 
 
 // Secondary fonts

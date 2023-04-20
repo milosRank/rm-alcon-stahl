@@ -22,7 +22,7 @@
 
         Description:             Sets background color of the header
         Hook element selector:   header
-        Class to add:            bg-white || bg-navy-blue || bg-transparent
+        Class to add:            bg-white || bg-navy-blue |\ | bg-transparent
 */
 
 header {
@@ -32,6 +32,7 @@ header {
     top: 0;
     font-size: 16px;
     transition:  transform 0.2s ease-out;
+    z-index: 100;
 
     // ==== Modificator 1. ====
     &.hide {
