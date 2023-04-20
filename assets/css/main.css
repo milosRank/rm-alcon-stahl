@@ -87,6 +87,16 @@
   font-display: swap;
 }
 @font-face {
+  font-family: "primary-semi-bold";
+  src: url("../fonts/PlusJakartaSans-SemiBold.woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "primary-bold";
+  src: url("../fonts/PlusJakartaSans-Bold.woff");
+  font-display: swap;
+}
+@font-face {
   font-family: "secondary-regular";
   src: url("../fonts/Sora-Regular.woff");
   font-display: swap;
@@ -234,8 +244,8 @@ h1 {
 }
 
 h2 {
-  font-family: "secondary-bold", Arial, Helvetica, sans-serif;
-  font-weight: normal;
+  font-family: "primary-semi-bold", Arial, Helvetica, sans-serif;
+  font-weight: 700;
   font-size: 4rem;
   line-height: 4rem;
   color: #3E3E3E;
@@ -244,8 +254,8 @@ h2 {
 }
 
 h3 {
-  font-family: "secondary-bold", Arial, Helvetica, sans-serif;
-  font-weight: normal;
+  font-family: "primary-bold", Arial, Helvetica, sans-serif;
+  font-weight: 700;
   font-size: 3.2rem;
   line-height: 3.2rem;
   color: #3E3E3E;
@@ -254,8 +264,8 @@ h3 {
 }
 
 h4 {
-  font-family: "secondary-bold", Arial, Helvetica, sans-serif;
-  font-weight: normal;
+  font-family: "primary-bold", Arial, Helvetica, sans-serif;
+  font-weight: 700;
   font-size: initial;
   line-height: initial;
   color: #3E3E3E;
@@ -264,8 +274,8 @@ h4 {
 }
 
 h5 {
-  font-family: "secondary-bold", Arial, Helvetica, sans-serif;
-  font-weight: normal;
+  font-family: "primary-bold", Arial, Helvetica, sans-serif;
+  font-weight: 700;
   font-size: initial;
   line-height: initial;
   color: #3E3E3E;
@@ -274,8 +284,8 @@ h5 {
 }
 
 h6 {
-  font-family: "secondary-bold", Arial, Helvetica, sans-serif;
-  font-weight: normal;
+  font-family: "primary-bold", Arial, Helvetica, sans-serif;
+  font-weight: 700;
   font-size: initial;
   line-height: initial;
   color: #3E3E3E;
@@ -366,6 +376,9 @@ ul.pdf-list li a::before {
   top: 50%;
   transform: translateY(-50%);
 }
+ul.pdf-list li a:hover {
+  text-decoration: none;
+}
 
 ol {
   margin-top: 0;
@@ -453,7 +466,7 @@ ol {
 
         Description:             Sets background color of the header
         Hook element selector:   header
-        Class to add:            bg-white || bg-navy-blue || bg-transparent
+        Class to add:            bg-white || bg-navy-blue |\ | bg-transparent
 */
 header {
   position: fixed;
@@ -462,6 +475,7 @@ header {
   top: 0;
   font-size: 16px;
   transition: transform 0.2s ease-out;
+  z-index: 100;
 }
 header.hide {
   transform: translateY(-100%);
@@ -749,6 +763,34 @@ footer .footer__content-holder .box.box__contact .box__content a {
   display: block;
 }
 
+/* Postfooter */
+.postfooter {
+  color: #FCFBFB;
+  background-color: #070D1D;
+  text-align: right;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  position: relative;
+}
+.postfooter::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 0.5px;
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #FCFBFB;
+}
+.postfooter p {
+  color: #FCFBFB;
+  text-align: right;
+  font-size: 12px;
+  line-height: 15px;
+}
+
 /* 
 	==== Components ==== 
 */
@@ -774,6 +816,11 @@ footer .footer__content-holder .box.box__contact .box__content a {
   line-height: 0;
   background-color: transparent;
   cursor: pointer;
+  transition: 0.2s ease-out;
+}
+.dropdown-button.active {
+  transform: rotate(180deg);
+  transition: 0.2s ease-out;
 }
 
 button,
@@ -951,14 +998,14 @@ a.button:hover {
     ==== TEXT AND IMAGE ====
 
     Description: 
-        These are text and image boxes of website.
+        Text and image section.
 
     Modificators:
 
     1. Text and image reverse
 
         Description:             Revert position of image and text (image to left, text to right)
-        Hook element selector:   text-and-image
+        Hook element selector:   .text-and-image
         Class to add:            text-and-image--reversed
 
 */

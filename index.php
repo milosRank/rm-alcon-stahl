@@ -132,6 +132,9 @@
         <!-- Footer -->
         <?php include 'partials/elements/footer.php';?>
 
+        <!-- Postfooter -->
+        <?php include 'partials/elements/postfooter.php';?>
+
     </div> <!-- Page wrapper end -->
 
     <!-- Scripts -->

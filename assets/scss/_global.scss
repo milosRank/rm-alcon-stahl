@@ -37,35 +37,35 @@ h1 {
 }
 
 h2 {
-    @include font($font-secondary-bold, normal, $medium-large, $medium-large);
+    @include font($font-primary-semi-bold, 700, $medium-large, $medium-large);
     color: $tertiary-color;
     margin-bottom: 5rem;
     margin-top: 0;
 }
 
 h3 {
-    @include font($font-secondary-bold, normal, $large, $large);
+    @include font($font-primary-bold, 700, $large, $large);
     color: $tertiary-color;
     margin-bottom: 3.5rem;
     margin-top: 0;
 }
 
 h4 {
-    @include font($font-secondary-bold, normal, initial, initial);
+    @include font($font-primary-bold, 700, initial, initial);
     color: $tertiary-color;
     margin-bottom: 3rem;
     margin-top: 0;
 }
 
 h5 {
-    @include font($font-secondary-bold, normal, initial, initial);
+    @include font($font-primary-bold, 700, initial, initial);
     color: $tertiary-color;
     margin-bottom: 2.5rem;
     margin-top: 0;
 }
 
 h6 {
-    @include font($font-secondary-bold, normal, initial, initial);
+    @include font($font-primary-bold, 700, initial, initial);
     color: $tertiary-color;
     margin-bottom: 2rem;
     margin-top: 0;
@@ -156,6 +156,10 @@ ul.pdf-list {
             left: 0;
             top: 50%;
             transform: translateY(-50%);
+        }
+
+        &:hover {
+            text-decoration: none;
         }
     }
 }
