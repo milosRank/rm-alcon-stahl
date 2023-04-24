@@ -172,6 +172,46 @@ ol {
 
 
 
+// Table
+table {
+    color: $tertiary-color;
+    $th-background-color: #E7E7E7;
+    border-collapse: collapse;
+    border: 1px solid #969696;
+    width: 100%;
+
+    &.text-center {
+        
+        th,
+        td {
+            text-align: center;
+        }
+    }
+
+    th,
+    td {
+        color: inherit;
+        font-size: 1.8rem;
+        line-height: 2.2rem;
+        border: 1px solid #969696;
+        text-align: left;
+        padding: 11.5px 0 11.5px 15px;
+    }
+
+    th {
+        @include font($font-primary-medium,500,$small,2.2rem);
+        background-color: $th-background-color;
+        border-radius: 8px;
+    }
+
+    td {
+        @include font($font-primary-medium,400,$small,2.2rem);
+        background-color: transparent;
+    }
+}
+
+
+
 // ==== Text aligment ====
 
 .text-center {
