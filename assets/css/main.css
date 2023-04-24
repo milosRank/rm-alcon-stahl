@@ -386,6 +386,41 @@ ol {
   padding-left: 25px;
 }
 
+table {
+  color: #3E3E3E;
+  border-collapse: collapse;
+  border: 1px solid #969696;
+  width: 100%;
+}
+table.text-center th,
+table.text-center td {
+  text-align: center;
+}
+table th,
+table td {
+  color: inherit;
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+  border: 1px solid #969696;
+  text-align: left;
+  padding: 11.5px 0 11.5px 15px;
+}
+table th {
+  font-family: "primary-medium", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+  background-color: #E7E7E7;
+  border-radius: 8px;
+}
+table td {
+  font-family: "primary-medium", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+  background-color: transparent;
+}
+
 .text-center {
   text-align: center;
 }
@@ -1184,6 +1219,45 @@ a.button:hover {
         No modificators.
 
 */
+.table-and-image .table-and-image__inner {
+  display: flex;
+  align-items: center;
+}
+.table-and-image .table-container {
+  width: 904px;
+  margin-right: 168px;
+}
+.table-and-image .table-container .table + .table {
+  margin-top: 150px;
+}
+.table-and-image .table-container .table .table-title {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-gap: 10px;
+  align-items: flex-end;
+  margin-bottom: 40px;
+}
+.table-and-image .table-container .table .table-title h1,
+.table-and-image .table-container .table .table-title h2,
+.table-and-image .table-container .table .table-title h3,
+.table-and-image .table-container .table .table-title h4,
+.table-and-image .table-container .table .table-title h5,
+.table-and-image .table-container .table .table-title h6 {
+  position: relative;
+  display: inline-block;
+  font-family: "primary-italic", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+  color: #3E3E3E;
+  margin-bottom: 0;
+}
+.table-and-image .table-container .table .table-title .line-decoration {
+  display: block;
+  background-color: #A7BFC7;
+  height: 1px;
+}
+
 .page-header {
   padding-top: 70px;
   padding-bottom: 70px;

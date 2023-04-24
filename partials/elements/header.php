@@ -33,7 +33,7 @@
                                                 <li>
                                                     <a href="#">Nerđajući čelici (Inox materijali)</a>
                                                     <ul>
-                                                        <li><a href="#">Inox limovi</a></li>
+                                                        <li><a href="nerdjajuci-celici.php">Inox limovi</a></li>
                                                         <li><a href="#">Inox šipke i profili</a></li>
                                                         <li><a href="#">Inox cevi</a></li>
                                                         <li><a href="#">Inox fitinzi i priubnice</a></li>

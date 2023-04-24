@@ -10,5 +10,45 @@
 */
 
 .table-and-image {
+
+    .table-and-image__inner {
+        display: flex;
+        align-items: center;
+    }
     
+    .table-container {
+        width: 904px;
+        margin-right: 168px;
+
+        .table + .table {
+            margin-top: 150px;
+        }
+
+        .table .table-title {
+            display: grid;
+            grid-template-columns: auto 1fr;
+            grid-gap: 10px;
+            align-items: flex-end;
+            margin-bottom: 40px;
+
+            h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            h6 {
+                position: relative;
+                display: inline-block;
+                @include font($font-primary-italic,700,$small,2.2rem);
+                color: $tertiary-color;
+                margin-bottom: 0;
+            }
+
+            .line-decoration {
+                display: block;
+                background-color: #A7BFC7;
+                height: 1px;
+            }
+        }
+    }
 }
