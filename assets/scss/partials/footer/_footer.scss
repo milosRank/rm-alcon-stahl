@@ -137,6 +137,13 @@ footer {
     }
 }
 
+@media(min-width: 992px) {
+    
+    footer {
+        margin-top: 300px;
+    }
+}
+
 @media(max-width: 991px) {
 
     footer {
