@@ -1381,6 +1381,11 @@ a.button:hover {
   background-image: url("../img/page-header/page-header-bg--nerdjajuci-celici.jpg");
 }
 
+@media (max-width: 991px) {
+  .page-header {
+    margin-bottom: 100px;
+  }
+}
 /* 
 	==== Page specifics ==== 
 */
