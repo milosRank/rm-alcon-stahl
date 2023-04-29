@@ -878,6 +878,11 @@ footer .footer__content-holder .box.box__contact .box__content a {
     margin-right: 50px;
   }
 }
+@media (min-width: 992px) {
+  footer {
+    margin-top: 300px;
+  }
+}
 @media (max-width: 991px) {
   footer .footer__inner .footer__logo-holder {
     width: 40%;
