@@ -176,9 +176,9 @@ ol {
 table {
     color: $tertiary-color;
     $th-background-color: #E7E7E7;
-    border-collapse: collapse;
-    border: 1px solid #969696;
     width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
 
     &.text-center {
         
@@ -188,25 +188,50 @@ table {
         }
     }
 
-    th,
-    td {
+    tr th,
+    tr td {
         color: inherit;
         font-size: 1.8rem;
         line-height: 2.2rem;
-        border: 1px solid #969696;
         text-align: left;
         padding: 11.5px 0 11.5px 15px;
+        border-right: 1px solid #969696;
+        border-bottom: 1px solid #969696;
+
+        &:first-child {
+            border-left: 1px solid #969696;
+        }
     }
 
-    th {
+    tr th {
         @include font($font-primary-medium,500,$small,2.2rem);
         background-color: $th-background-color;
-        border-radius: 8px;
+        border-top: solid 1px #969696;
     }
 
     td {
         @include font($font-primary-medium,400,$small,2.2rem);
         background-color: transparent;
+    }
+
+    /* top-left border-radius */
+    thead th:first-child {
+        border-top-left-radius: 8px;
+    }
+
+    /* top-right border-radius */
+    thead th:last-child {
+        border-top-right-radius: 8px;
+    }
+
+    /* bottom-left border-radius */
+    tr:last-child td:first-child {
+        border-bottom-left-radius: 8px;
+    }
+
+    /* bottom-right border-radius */
+    tr:last-child td:last-child {
+        border-bottom-right-radius: 8px;
     }
 }
 

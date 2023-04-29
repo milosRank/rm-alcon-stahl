@@ -10,6 +10,8 @@
 */
 
 .table-and-image {
+    margin-top: 150px;
+    margin-bottom: 150px;
 
     .table-and-image__inner {
         display: flex;
@@ -50,5 +52,9 @@
                 height: 1px;
             }
         }
+    }
+
+    .image-container {
+        margin-top: 62px;
     }
 }
