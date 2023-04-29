@@ -358,6 +358,11 @@ table {
     table tbody tr:last-child td:last-child {
         border-bottom: none !important;
     }
+
+    table td.text-center,
+    table th.text-center {
+        text-align: left;
+    }
 }
 
 @media(max-width:576px) {
