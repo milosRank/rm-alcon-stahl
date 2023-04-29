@@ -180,21 +180,13 @@ table {
     border-collapse: separate;
     border-spacing: 0;
 
-    &.text-center {
-        
-        th,
-        td {
-            text-align: center;
-        }
-    }
-
     tr th,
     tr td {
         color: inherit;
         font-size: 1.8rem;
         line-height: 2.2rem;
         text-align: left;
-        padding: 11.5px 0 11.5px 15px;
+        padding: 11.5px 15px;
         border-right: 1px solid #969696;
         border-bottom: 1px solid #969696;
 
@@ -307,6 +299,64 @@ table {
 
     .container {
         max-width: 1600px;
+    }
+}
+
+@media(min-width: 992px) {
+
+    table {
+
+        &.text-center {
+        
+            th,
+            td {
+                text-align: center;
+            }
+        }
+    }
+}
+
+@media(max-width: 991px) {
+
+    table thead {
+        border: none;
+        clip: rect(0 0 0 0);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 1px;
+    }
+
+    table tr td {
+        width: 100%;
+        display: block;
+        border: none !important;
+        padding-top: 0;
+    }
+    
+    table tr td::before {
+        /*
+        * aria-label has no advantage, it won't be read inside a table
+        * content: attr(aria-label);
+        */
+        content: attr(data-label);
+        display: block;
+        width: calc(100% + 30px);
+        padding: 15px;
+        margin-left: -15px;
+        margin-bottom: 15px;
+        background-color: #E7E7E7;
+        text-align: left;
+    }
+
+    table tbody tr td:last-child {
+        border-bottom: 5px solid $fourth-color !important;
+    }
+
+    table tbody tr:last-child td:last-child {
+        border-bottom: none !important;
     }
 }
 

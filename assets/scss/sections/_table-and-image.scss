@@ -56,5 +56,52 @@
 
     .image-container {
         margin-top: 62px;
+        
+        img {
+            height: auto;
+        }
+    }
+}
+
+
+
+// RESPONSIVE
+
+@media(max-width: 1399px) {
+
+    .table-and-image {
+
+        .table-container {
+            width: 100%;
+            margin-right: 100px;
+        }
+    }
+}
+
+@media(max-width: 991px) {
+
+    .table-and-image {
+        margin-top: 100px;
+        margin-bottom: 100px;
+        
+        .table-and-image__inner {
+            flex-direction: column;
+        }
+
+        .table-container {
+            margin-right: 0;
+        }
+
+        .image-container {
+            width: 100%;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .table-container .table + .table {
+            margin-top: 75px;
+        }
     }
 }
