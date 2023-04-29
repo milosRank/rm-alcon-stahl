@@ -5,8 +5,12 @@
         These are text and image boxes of website.
     
     Modificators:
-        No modificators.
+        
+    1. Table on the right
 
+        Description:             Move table to the right side
+        Hook element selector:   .table-and-image
+        Class to add:            table-on-right
 */
 
 .table-and-image {
@@ -61,6 +65,19 @@
             height: auto;
         }
     }
+
+    // ==== Modificator 1. ====
+    &.table-on-right {
+        
+        .table-and-image__inner {
+            flex-direction: row-reverse;
+        }
+
+        .table-container {
+            margin-right: 0;
+            margin-left: 168px;
+        }
+    }
 }
 
 
@@ -74,6 +91,13 @@
         .table-container {
             width: 100%;
             margin-right: 100px;
+        }
+
+        &.table-on-right {
+    
+            .table-container {
+                margin-left: 100px;
+            }
         }
     }
 }
@@ -90,6 +114,17 @@
 
         .table-container {
             margin-right: 0;
+        }
+
+        &.table-on-right {
+        
+            .table-and-image__inner {
+                flex-direction: column;
+            }
+    
+            .table-container {
+                margin-left: 0;
+            }
         }
 
         .image-container {

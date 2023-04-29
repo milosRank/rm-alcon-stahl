@@ -1150,7 +1150,6 @@ a.button:hover {
         Description:             Revert position of image and text (image to left, text to right)
         Hook element selector:   .text-and-image
         Class to add:            text-and-image--reversed
-
 */
 .text-and-image {
   padding-top: 250px;
@@ -1243,9 +1242,23 @@ a.button:hover {
     line-height: 18px;
   }
 }
+/*
+    ==== TEXT AND HEADING ====
+
+    Description: 
+        Text and heading seciton.
+
+    Modificators:
+
+    1. Content on the right
+
+        Description:             Align content to the right side
+        Hook element selector:   .text-and-heading
+        Class to add:            content-right
+*/
 .text-and-heading {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 .text-and-heading .text-and-heading__inner {
   max-width: 920px;
@@ -1277,8 +1290,12 @@ a.button:hover {
         These are text and image boxes of website.
 
     Modificators:
-        No modificators.
 
+    1. Table on the right
+
+        Description:             Move table to the right side
+        Hook element selector:   .table-and-image
+        Class to add:            table-on-right
 */
 .table-and-image {
   margin-top: 150px;
@@ -1328,11 +1345,21 @@ a.button:hover {
 .table-and-image .image-container img {
   height: auto;
 }
+.table-and-image.table-on-right .table-and-image__inner {
+  flex-direction: row-reverse;
+}
+.table-and-image.table-on-right .table-container {
+  margin-right: 0;
+  margin-left: 168px;
+}
 
 @media (max-width: 1399px) {
   .table-and-image .table-container {
     width: 100%;
     margin-right: 100px;
+  }
+  .table-and-image.table-on-right .table-container {
+    margin-left: 100px;
   }
 }
 @media (max-width: 991px) {
@@ -1345,6 +1372,12 @@ a.button:hover {
   }
   .table-and-image .table-container {
     margin-right: 0;
+  }
+  .table-and-image.table-on-right .table-and-image__inner {
+    flex-direction: column;
+  }
+  .table-and-image.table-on-right .table-container {
+    margin-left: 0;
   }
   .table-and-image .image-container {
     width: 100%;
