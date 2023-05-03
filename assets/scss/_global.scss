@@ -300,6 +300,12 @@ table {
     .container {
         max-width: 1600px;
     }
+
+    // Narrow container
+    .container-narrow .container,
+    .container-narrow.container {
+        max-width: 1326px;
+    }
 }
 
 @media(min-width: 992px) {
