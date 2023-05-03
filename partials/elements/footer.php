@@ -37,7 +37,7 @@
                                                 <li><a href="#">O nama</a></li>
                                                 <li><a href="#">Nerđajući čelici (Inox materijali)</a></li>
                                                 <li><a href="#">Inox ograde</a></li>
-                                                <li><a href="#">YSTRAL Mixing solutions</a></li>
+                                                <li><a href="ystral-mixing.php">YSTRAL Mixing solutions</a></li>
                                                 <li><a href="#">Pumpe</a></li>
                                                 <li><a href="#">Kontakt</a></li>
                                                 <li><a href="#">Preuzmi</a></li>
