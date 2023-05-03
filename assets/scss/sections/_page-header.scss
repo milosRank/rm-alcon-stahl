@@ -34,6 +34,11 @@
         @extend.page-header-bg;
         background-image: url("../img/page-header/page-header-bg--nerdjajuci-celici.jpg");
     }
+
+    &.page-header-bg--ystral-mixing {
+        @extend.page-header-bg;
+        background-image: url("../img/page-header/page-header-bg--ystral-mixing.jpg");
+    }
 }
 
 
