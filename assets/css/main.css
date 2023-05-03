@@ -691,6 +691,7 @@ header .links-holder .links-holder__inner ul li .dropdown-button {
 }
 header .links-holder .links-holder__inner a {
   color: #282828;
+  scroll-behavior: smooth;
 }
 
 header.floating-header {
@@ -1173,6 +1174,7 @@ a.button:hover {
 .text-and-image {
   margin-top: 250px;
   margin-bottom: 250px;
+  scroll-margin-top: 200px;
 }
 .text-and-image .text-and-image__inner {
   display: flex;
@@ -1313,6 +1315,7 @@ a.button:hover {
 .text-and-heading {
   margin-top: 100px;
   margin-bottom: 100px;
+  scroll-margin-top: 200px;
 }
 .text-and-heading .text-and-heading__inner {
   max-width: 920px;

@@ -56,7 +56,7 @@
             </section> <!-- Hero section end -->
 
             <!-- Text and image start -->
-            <section class="text-and-image text-and-image--reversed">
+            <section class="text-and-image text-and-image--reversed" id="o-nama">
                 <div class="container-fluid">
                     <div class="wrapper">
                         <div class="container">

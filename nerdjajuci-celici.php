@@ -52,7 +52,7 @@
             </section> <!-- Page header end -->
 
             <!-- Text and heading start -->
-            <section class="text-and-heading">
+            <section class="text-and-heading" id="inox-limovi">
                 <div class="container-fluid">
                     <div class="wrapper">
                         <div class="container">
@@ -300,7 +300,7 @@
             </section> <!-- Table and image end -->
 
             <!-- Text and heading start -->
-            <section class="text-and-heading content-right">
+            <section class="text-and-heading content-right" id="inox-sipke-i-profili">
                 <div class="container-fluid">
                     <div class="wrapper">
                         <div class="container">
@@ -542,7 +542,7 @@
             </section> <!-- Table and image end -->
 
             <!-- Text and heading start -->
-            <section class="text-and-heading">
+            <section class="text-and-heading" id="inox-cevi">
                 <div class="container-fluid">
                     <div class="wrapper">
                         <div class="container">
@@ -802,7 +802,7 @@
             </section> <!-- Table and image end -->
 
             <!-- Text and heading start -->
-            <section class="text-and-heading content-right">
+            <section class="text-and-heading content-right" id="inox-fitinzi-i-prirubnice">
                 <div class="container-fluid">
                     <div class="wrapper">
                         <div class="container">
@@ -1033,7 +1033,7 @@
             </section> <!-- Table and image end -->
 
             <!-- Text and heading start -->
-            <section class="text-and-heading">
+            <section class="text-and-heading" id="inox-ventili-i-armatura">
                 <div class="container-fluid">
                     <div class="wrapper">
                         <div class="container">
