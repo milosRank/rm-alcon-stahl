@@ -60,3 +60,34 @@ function lockScreenDependingOnCondition(callback) {
     var isConditionFullfilled = callback();
     isConditionFullfilled ? lockScreen() : unlockScreen();
 }
+
+
+
+/**
+ * This function is providing smooth scroll
+ * 
+ * @returns {Void}
+ */
+function redirectedSmoothScroll() {
+    let hash = window.location.hash.substring(1); // Get ID of section where we need to scroll
+
+    // Check if hash exists
+    if (!!hash) {
+
+        // Get link that triggers smooth scroll
+        let scrollLink = document.querySelector(".header__links-list a[href*='#" + hash + "']");
+
+        // If there is no scroll link, exit function
+        if (!scrollLink || scrollLink.length <= 0) return;
+
+        // Get top offset when scrolled
+        let elementWhereToScroll = document.getElementById(hash);
+        let offsetTop = elementWhereToScroll.offsetTop - 200;
+        
+        window.scrollTo({
+            top: offsetTop,
+            behavior: "smooth"
+        });
+
+    }
+}

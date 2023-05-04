@@ -39,6 +39,11 @@
         @extend.page-header-bg;
         background-image: url("../img/page-header/page-header-bg--ystral-mixing.jpg");
     }
+
+    &.page-header-bg--contact {
+        @extend.page-header-bg;
+        background-image: url("../img/page-header/page-header-bg--contact.jpg");
+    }
 }
 
 
