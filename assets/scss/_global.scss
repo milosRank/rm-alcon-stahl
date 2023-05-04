@@ -16,6 +16,10 @@
 	-webkit-tap-highlight-color: transparent;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -37,7 +41,7 @@ h1 {
 }
 
 h2 {
-    @include font($font-primary-semi-bold, 700, $medium-large, $medium-large);
+    @include font($font-primary-bold, 700, $medium-large, $medium-large);
     color: $tertiary-color;
     margin-bottom: 5rem;
     margin-top: 0;
@@ -118,6 +122,12 @@ strong {
 
 img {
     max-width: 100%;
+}
+
+img.decoration {
+    position: absolute;
+    z-index: -1;
+    top: 0;
 }
 
 
@@ -203,7 +213,7 @@ table {
 
     td {
         @include font($font-primary-medium,400,$small,2.2rem);
-        background-color: transparent;
+        background-color: #ffffff;
     }
 
     /* top-left border-radius */

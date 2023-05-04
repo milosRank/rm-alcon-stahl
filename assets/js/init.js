@@ -7,6 +7,7 @@
 window.addEventListener("load", () => {
     floatingHeader();
     initDropdown(".header__links-list");
+    // redirectedSmoothScroll();
 });
 
 

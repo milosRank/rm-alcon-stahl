@@ -33,6 +33,7 @@ header {
     font-size: 16px;
     transition:  transform 0.2s ease-out;
     z-index: 100;
+    min-height: 122px;
 
     // ==== Modificator 1. ====
     &.hide {
