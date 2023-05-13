@@ -31,6 +31,98 @@
         <!-- Main start -->
         <main>
 
+            <!-- Page header start -->
+            <section class="page-header page-header-bg--contact">
+                <div class="container-fluid">
+                    <div class="wrapper">
+                        <div class="container">
+
+                            <!-- Page header inner start -->
+                            <div class="page-header__inner">
+
+                                <div class="title">
+                                    <h1>Kontakt</h1>
+                                </div>
+
+                            </div> <!-- Page header inner end -->
+
+                        </div>
+                    </div>
+                </div>
+            </section> <!-- Page header end -->
+
+            <!-- Map and text start -->
+            <section class="map-and-text">
+                <div class="container-fluid">
+                    <div class="wrapper">
+                        <div class="container">
+
+                            <!-- Map and text inner start -->
+                            <div class="map-and-text__inner">
+
+                                <div class="map">MAP GOES HERE</div>
+                                <div class="text">
+                                    <div class="title">
+                                        <h2>Magacin veleprodaje, <br> mesto izdavanja robe</h2>
+                                    </div>
+                                    <div class="location">
+                                        <p>
+                                            <strong>Šesta industrijska br.2, 22330 Nova Pazova</strong> <br>
+                                            Radno vreme: ponedeljak - petak od 8:00h do 16:00 h
+                                        </p>
+                                    </div>
+                                    <div class="contact-info">
+                                        <a class="underlined" href="mailto:goran@rmalkon.co.rs">goran@rmalkon.co.rs</a>
+                                        <div class="line-separator"></div>
+                                        <a class="text-color-black" href="tel:+38163301089">tel: +381 / (0)63 - 301 - 089</a>
+                                    </div>
+                                    <ul class="pdf-list">
+                                        <li><a href="#" download>Kako doći do nas (PDF) </a></li>
+                                    </ul>
+                                </div>
+                            </div> <!-- Map and text inner end -->
+
+                        </div>
+                    </div>
+                </div>
+            </section> <!-- Map and text end -->
+
+            <!-- Map and text start -->
+            <section class="map-and-text">
+                <div class="container-fluid">
+                    <div class="wrapper">
+                        <div class="container">
+
+                            <!-- Map and text inner start -->
+                            <div class="map-and-text__inner">
+
+                                <div class="map">MAP GOES HERE</div>
+                                <div class="text">
+                                    <div class="title">
+                                        <h2>Magacin veleprodaje, <br> mesto izdavanja robe</h2>
+                                    </div>
+                                    <div class="location">
+                                        <p>
+                                            <strong>Šesta industrijska br.2, 22330 Nova Pazova</strong> <br>
+                                            Radno vreme: ponedeljak - petak od 8:00h do 16:00 h
+                                        </p>
+                                    </div>
+                                    <div class="contact-info">
+                                        <a class="underlined" href="mailto:goran@rmalkon.co.rs">goran@rmalkon.co.rs</a>
+                                        <div class="line-separator"></div>
+                                        <a class="text-color-black" href="tel:+38163301089">tel: +381 / (0)63 - 301 - 089</a>
+                                    </div>
+                                    <ul class="pdf-list">
+                                        <li><a href="#" download>Kako doći do nas (PDF) </a></li>
+                                    </ul>
+                                </div>
+                            </div> <!-- Map and text inner end -->
+
+                        </div>
+                    </div>
+                </div>
+            </section> <!-- Map and text end -->
+
             <!-- Contact start -->
             <section class="contact contact-img-background">
                 <div class="container-fluid">
