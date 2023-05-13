@@ -86,7 +86,7 @@
                                                     <a href="ystral-mixing.php">YSTRAL Mixing solutions</a>
                                                 </li>
                                                 <li>
-                                                    <a href="#">Pumpe</a>
+                                                    <a href="pumpe.php">Pumpe</a>
                                                     <ul>
                                                         <li><a href="#">Vijčane pumpe</a></li>
                                                         <li>
