@@ -117,7 +117,7 @@
                                                     <a href="#">Kontakt</a>
                                                 </li>
                                                 <li>
-                                                    <a href="#">Preuzmi</a>
+                                                    <a href="preuzmi.php">Preuzmi</a>
                                                 </li>
                                             </ul>
                                         </nav>    

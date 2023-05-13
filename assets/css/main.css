@@ -1775,7 +1775,7 @@ textarea:focus {
   margin-bottom: 0;
 }
 
-.page-header.page-header-bg, .page-header.page-header-bg--contact, .page-header.page-header-bg--ystral-mixing, .page-header.page-header-bg--nerdjajuci-celici {
+.page-header.page-header-bg, .page-header.page-header-bg--preuzmi, .page-header.page-header-bg--contact, .page-header.page-header-bg--ystral-mixing, .page-header.page-header-bg--nerdjajuci-celici {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1788,6 +1788,9 @@ textarea:focus {
 }
 .page-header.page-header-bg--contact {
   background-image: url("../img/page-header/page-header-bg--contact.jpg");
+}
+.page-header.page-header-bg--preuzmi {
+  background-image: url("../img/page-header/page-header-bg--preuzmi.jpg");
 }
 
 @media (max-width: 991px) {

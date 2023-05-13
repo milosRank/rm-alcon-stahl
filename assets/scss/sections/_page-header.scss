@@ -54,6 +54,11 @@
         @extend.page-header-bg;
         background-image: url("../img/page-header/page-header-bg--contact.jpg");
     }
+
+    &.page-header-bg--preuzmi {
+        @extend.page-header-bg;
+        background-image: url("../img/page-header/page-header-bg--preuzmi.jpg");
+    }
 }
 
 
