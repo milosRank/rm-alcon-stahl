@@ -38,7 +38,7 @@
                                                 <li><a href="nerdjajuci-celici.php">Nerđajući čelici (Inox materijali)</a></li>
                                                 <li><a href="#">Inox ograde</a></li>
                                                 <li><a href="ystral-mixing.php">YSTRAL Mixing solutions</a></li>
-                                                <li><a href="#">Pumpe</a></li>
+                                                <li><a href="pumpe.php">Pumpe</a></li>
                                                 <li><a href="contact.php">Kontakt</a></li>
                                                 <li><a href="preuzmi.php">Preuzmi</a></li>
                                             </ul>
