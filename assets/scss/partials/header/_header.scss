@@ -364,10 +364,15 @@ header .links-holder  {
             right: 0;
             top: 122px;
             width: 428px;
-            // display: block;
             display: none;
             height: calc(100% - 122px);
             overflow: scroll;
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        
+            &::-webkit-scrollbar {
+                display: none;
+            }
 
             &.active {
                 display: block;

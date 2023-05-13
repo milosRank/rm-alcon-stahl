@@ -1,0 +1,15 @@
+
+@media(max-width: 576px) {
+
+    .homepage {
+
+        .hero-section {
+            margin-top: -88px;
+            height: 100vh;
+        }
+
+        header:not(.floating-header) {
+            background-color: transparent;
+        }
+    }
+}
