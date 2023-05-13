@@ -41,35 +41,35 @@ h1 {
 }
 
 h2 {
-    @include font($font-primary-bold, 700, $medium-large, $medium-large);
+    @include font($font-primary-bold, normal, $medium-large, $medium-large);
     color: $tertiary-color;
     margin-bottom: 5rem;
     margin-top: 0;
 }
 
 h3 {
-    @include font($font-primary-bold, 700, $large, $large);
+    @include font($font-primary-bold, normal, $large, $large);
     color: $tertiary-color;
     margin-bottom: 3.5rem;
     margin-top: 0;
 }
 
 h4 {
-    @include font($font-primary-bold, 700, initial, initial);
+    @include font($font-primary-bold, normal, initial, initial);
     color: $tertiary-color;
     margin-bottom: 3rem;
     margin-top: 0;
 }
 
 h5 {
-    @include font($font-primary-bold, 700, initial, initial);
+    @include font($font-primary-bold, normal, initial, initial);
     color: $tertiary-color;
     margin-bottom: 2.5rem;
     margin-top: 0;
 }
 
 h6 {
-    @include font($font-primary-bold, 700, initial, initial);
+    @include font($font-primary-bold, normal, initial, initial);
     color: $tertiary-color;
     margin-bottom: 2rem;
     margin-top: 0;
@@ -318,6 +318,14 @@ table {
     }
 }
 
+@media(max-width: 1400px) {
+    
+    img.decoration {
+        width: 50%;
+        height: auto;
+    }
+}
+
 @media(min-width: 992px) {
 
     table {
@@ -382,6 +390,10 @@ table {
 }
 
 @media(max-width:576px) {
+
+    body {
+        padding-top: 88px;
+    }
 
     .container-fluid {
         padding-right: 0;

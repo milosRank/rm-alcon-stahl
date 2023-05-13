@@ -16,7 +16,7 @@
 
 </head>
 
-<body>
+<body class="homepage">
 
     <!-- Page wrapper start -->
     <div class="page-warpper">
