@@ -100,6 +100,14 @@ a {
             transform: translateY(-50%);
         }
     }
+
+    &.underlined {
+        text-decoration: underline;
+
+        &:hover {
+            text-decoration: none;
+        }
+    }
 }
 
 p {
@@ -113,7 +121,7 @@ p {
 }
 
 strong {
-    @include font($font-secondary-semi-bold, normal, $small, $small);
+    @include font($font-primary-semi-bold, normal, $small, $small);
 }
 
 
@@ -153,21 +161,7 @@ ul.pdf-list {
     }
 
     li a {
-        display: inline-block;
-        position: relative;
-        padding-left: 26px;
-        color: $secondary-color;
-        text-decoration: underline;
-
-        &::before {
-            @include pseudo("",16px,16px,absolute);
-            background-image: url("../img/icons/button/icon--download.svg");
-            background-position: center;
-            background-size: cover;
-            left: 0;
-            top: 50%;
-            transform: translateY(-50%);
-        }
+        @extend .download-link;
 
         &:hover {
             text-decoration: none;

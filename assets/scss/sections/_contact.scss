@@ -1,7 +1,23 @@
+/*
+    ==== CONTACT ====
+
+    Description: 
+        Contact section.
+    
+    Modificators:
+        
+    1. Section background image
+
+        Description:             Set background image for this section
+        Hook element selector:   .contact
+        Class to add:            contact-img-backgroun
+*/
+
 .contact {
     padding-top: 150px;
     padding-bottom: 150px;
 
+    // ==== Modificator 1. ====
     &.contact-img-background {
         background-image: url("../img/corporate/contact-form-bg.jpg");
         background-repeat: no-repeat;
