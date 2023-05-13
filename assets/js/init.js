@@ -23,5 +23,20 @@ document.addEventListener("scroll", function() {
 
 // ==== RESIZE EVENT ====
 
-window.addEventListener("resize", function() {				
+window.addEventListener("resize", function() {
+
+    lockScreenDependingOnCondition(function () {
+
+        // Lock screen
+        if(isMobileMenuActive() && window.innerWidth <= 576) return true;
+
+        // if(popup) {
+        //     // Lock screen
+        //     if(popup.classList.contains(ACTIVE_CLASS)) return true;
+        // }
+
+        // Unlock screen
+        return false;
+    });
+    
 });

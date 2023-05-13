@@ -1,6 +1,19 @@
 
 // Header
-var header = document.querySelector("header");
+const HEADER = document.querySelector("header");
+
+// Mobile menu
+const MOBILE_MENU = HEADER.querySelector(".links-holder");
+
+// Open mobile menu button
+const OPEN_MOB_MENU_BTN = HEADER.querySelector(".mobile-menu-cta .open-menu button");
+
+// Close mobile menu button
+const CLOSE_MOB_MENU_BTN = HEADER.querySelector(".mobile-menu-cta .close-menu button");
+
+let isMobileMenuActive = () => MOBILE_MENU.classList.contains(ACTIVE_CLASS);
+
+const ACTIVE_CLASS = "active";
 
 
 /**
@@ -12,9 +25,9 @@ var header = document.querySelector("header");
 function floatingHeader() {
     
     // Exit function if there is no header
-    if(!header) return;
+    if(!HEADER) return;
 
-    var dropdownParentsList = header.querySelectorAll(".dropdown-parent > ul");
+    var dropdownParentsList = HEADER.querySelectorAll(".dropdown-parent > ul");
 
     // Returns if dropdown is active or not(true/false)
     let isDropdownActive = () => Array.from(dropdownParentsList).some(dropdown => dropdown.classList.contains("active"));
@@ -26,7 +39,7 @@ function floatingHeader() {
     // if(scrollDirection == "downscroll" && !isDropdownActive() && offsetTop >= 122)
     // {
     //     // Hide header
-    //     header.classList.add("hide");
+    //     HEADER.classList.add("hide");
 
     //     // Exit
     //     return;
@@ -34,16 +47,65 @@ function floatingHeader() {
     // else
     // {
     //     // Show header
-    //     header.classList.remove("hide");
+    //     HEADER.classList.remove("hide");
     // }
 
     // If header is 114px or more distance from the top
     if(offsetTop >= 122)
     {
-        header.classList.add("floating-header");
+        HEADER.classList.add("floating-header");
     }
     else
     {
-        header.classList.remove("floating-header");
+        HEADER.classList.remove("floating-header");
     }
 }
+
+
+
+
+/**
+ * This function is opening mobile menu
+ * 
+ * @returns {Void}
+ */
+var openMenu = () => MOBILE_MENU.classList.add(ACTIVE_CLASS);
+
+
+
+
+/**
+ * This function is closing mobile menu
+ * 
+ * @returns {Void}
+ */
+var closeMenu = () => MOBILE_MENU.classList.remove(ACTIVE_CLASS);
+
+
+
+
+/**
+ * This function is switching active mobile menu trigger button (switch between hamburger icon and close icon)
+ * 
+ * @param  {...HTMLElement} buttons 
+ * 
+ * @returns {Void} 
+ */
+var toggleActiveMenuButton = (...buttons) => buttons.map((btn) => btn.classList.toggle(ACTIVE_CLASS));
+
+
+
+
+OPEN_MOB_MENU_BTN.addEventListener("click", function() {
+    openMenu(); // Open menu
+    toggleActiveMenuButton(OPEN_MOB_MENU_BTN,CLOSE_MOB_MENU_BTN); // Toggle active button
+
+    // If screen width is 576px or less lock screen when mobile menu is active (menu is 100% width of the screen)
+    if(window.innerWidth <= 576) lockScreen();
+});
+
+CLOSE_MOB_MENU_BTN.addEventListener("click", function() {
+    closeMenu(); // Close menu
+    toggleActiveMenuButton(OPEN_MOB_MENU_BTN,CLOSE_MOB_MENU_BTN);  // Toggle active button
+    unlockScreen(); // Unlock screen
+});

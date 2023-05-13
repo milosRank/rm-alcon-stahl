@@ -74,11 +74,27 @@ header {
         .site-logo .logo__text {
             fill: #104867;
         }
+
+        .hamburger-icon,
+        .close-icon {
+            
+            svg path {
+                fill: $sixth-color;
+            }
+        }
     }
 
     // ==== Modificator 3. ====
     &.bg-transparent {
         background-color: transparent;
+
+        .hamburger-icon,
+        .close-icon {
+            
+            svg path {
+                fill: $white;
+            }
+        }
     }
 
     // ==== Modificator 3. ====
@@ -91,6 +107,14 @@ header {
 
         .site-logo .logo__text {
             fill: #104867;
+        }
+
+        .hamburger-icon,
+        .close-icon {
+            
+            svg path {
+                fill: $sixth-color;
+            }
         }
     }
 
@@ -127,6 +151,31 @@ header {
 
     .logo-holder {
         margin-right: 175px;
+    }
+
+    .site-logo {
+        
+        &.mobile {
+            display: none;
+        }
+    }
+
+    .mobile-menu-cta {
+        display: none;
+
+        button {
+            display: none;
+            min-width: unset;
+            padding: 0;
+            border: none;
+            border-radius: 0;
+            font-size: 0;
+            line-height: 0;
+
+            &.active {
+                display: inline-block;
+            }
+        }
     }
 
     .links-holder .links-holder__inner {
@@ -297,5 +346,122 @@ header .links-holder  {
     // TODO On this view convert header link into sidebar menu
     header {
 
+        .header__inner {
+            justify-content: space-between;
+        }
+
+        .logo-holder {
+            margin-right: 0;
+        }
+
+        .mobile-menu-cta {
+            display: block;
+        }
+
+        .links-holder {
+            position: fixed;
+            background: $sixth-color;
+            right: 0;
+            top: 122px;
+            width: 428px;
+            display: none;
+            height: calc(100% - 122px);
+            overflow: scroll;
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        
+            &::-webkit-scrollbar {
+                display: none;
+            }
+
+            &.active {
+                display: block;
+            }
+
+            .links-holder__inner a {
+                color: $white;
+            }
+
+            .dropdown-button svg path {
+                fill: $white;
+            }
+        }
+        
+        .links-holder .links-holder__inner {
+            padding: 40px 40px 80px 40px;
+        }
+
+        .links-holder .links-holder__inner .header__links-list {
+            display: block;
+
+            li {
+                margin-right: 0;
+                margin-bottom: 40px;
+            }
+
+            li .dropdown-button {
+                position: static;
+                top: unset;
+                right: unset;
+                padding: 5px 8px;
+                vertical-align: middle;
+            }
+
+            // Second level
+            & > li > ul  {
+                width: 100%;
+                position: static;
+                min-width: unset;
+                padding-left: 0;
+                padding-right: 0;
+                padding-bottom: 0;
+                background-color: $sixth-color;
+
+                &::before {
+                    content: none;
+                }
+
+                & > li {
+                    margin-bottom: 0;
+                }
+
+                & > li:last-child {
+                    padding-bottom: 0;
+                }
+
+            }
+        }
+    }
+}
+
+@media(max-width: 576px) {
+    
+    header {
+        min-height: 88px;
+
+        .header {
+            padding: 30px 0;
+        }
+
+        .links-holder {
+            width: 100%;
+            top: 88px;
+            height: calc(100% - 88px);
+        }
+
+        .site-logo {
+        
+            &.mobile {
+                display: block;
+            }
+
+            &.desktop {
+                display: none;
+            }
+        }
+
+        .header__inner {
+            align-items: baseline;
+        }
     }
 }
