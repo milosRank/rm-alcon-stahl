@@ -174,9 +174,12 @@ ol {
     padding-left: 25px;
 }
 
+section.normal {
+    margin-top: 250px;
+    margin-bottom: 300px;
+}
 
-
-// Table
+// ==== Table ====
 table {
     color: $tertiary-color;
     $th-background-color: #E7E7E7;
@@ -311,6 +314,11 @@ table {
         max-width: 1326px;
     }
 }
+
+
+
+
+// RESPONSIVE
 
 @media(max-width: 1400px) {
     
