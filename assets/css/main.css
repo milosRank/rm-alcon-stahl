@@ -386,6 +386,11 @@ ol {
   padding-left: 25px;
 }
 
+section.normal {
+  margin-top: 250px;
+  margin-bottom: 300px;
+}
+
 table {
   color: #3E3E3E;
   width: 100%;
@@ -1961,6 +1966,75 @@ textarea:focus {
     margin-right: 0;
   }
 }
+/*
+    ==== ELEMENTS LIST ====
+
+    Description: 
+        Elements list section.
+
+    Modificators:
+        No modificators.
+*/
+.elements-list .title {
+  margin-bottom: 40px;
+}
+.elements-list .title h1,
+.elements-list .title h2,
+.elements-list .title h3,
+.elements-list .title h4,
+.elements-list .title h5,
+.elements-list .title h6 {
+  margin-bottom: 0;
+  font-size: 4rem;
+  line-height: 4rem;
+}
+.elements-list .subtitle {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-gap: 10px;
+  align-items: flex-end;
+  margin-bottom: 40px;
+}
+.elements-list .subtitle p {
+  display: inline-block;
+  margin-bottom: 0;
+}
+.elements-list .subtitle .line-decoration {
+  display: block;
+  background-color: #A7BFC7;
+  height: 1px;
+}
+.elements-list .elements-holder {
+  display: grid;
+}
+.elements-list .elements-holder .element {
+  margin-right: 32px;
+}
+.elements-list .elements-holder .element .image-box {
+  margin-bottom: 20px;
+}
+.elements-list .elements-holder .element .image-box.shadow {
+  filter: drop-shadow(0px 4px 15px rgba(0, 0, 0, 0.25));
+}
+.elements-list .elements-holder .element.last-child {
+  margin-right: 0;
+}
+.elements-list .elements-holder.items-6 {
+  grid-template-columns: repeat(6, 1fr);
+}
+.elements-list .elements-holder .title {
+  margin-bottom: 20px;
+}
+.elements-list .elements-holder .title p {
+  font-family: "primary-medium", Arial, Helvetica, sans-serif;
+}
+.elements-list .elements-holder .title p:last-child {
+  margin-bottom: 0;
+}
+.elements-list .elements-holder .description p {
+  font-size: 1.6rem;
+}
+
 /* 
 	==== Page specifics ==== 
 */
@@ -2157,6 +2231,22 @@ textarea:focus {
   padding-bottom: 200px !important;
 }
 
+.padding-top-250 {
+  padding-top: 250px !important;
+}
+
+.padding-bottom-250 {
+  padding-bottom: 250px !important;
+}
+
+.padding-top-300 {
+  padding-top: 300px !important;
+}
+
+.padding-bottom-300 {
+  padding-bottom: 300px !important;
+}
+
 .margin-0 {
   margin: 0 !important;
 }
@@ -2327,4 +2417,20 @@ textarea:focus {
 
 .margin-bottom-200 {
   margin-bottom: 200px !important;
+}
+
+.margin-top-250 {
+  margin-top: 250px !important;
+}
+
+.margin-bottom-250 {
+  margin-bottom: 250px !important;
+}
+
+.margin-top-300 {
+  margin-top: 300px !important;
+}
+
+.margin-bottom-300 {
+  margin-bottom: 300px !important;
 }
