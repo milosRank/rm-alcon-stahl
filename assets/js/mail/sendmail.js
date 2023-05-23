@@ -7,7 +7,7 @@ const sendMailWrapper = document.querySelector("[data-sendmail");
  * 
  * @returns {Void}
  */
-function sendMail(sendMailTrigger) {
+function sendMail(sendMailTrigger,event) {
 
     // Exit if there is no send wrapper
     if(!sendMailWrapper || sendMailWrapper === null || sendMailWrapper === undefined) return;
@@ -20,6 +20,14 @@ function sendMail(sendMailTrigger) {
 
     // Sender name
     let senderName = sendMailWrapper.querySelector("[name='user-name']").value;
+
+    // Validation
+    if(emailBody == null || emailBody == "" || emailBody == undefined || senderName == null || senderName == "" || emailBody == undefined) 
+    {
+        event.preventDefault();
+        alert("Morate uneti sve podatke!");
+        return;
+    }
 
     // Mail subject
     let subject = encodeURIComponent('RM Alcon Stahl Upit');
@@ -42,7 +50,7 @@ function sendMail(sendMailTrigger) {
 if(sendMailWrapper) {
     let mailToTrigger = sendMailWrapper.querySelector(".send-mail-trigger");
 
-    mailToTrigger.addEventListener("click", function() {
-        sendMail(this);
+    mailToTrigger.addEventListener("click", function(event) {
+        sendMail(this,event);
     });
 }

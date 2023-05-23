@@ -114,7 +114,7 @@
                                                     </ul>
                                                 </li>
                                                 <li>
-                                                    <a href="#">Kontakt</a>
+                                                    <a href="contact.php">Kontakt</a>
                                                 </li>
                                                 <li>
                                                     <a href="preuzmi.php">Preuzmi</a>
