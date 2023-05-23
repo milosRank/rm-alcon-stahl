@@ -9,6 +9,7 @@
 */
 
 .elements-list {
+    padding-bottom: 200px;
 
     .title {
         margin-bottom: 40px;
@@ -46,6 +47,7 @@
 
     .elements-holder {
         display: grid;
+        row-gap: 40px;
 
         .element {
             margin-right: 32px;
@@ -67,6 +69,10 @@
             grid-template-columns: repeat(6,1fr);
         }
 
+        &.items-auto {
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        }
+
         .title {
             margin-bottom: 20px;
 
@@ -80,9 +86,27 @@
         }
 
         .description {
+            margin-bottom: 50px;
 
             p {
                 font-size: 1.6rem;
+            }
+        }
+    }
+}
+
+
+
+// RESPONSIVE
+
+@media(max-width: 547px) {
+
+    .elements-list {
+
+        .elements-holder {
+
+            .element {
+                margin-right: 0;
             }
         }
     }

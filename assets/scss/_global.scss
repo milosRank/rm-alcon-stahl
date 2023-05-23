@@ -130,6 +130,7 @@ strong {
 
 img {
     max-width: 100%;
+    height: auto;
 }
 
 img.decoration {
@@ -392,6 +393,11 @@ table {
     table td.text-center,
     table th.text-center {
         text-align: left;
+    }
+
+    section.normal {
+        margin-top: 100px !important;
+        margin-bottom: 100px !important;
     }
 }
 

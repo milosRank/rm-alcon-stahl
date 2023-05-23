@@ -197,6 +197,10 @@ footer {
 
         .footer__content-holder .box {
             width: 100%;
+
+            &.box__contact {
+                margin-top: 50px;
+            }
         }
     }
 }

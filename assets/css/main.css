@@ -353,6 +353,7 @@ strong {
 
 img {
   max-width: 100%;
+  height: auto;
 }
 
 img.decoration {
@@ -552,6 +553,10 @@ table tr:last-child td:last-child {
   table td.text-center,
   table th.text-center {
     text-align: left;
+  }
+  section.normal {
+    margin-top: 100px !important;
+    margin-bottom: 100px !important;
   }
 }
 @media (max-width: 576px) {
@@ -1062,6 +1067,9 @@ footer .footer__content-holder .box.box__contact .box__content a {
   footer .footer__content-holder .box {
     width: 100%;
   }
+  footer .footer__content-holder .box.box__contact {
+    margin-top: 50px;
+  }
 }
 /* Postfooter */
 .postfooter {
@@ -1181,12 +1189,13 @@ a.button:hover {
 }
 .button.big-arrow-down::after {
   content: "";
+  display: block;
   width: 17px;
   height: 18px;
+  position: absolute;
   background-image: url("../img/icons/button/icon--big-arrow-down-white.svg");
   background-repeat: no-repeat;
   background-size: cover;
-  position: absolute;
   top: 50%;
   right: 20px;
   transform: translateY(-50%);
@@ -1196,6 +1205,34 @@ a.button:hover {
 }
 .button.big-arrow-down:hover::after {
   background-image: url("../img/icons/button/icon--big-arrow-down-blue.svg");
+}
+
+.button-diagonal-arrow-down {
+  padding-left: 51px;
+  border: 1px solid #104867;
+  color: #104867;
+  transition: background-color 0.3s ease;
+}
+.button-diagonal-arrow-down::after {
+  content: "";
+  display: block;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  background-image: url("../img/icons/button/icon--big-diagonal-arrow-down-blue.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 50%;
+  left: 20px;
+  transform: translateY(-50%);
+}
+.button-diagonal-arrow-down:hover {
+  transition: background-color 0.3s ease;
+  color: #FCFBFB;
+  background-color: #104867;
+}
+.button-diagonal-arrow-down:hover::after {
+  background-image: url("../img/icons/button/icon--big-diagonal-arrow-down-white.svg");
 }
 
 /*
@@ -1880,7 +1917,8 @@ textarea:focus {
   margin-bottom: 32px;
 }
 .contact .form__inner button[type=submit],
-.contact .form__inner input[type=submit] {
+.contact .form__inner input[type=submit],
+.contact .form__inner a.button {
   padding-left: 48px;
   -webkit-backdrop-filter: blur(20px);
           backdrop-filter: blur(20px);
@@ -1888,7 +1926,8 @@ textarea:focus {
   transition-property: background-color;
 }
 .contact .form__inner button[type=submit]::before,
-.contact .form__inner input[type=submit]::before {
+.contact .form__inner input[type=submit]::before,
+.contact .form__inner a.button::before {
   content: "";
   display: block;
   width: 14px;
@@ -1901,8 +1940,14 @@ textarea:focus {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.contact .form__inner button[type=submit]:hover,
+.contact .form__inner input[type=submit]:hover,
+.contact .form__inner a.button:hover {
+  color: #0A1839;
+}
 .contact .form__inner button[type=submit]:hover::before,
-.contact .form__inner input[type=submit]:hover::before {
+.contact .form__inner input[type=submit]:hover::before,
+.contact .form__inner a.button:hover::before {
   background-image: url("../img/icons/button/icon--arrow-right-blue.svg");
 }
 
@@ -1975,6 +2020,9 @@ textarea:focus {
     Modificators:
         No modificators.
 */
+.elements-list {
+  padding-bottom: 200px;
+}
 .elements-list .title {
   margin-bottom: 40px;
 }
@@ -2006,6 +2054,7 @@ textarea:focus {
 }
 .elements-list .elements-holder {
   display: grid;
+  row-gap: 40px;
 }
 .elements-list .elements-holder .element {
   margin-right: 32px;
@@ -2022,6 +2071,9 @@ textarea:focus {
 .elements-list .elements-holder.items-6 {
   grid-template-columns: repeat(6, 1fr);
 }
+.elements-list .elements-holder.items-auto {
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
 .elements-list .elements-holder .title {
   margin-bottom: 20px;
 }
@@ -2031,10 +2083,18 @@ textarea:focus {
 .elements-list .elements-holder .title p:last-child {
   margin-bottom: 0;
 }
+.elements-list .elements-holder .description {
+  margin-bottom: 50px;
+}
 .elements-list .elements-holder .description p {
   font-size: 1.6rem;
 }
 
+@media (max-width: 547px) {
+  .elements-list .elements-holder .element {
+    margin-right: 0;
+  }
+}
 /* 
 	==== Page specifics ==== 
 */
