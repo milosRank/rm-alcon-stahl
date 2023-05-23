@@ -395,6 +395,60 @@ table {
         text-align: left;
     }
 
+    table {
+
+        .th-icon::before {
+            background-repeat: no-repeat;
+            background-position: 15px 50%;
+            padding: 26px;
+        }
+
+        .th-icon.l-profile::before {
+            background-image: url("../img/icons/profile/L-profile.svg");
+        }
+
+        .th-icon.t-profile::before {
+            background-image: url("../img/icons/profile/T-profile.svg");
+        }
+
+        .th-icon.u-profile::before {
+            background-image: url("../img/icons/profile/U-profile.svg");
+        }
+
+        .th-icon.i-profile::before {
+            background-image: url("../img/icons/profile/I-profile.svg");
+        }
+
+        .th-icon.i-profile::before {
+            background-image: url("../img/icons/profile/I-profile.svg");
+        }
+
+        .th-icon-text::before {
+            background-repeat: no-repeat;
+            background-position-y: 53%;
+        }
+
+        .th-icon-text.square::before {
+            background-position-x: 115px;
+            background-image: url("../img/icons/shape/icon--square.svg");
+        }
+
+        .th-icon-text.circle::before {
+            background-position-x: 95px;
+            background-image: url("../img/icons/shape/icon--circle.svg");
+        }
+
+        .th-icon-text.hexagon::before {
+            background-position-x: 140px;
+            background-image: url("../img/icons/shape/icon--hexagon.svg");
+        }
+
+        .th-icon-text.flah::before {
+            background-position-x: 65px;
+            background-image: url("../img/icons/shape/icon--rectangle.svg");
+        }
+    }
+
     section.normal {
         margin-top: 100px !important;
         margin-bottom: 100px !important;
