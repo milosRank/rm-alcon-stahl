@@ -91,3 +91,52 @@ function redirectedSmoothScroll() {
 
     }
 }
+
+
+
+
+/**
+ * This method is equalizing elements heights and sets all heights to to biggest one among elements
+ * 
+ * @param {String} elementSelector // Selector of all elements which height will be equalized
+ * @param {Int} breakpoint // Breakpoint on which min height will reset
+ * @param {Boolean} breakpointOnMobile // Indicates if reset breakpoint is bigger or smaller of breakpoint
+ * 
+ * @returns {Void}
+ */
+function equalizeElementHeight(elementSelector, breakpoint, breakpointOnMobile) {
+
+    var currentWindowWidth = window.innerWidth; // Current window width
+
+    let elements = document.querySelectorAll(elementSelector); // Elements which height will be resized
+
+    if(!elements || elements.length <= 0) return; // If there is no elements to resize, exti function
+    
+    elements.forEach((element) => element.style.minHeight = "unset"); // Reset min height of all elements
+
+    let maxHeight = 0; // Initial max height
+
+    let elementsHeights = []; // Array of elements heights
+
+    elements.forEach((element, i) => elementsHeights[i] = element.offsetHeight); // Fill elements heights array
+
+    maxHeight = Math.max.apply(null, elementsHeights); // Biggest elements height
+    
+    elements.forEach((element) => element.style.minHeight = maxHeight + "px"); // Set height of all elements to the bigges one
+
+    if(!!breakpoint == false) return; // If there is no need to reset min height on certain breakpoint, exit function
+
+    let breakpointCondition; // Indicates will condition behave as min or max width media query
+
+    // Set condition
+    if(breakpointOnMobile && breakpointOnMobile === true)
+    {
+        breakpointCondition = currentWindowWidth >= breakpoint;
+    }
+    else
+    {
+        breakpointCondition = currentWindowWidth <= breakpoint;
+    }
+
+    if(breakpointCondition) elements.forEach((element) => element.style.minHeight = 0); // Reset min height on desired breakpoint
+}

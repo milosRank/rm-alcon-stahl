@@ -84,7 +84,8 @@
         }
 
         button[type="submit"],
-        input[type="submit"] {
+        input[type="submit"],
+        a.button {
             padding-left: 48px;
             backdrop-filter: blur(20px);
             position: relative;
@@ -98,6 +99,10 @@
                 background-image: url("../img/icons/button/icon--arrow-right-white.svg");
                 background-repeat: no-repeat;
                 background-size: cover;
+            }
+
+            &:hover {
+                color: $sixth-color;
             }
 
             &:hover::before {

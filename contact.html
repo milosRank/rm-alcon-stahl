@@ -281,7 +281,7 @@
 
                                 <!-- Form start -->  
                                 <form action="">
-                                    <div class="form__inner">
+                                    <div class="form__inner" data-sendmail data-mailto="office@rmalkon.co.rs">
 
                                         <div class="title">
                                             <h2>Upit</h2>
@@ -294,11 +294,11 @@
                                             <input name="user-name" type="text" placeholder="Ime/firma">
                                         </div>
                                         <div class="input-wrapper">
-                                            <input name="user-email" type="text" placeholder="Email">
+                                            <input name="user-email" type="email" placeholder="Email">
                                         </div>
                                         <textarea name="message" cols="30" rows="14" placeholder="Poruka"></textarea>
 
-                                        <button class="button--primary" type="submit">Pošalji</button>
+                                        <a href="#" class="button button--primary send-mail-trigger" type="submit">Pošalji</a>
                                     </div>
                                 </form> <!-- Form end -->
 
@@ -430,6 +430,7 @@
     <!-- Scripts -->
     <script src="assets/js/header/header.js"></script>
     <script src="assets/js/dropdown/dropdown.js"></script>
+    <script src="assets/js/mail/sendmail.js"></script>
     <script src="assets/js/global.js"></script>
     <script src="assets/js/init.js"></script>
 </body>
