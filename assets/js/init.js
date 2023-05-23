@@ -7,7 +7,8 @@
 window.addEventListener("load", () => {
     floatingHeader();
     initDropdown(".header__links-list");
-    // redirectedSmoothScroll();
+    equalizeElementHeight(".elements-list.pumps .description",547);
+
 });
 
 
@@ -24,6 +25,8 @@ document.addEventListener("scroll", function() {
 // ==== RESIZE EVENT ====
 
 window.addEventListener("resize", function() {
+    
+    equalizeElementHeight(".elements-list.pumps .description",547);
 
     lockScreenDependingOnCondition(function () {
 
