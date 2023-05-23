@@ -133,8 +133,8 @@
                             <div class="contact__inner">
 
                                 <!-- Form start -->  
-                                <form id="message-form" action="sendmail.php" method="POST">
-                                    <div class="form__inner">
+                                <form action="">
+                                    <div class="form__inner" data-sendmail data-mailto="office@rmalkon.co.rs">
 
                                         <div class="title">
                                             <h2>Upit</h2>
@@ -144,14 +144,14 @@
                                         </div>
 
                                         <div class="input-wrapper">
-                                            <input id="name" name="name" type="text" placeholder="Ime/firma" required>
+                                            <input name="user-name" type="text" placeholder="Ime/firma">
                                         </div>
                                         <div class="input-wrapper">
-                                            <input id="email" name="email" type="text" placeholder="Email" required>
+                                            <input name="user-email" type="email" placeholder="Email">
                                         </div>
-                                        <textarea id="message" name="message" cols="30" rows="14" placeholder="Poruka" required></textarea>
+                                        <textarea name="message" cols="30" rows="14" placeholder="Poruka"></textarea>
 
-                                        <button class="button--primary" type="submit">Pošalji</button>
+                                        <a href="#" class="button button--primary send-mail-trigger" type="submit">Pošalji</a>
                                     </div>
                                 </form> <!-- Form end -->
 

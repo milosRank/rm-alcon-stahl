@@ -1067,6 +1067,9 @@ footer .footer__content-holder .box.box__contact .box__content a {
   footer .footer__content-holder .box {
     width: 100%;
   }
+  footer .footer__content-holder .box.box__contact {
+    margin-top: 50px;
+  }
 }
 /* Postfooter */
 .postfooter {
@@ -1914,7 +1917,8 @@ textarea:focus {
   margin-bottom: 32px;
 }
 .contact .form__inner button[type=submit],
-.contact .form__inner input[type=submit] {
+.contact .form__inner input[type=submit],
+.contact .form__inner a.button {
   padding-left: 48px;
   -webkit-backdrop-filter: blur(20px);
           backdrop-filter: blur(20px);
@@ -1922,7 +1926,8 @@ textarea:focus {
   transition-property: background-color;
 }
 .contact .form__inner button[type=submit]::before,
-.contact .form__inner input[type=submit]::before {
+.contact .form__inner input[type=submit]::before,
+.contact .form__inner a.button::before {
   content: "";
   display: block;
   width: 14px;
@@ -1935,8 +1940,14 @@ textarea:focus {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.contact .form__inner button[type=submit]:hover,
+.contact .form__inner input[type=submit]:hover,
+.contact .form__inner a.button:hover {
+  color: #0A1839;
+}
 .contact .form__inner button[type=submit]:hover::before,
-.contact .form__inner input[type=submit]:hover::before {
+.contact .form__inner input[type=submit]:hover::before,
+.contact .form__inner a.button:hover::before {
   background-image: url("../img/icons/button/icon--arrow-right-blue.svg");
 }
 
