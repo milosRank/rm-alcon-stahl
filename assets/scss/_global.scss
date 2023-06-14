@@ -126,7 +126,7 @@ strong {
 
 
 
-// ==== Block elements ====
+// ==== Image ====
 
 img {
     max-width: 100%;
@@ -137,6 +137,10 @@ img.decoration {
     position: absolute;
     z-index: -1;
     top: 0;
+}
+
+.image-box.shadow {
+    filter: drop-shadow(0px 4px 15px rgba(0, 0, 0, 0.25));
 }
 
 
@@ -214,7 +218,7 @@ table {
     }
 
     td {
-        @include font($font-primary-medium,400,$small,2.2rem);
+        @include font($font-primary-regular,400,$small,2.2rem);
         background-color: #ffffff;
     }
 
@@ -320,6 +324,12 @@ table {
     }
 }
 
+// Narrow container
+.container-extra-narrow .container,
+.container-extra-narrow.container {
+    max-width: 648px;
+}
+
 
 
 
@@ -349,105 +359,109 @@ table {
 
 @media(max-width: 991px) {
 
-    table thead {
-        border: none;
-        clip: rect(0 0 0 0);
-        height: 1px;
-        margin: -1px;
-        overflow: hidden;
-        padding: 0;
-        position: absolute;
-        width: 1px;
+    section:not(.table--parallel) {
+
+        table thead {
+            border: none;
+            clip: rect(0 0 0 0);
+            height: 1px;
+            margin: -1px;
+            overflow: hidden;
+            padding: 0;
+            position: absolute;
+            width: 1px;
+        }
+
+        table tr td {
+            width: 100%;
+            display: block;
+            border: none !important;
+            padding-top: 0;
+        }
+        
+        table tr td::before {
+            /*
+            * aria-label has no advantage, it won't be read inside a table
+            * content: attr(aria-label);
+            */
+            content: attr(data-label);
+            display: block;
+            width: calc(100% + 30px);
+            padding: 15px;
+            margin-left: -15px;
+            margin-bottom: 15px;
+            background-color: #E7E7E7;
+            text-align: left;
+        }
+
+        table tbody tr td:last-child {
+            border-bottom: 5px solid $fourth-color !important;
+        }
+
+        table tbody tr:last-child td:last-child {
+            border-bottom: none !important;
+        }
+
+        table td.text-center,
+        table th.text-center {
+            text-align: left;
+        }
+
+        table {
+
+            .th-icon::before {
+                background-repeat: no-repeat;
+                background-position: 15px 50%;
+                padding: 26px;
+            }
+
+            .th-icon.l-profile::before {
+                background-image: url("../img/icons/profile/L-profile.svg");
+            }
+
+            .th-icon.t-profile::before {
+                background-image: url("../img/icons/profile/T-profile.svg");
+            }
+
+            .th-icon.u-profile::before {
+                background-image: url("../img/icons/profile/U-profile.svg");
+            }
+
+            .th-icon.i-profile::before {
+                background-image: url("../img/icons/profile/I-profile.svg");
+            }
+
+            .th-icon.i-profile::before {
+                background-image: url("../img/icons/profile/I-profile.svg");
+            }
+
+            .th-icon-text::before {
+                background-repeat: no-repeat;
+                background-position-y: 53%;
+            }
+
+            .th-icon-text.square::before {
+                background-position-x: 115px;
+                background-image: url("../img/icons/shape/icon--square.svg");
+            }
+
+            .th-icon-text.circle::before {
+                background-position-x: 95px;
+                background-image: url("../img/icons/shape/icon--circle.svg");
+            }
+
+            .th-icon-text.hexagon::before {
+                background-position-x: 140px;
+                background-image: url("../img/icons/shape/icon--hexagon.svg");
+            }
+
+            .th-icon-text.flah::before {
+                background-position-x: 65px;
+                background-image: url("../img/icons/shape/icon--rectangle.svg");
+            }
+        }
     }
 
-    table tr td {
-        width: 100%;
-        display: block;
-        border: none !important;
-        padding-top: 0;
-    }
-    
-    table tr td::before {
-        /*
-        * aria-label has no advantage, it won't be read inside a table
-        * content: attr(aria-label);
-        */
-        content: attr(data-label);
-        display: block;
-        width: calc(100% + 30px);
-        padding: 15px;
-        margin-left: -15px;
-        margin-bottom: 15px;
-        background-color: #E7E7E7;
-        text-align: left;
-    }
-
-    table tbody tr td:last-child {
-        border-bottom: 5px solid $fourth-color !important;
-    }
-
-    table tbody tr:last-child td:last-child {
-        border-bottom: none !important;
-    }
-
-    table td.text-center,
-    table th.text-center {
-        text-align: left;
-    }
-
-    table {
-
-        .th-icon::before {
-            background-repeat: no-repeat;
-            background-position: 15px 50%;
-            padding: 26px;
-        }
-
-        .th-icon.l-profile::before {
-            background-image: url("../img/icons/profile/L-profile.svg");
-        }
-
-        .th-icon.t-profile::before {
-            background-image: url("../img/icons/profile/T-profile.svg");
-        }
-
-        .th-icon.u-profile::before {
-            background-image: url("../img/icons/profile/U-profile.svg");
-        }
-
-        .th-icon.i-profile::before {
-            background-image: url("../img/icons/profile/I-profile.svg");
-        }
-
-        .th-icon.i-profile::before {
-            background-image: url("../img/icons/profile/I-profile.svg");
-        }
-
-        .th-icon-text::before {
-            background-repeat: no-repeat;
-            background-position-y: 53%;
-        }
-
-        .th-icon-text.square::before {
-            background-position-x: 115px;
-            background-image: url("../img/icons/shape/icon--square.svg");
-        }
-
-        .th-icon-text.circle::before {
-            background-position-x: 95px;
-            background-image: url("../img/icons/shape/icon--circle.svg");
-        }
-
-        .th-icon-text.hexagon::before {
-            background-position-x: 140px;
-            background-image: url("../img/icons/shape/icon--hexagon.svg");
-        }
-
-        .th-icon-text.flah::before {
-            background-position-x: 65px;
-            background-image: url("../img/icons/shape/icon--rectangle.svg");
-        }
-    }
 
     section.normal {
         margin-top: 100px !important;

@@ -88,7 +88,7 @@
                                                 <li>
                                                     <a href="pumpe.php">Pumpe</a>
                                                     <ul>
-                                                        <li><a href="#">Vijčane pumpe</a></li>
+                                                        <li><a href="vijcane-pumpe.php">Vijčane pumpe</a></li>
                                                         <li>
                                                             <a href="#">Centrifugalne pumpe</a>
                                                             <ul>
