@@ -362,6 +362,10 @@ img.decoration {
   top: 0;
 }
 
+.image-box.shadow {
+  filter: drop-shadow(0px 4px 15px rgba(0, 0, 0, 0.25));
+}
+
 ul {
   margin-top: 0;
   padding-left: 25px;
@@ -425,7 +429,7 @@ table tr th {
   border-top: solid 1px #969696;
 }
 table td {
-  font-family: "primary-medium", Arial, Helvetica, sans-serif;
+  font-family: "primary-regular", Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 1.8rem;
   line-height: 2.2rem;
@@ -501,6 +505,11 @@ table tr:last-child td:last-child {
     max-width: 1326px;
   }
 }
+.container-extra-narrow .container,
+.container-extra-narrow.container {
+  max-width: 648px;
+}
+
 @media (max-width: 1400px) {
   img.decoration {
     width: 50%;
@@ -514,7 +523,7 @@ table tr:last-child td:last-child {
   }
 }
 @media (max-width: 991px) {
-  table thead {
+  section:not(.table--parallel) table thead {
     border: none;
     clip: rect(0 0 0 0);
     height: 1px;
@@ -524,13 +533,13 @@ table tr:last-child td:last-child {
     position: absolute;
     width: 1px;
   }
-  table tr td {
+  section:not(.table--parallel) table tr td {
     width: 100%;
     display: block;
     border: none !important;
     padding-top: 0;
   }
-  table tr td::before {
+  section:not(.table--parallel) table tr td::before {
     /*
     * aria-label has no advantage, it won't be read inside a table
     * content: attr(aria-label);
@@ -544,53 +553,53 @@ table tr:last-child td:last-child {
     background-color: #E7E7E7;
     text-align: left;
   }
-  table tbody tr td:last-child {
+  section:not(.table--parallel) table tbody tr td:last-child {
     border-bottom: 5px solid #006DA3 !important;
   }
-  table tbody tr:last-child td:last-child {
+  section:not(.table--parallel) table tbody tr:last-child td:last-child {
     border-bottom: none !important;
   }
-  table td.text-center,
-  table th.text-center {
+  section:not(.table--parallel) table td.text-center,
+  section:not(.table--parallel) table th.text-center {
     text-align: left;
   }
-  table .th-icon::before {
+  section:not(.table--parallel) table .th-icon::before {
     background-repeat: no-repeat;
     background-position: 15px 50%;
     padding: 26px;
   }
-  table .th-icon.l-profile::before {
+  section:not(.table--parallel) table .th-icon.l-profile::before {
     background-image: url("../img/icons/profile/L-profile.svg");
   }
-  table .th-icon.t-profile::before {
+  section:not(.table--parallel) table .th-icon.t-profile::before {
     background-image: url("../img/icons/profile/T-profile.svg");
   }
-  table .th-icon.u-profile::before {
+  section:not(.table--parallel) table .th-icon.u-profile::before {
     background-image: url("../img/icons/profile/U-profile.svg");
   }
-  table .th-icon.i-profile::before {
+  section:not(.table--parallel) table .th-icon.i-profile::before {
     background-image: url("../img/icons/profile/I-profile.svg");
   }
-  table .th-icon.i-profile::before {
+  section:not(.table--parallel) table .th-icon.i-profile::before {
     background-image: url("../img/icons/profile/I-profile.svg");
   }
-  table .th-icon-text::before {
+  section:not(.table--parallel) table .th-icon-text::before {
     background-repeat: no-repeat;
     background-position-y: 53%;
   }
-  table .th-icon-text.square::before {
+  section:not(.table--parallel) table .th-icon-text.square::before {
     background-position-x: 115px;
     background-image: url("../img/icons/shape/icon--square.svg");
   }
-  table .th-icon-text.circle::before {
+  section:not(.table--parallel) table .th-icon-text.circle::before {
     background-position-x: 95px;
     background-image: url("../img/icons/shape/icon--circle.svg");
   }
-  table .th-icon-text.hexagon::before {
+  section:not(.table--parallel) table .th-icon-text.hexagon::before {
     background-position-x: 140px;
     background-image: url("../img/icons/shape/icon--hexagon.svg");
   }
-  table .th-icon-text.flah::before {
+  section:not(.table--parallel) table .th-icon-text.flah::before {
     background-position-x: 65px;
     background-image: url("../img/icons/shape/icon--rectangle.svg");
   }
@@ -1710,6 +1719,10 @@ textarea:focus {
 .text-and-heading .title h6 {
   color: #282828;
   margin-bottom: 0;
+  font-family: "primary-bold", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 4rem;
+  line-height: 4rem;
 }
 .text-and-heading .text p {
   color: #3E3E3E;
@@ -1725,7 +1738,22 @@ textarea:focus {
   left: 0;
   right: unset;
 }
+.text-and-heading .container-extra-narrow img.decoration {
+  top: -50px;
+  right: -150px;
+}
 
+@media (max-width: 1400px) {
+  .text-and-heading .container-extra-narrow img.decoration {
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  .text-and-heading .container-extra-narrow img.decoration {
+    top: 0;
+    right: 0;
+  }
+}
 /*
     ==== TABLE AND IMAGE ====
 
@@ -1739,6 +1767,12 @@ textarea:focus {
         Description:             Move table to the right side
         Hook element selector:   .table-and-image
         Class to add:            table-on-right
+
+    2. Parallel table data
+
+        Description:             Table th and td are parallel
+        Hook element selector:   .table
+        Class to add:            table--parallel
 */
 .table-and-image {
   margin-top: 150px;
@@ -1788,12 +1822,81 @@ textarea:focus {
 .table-and-image .image-container img {
   height: auto;
 }
+.table-and-image .table-and-image-title {
+  margin-bottom: 20px;
+}
+.table-and-image .table-and-image-title h1,
+.table-and-image .table-and-image-title h2,
+.table-and-image .table-and-image-title h3,
+.table-and-image .table-and-image-title h4,
+.table-and-image .table-and-image-title h5,
+.table-and-image .table-and-image-title h6 {
+  font-family: "primary-medium", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 2.3rem;
+  color: #104867;
+  margin-bottom: 0;
+}
+.table-and-image .table-and-image-title .subtitle {
+  font-family: "primary-italic", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 2.3rem;
+  color: #282828;
+  margin-top: 10px;
+}
 .table-and-image.table-on-right .table-and-image__inner {
   flex-direction: row-reverse;
 }
 .table-and-image.table-on-right .table-container {
   margin-right: 0;
   margin-left: 168px;
+}
+.table-and-image.table-on-right .container-extra-narrow .table-container {
+  margin-left: 32px;
+}
+.table-and-image.table--parallel .table {
+  /*
+  * Set table border style 
+  */
+}
+.table-and-image.table--parallel .table table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+.table-and-image.table--parallel .table th {
+  width: 30%;
+}
+.table-and-image.table--parallel .table th,
+.table-and-image.table--parallel .table td {
+  border-color: #969696;
+  border-bottom: 0;
+  border-top: 1px solid #969696;
+  padding: 15.5px 20px;
+}
+.table-and-image.table--parallel .table table tr:last-child th,
+.table-and-image.table--parallel .table table tr:last-child td {
+  border-bottom: 1px solid #969696;
+}
+.table-and-image.table--parallel .table table tr:first-child > *:first-child {
+  border-top-left-radius: 8px;
+}
+.table-and-image.table--parallel .table table tr:first-child > *:last-child {
+  border-top-right-radius: 8px;
+}
+.table-and-image.table--parallel .table table tr:last-child > *:first-child {
+  border-bottom-left-radius: 8px;
+}
+.table-and-image.table--parallel .table table tr:last-child > *:last-child {
+  border-bottom-right-radius: 8px;
+}
+.table-and-image.table--parallel .image-container {
+  margin-top: 0;
+}
+.table-and-image .container-extra-narrow .table-container {
+  width: 376px;
+  margin-right: 32px;
 }
 
 @media (max-width: 1399px) {
@@ -1804,11 +1907,20 @@ textarea:focus {
   .table-and-image.table-on-right .table-container {
     margin-left: 100px;
   }
+  .table-and-image.table--parallel.table-on-right .table-container {
+    margin-left: 32px;
+  }
+  .table-and-image.table--parallel .table-container {
+    margin-right: 32px;
+  }
 }
 @media (max-width: 991px) {
   .table-and-image {
     margin-top: 100px;
     margin-bottom: 100px;
+  }
+  .table-and-image.margin-bottom-300 {
+    margin-bottom: 100px !important;
   }
   .table-and-image .table-and-image__inner {
     flex-direction: column;
@@ -1830,6 +1942,40 @@ textarea:focus {
   }
   .table-and-image .table-container .table + .table {
     margin-top: 75px;
+  }
+  .table-and-image.table--parallel .table-and-image__inner {
+    flex-direction: row;
+  }
+  .table-and-image.table--parallel.table-on-right .table-and-image__inner {
+    flex-direction: row-reverse;
+  }
+  .table-and-image.table--parallel .image-container {
+    max-width: 30%;
+  }
+}
+@media (max-width: 576px) {
+  .table-and-image.table--parallel .table-and-image__inner {
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .table-and-image.table--parallel .table-container {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .table-and-image.table--parallel.table-on-right .table-and-image__inner {
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .table-and-image.table--parallel.table-on-right .table-container {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .table-and-image.table--parallel .image-container {
+    margin-bottom: 30px;
   }
 }
 /*

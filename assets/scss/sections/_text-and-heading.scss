@@ -37,6 +37,7 @@
         h6 {
             color: $secondary-color;
             margin-bottom: 0;
+            @include font($font-primary-bold, normal, $medium-large, $medium-large);
         }
     }
 
@@ -62,6 +63,46 @@
         img.decoration {
             left: 0;
             right: unset;
+        }
+    }
+
+    .container-extra-narrow {
+        
+        img.decoration {
+            top: -50px;
+            right: -150px;
+        }
+    }
+}
+
+
+
+
+// RESPONSIVE
+
+@media(max-width: 1400px) {
+
+    .text-and-heading {
+
+        .container-extra-narrow {
+        
+            img.decoration {
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media(max-width: 767px) {
+
+    .text-and-heading {
+
+        .container-extra-narrow {
+        
+            img.decoration {
+                top: 0;
+                right: 0;            
+            }
         }
     }
 }
