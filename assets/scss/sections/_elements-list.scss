@@ -99,6 +99,13 @@
 
 // RESPONSIVE
 
+@media(max-width: 767px) {
+
+    .elements-list {
+        padding-bottom: 100px;
+    }
+}
+
 @media(max-width: 547px) {
 
     .elements-list {

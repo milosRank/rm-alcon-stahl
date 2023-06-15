@@ -96,13 +96,30 @@
 @media(max-width: 767px) {
 
     .text-and-heading {
+        
+        .title {
+    
+            h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            h6 {
+                font-size: 3rem;
+                line-height: 3rem;
+            }
+        }
 
         .container-extra-narrow {
         
             img.decoration {
                 top: 0;
-                right: 0;            
+                right: 0;
             }
+        }
+
+        &.margin-bottom-200 {
+            margin-bottom: 100px !important;
         }
     }
 }

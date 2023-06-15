@@ -510,6 +510,10 @@ table tr:last-child td:last-child {
   max-width: 648px;
 }
 
+.container-medium-narrow {
+  max-width: 1030px;
+}
+
 @media (max-width: 1400px) {
   img.decoration {
     width: 50%;
@@ -1749,9 +1753,21 @@ textarea:focus {
   }
 }
 @media (max-width: 767px) {
+  .text-and-heading .title h1,
+  .text-and-heading .title h2,
+  .text-and-heading .title h3,
+  .text-and-heading .title h4,
+  .text-and-heading .title h5,
+  .text-and-heading .title h6 {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
   .text-and-heading .container-extra-narrow img.decoration {
     top: 0;
     right: 0;
+  }
+  .text-and-heading.margin-bottom-200 {
+    margin-bottom: 100px !important;
   }
 }
 /*
@@ -2276,6 +2292,11 @@ textarea:focus {
   font-size: 1.6rem;
 }
 
+@media (max-width: 767px) {
+  .elements-list {
+    padding-bottom: 100px;
+  }
+}
 @media (max-width: 547px) {
   .elements-list .elements-holder .element {
     margin-right: 0;

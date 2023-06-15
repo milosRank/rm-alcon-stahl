@@ -76,7 +76,7 @@
                                 Allweiler je članica Circor korporacije od 1998.godine. Kao ovlašćeni distributer Allweiler-a, 
                                 RM Alkon Stahl može da ponudi pumpe i rezervne delove iz proizvodnog programa ostalih članica Circor korporacije.
                             </p>
-                            <img class="margin-bottom-50 margin-top-20" width="240" height="110" src="assets/img/logos/logo--circor.jpg" alt="Circor logo">
+                            <img class="margin-bottom-50 margin-top-20" width="240" height="110" src="assets/img/logos/logo--circor.webp" alt="Circor logo">
                             <p>Gruen-Pumpen GmbH, Nemačka <a href="https://www.gruen-pumpen.de/">www.gruen-pumpen.de.</a></p>
                             <div class="line-separator wide margin-top-20 margin-bottom-20"></div>
                             <p>
@@ -124,7 +124,7 @@
                                     <div class="element">
                                         <div class="element__inner">
                                             <div class="image-box shadow">
-                                                <img width="240" height="240" src="assets/img/pump-list/vijcane-pumpe.jpg" alt="Vijcane pumpe">
+                                                <img width="240" height="240" src="assets/img/pump-list/vijcane-pumpe.webp" alt="Vijcane pumpe">
                                             </div>
                                             <div class="title">
                                                 <p>Vijčane pumpe</p>
@@ -136,7 +136,7 @@
                                                 </p>
                                             </div>
                                             <div class="cta-wrapper">
-                                                <a class="button button-diagonal-arrow-down" href="#">Detailjnije</a>
+                                                <a class="button button-diagonal-arrow-down" href="#">Detaljnije</a>
                                             </div>
                                         </div>
                                     </div> <!-- Element end -->
@@ -145,7 +145,7 @@
                                     <div class="element">
                                         <div class="element__inner">
                                             <div class="image-box shadow">
-                                                <img width="240" height="240" src="assets/img/pump-list/centrifugalne-pumpe.jpg" alt="Centrifugalne pumpe">
+                                                <img width="240" height="240" src="assets/img/pump-list/centrifugalne-pumpe.webp" alt="Centrifugalne pumpe">
                                             </div>
                                             <div class="title">
                                                 <p>Centrifugalne pumpe</p>
@@ -158,7 +158,7 @@
                                                 </p>
                                             </div>
                                             <div class="cta-wrapper">
-                                                <a class="button button-diagonal-arrow-down" href="#">Detailjnije</a>
+                                                <a class="button button-diagonal-arrow-down" href="#">Detaljnije</a>
                                             </div>
                                         </div>
                                     </div> <!-- Element end -->
@@ -167,7 +167,7 @@
                                     <div class="element">
                                         <div class="element__inner">
                                             <div class="image-box shadow">
-                                                <img width="240" height="240" src="assets/img/pump-list/aksijalne-properelne-pumpe.jpg" alt="Aksijalne ili propelerne pumpe">
+                                                <img width="240" height="240" src="assets/img/pump-list/aksijalne-properelne-pumpe.webp" alt="Aksijalne ili propelerne pumpe">
                                             </div>
                                             <div class="title">
                                                 <p>Aksijalne ili propelerne</p>
@@ -178,7 +178,7 @@
                                                 </p>
                                             </div>
                                             <div class="cta-wrapper">
-                                                <a class="button button-diagonal-arrow-down" href="#">Detailjnije</a>
+                                                <a class="button button-diagonal-arrow-down" href="#">Detaljnije</a>
                                             </div>
                                         </div>
                                     </div> <!-- Element end -->
@@ -187,7 +187,7 @@
                                     <div class="element">
                                         <div class="element__inner">
                                             <div class="image-box shadow">
-                                                <img width="240" height="240" src="assets/img/pump-list/zavojne-pumpe.jpg" alt="Zavojne pumpe">
+                                                <img width="240" height="240" src="assets/img/pump-list/zavojne-pumpe.webp" alt="Zavojne pumpe">
                                             </div>
                                             <div class="title">
                                                 <p>Zavojne pumpe</p>
@@ -199,7 +199,7 @@
                                                 </p>
                                             </div>
                                             <div class="cta-wrapper">
-                                                <a class="button button-diagonal-arrow-down" href="#">Detailjnije</a>
+                                                <a class="button button-diagonal-arrow-down" href="#">Detaljnije</a>
                                             </div>
                                         </div>
                                     </div> <!-- Element end -->
@@ -208,7 +208,7 @@
                                     <div class="element">
                                         <div class="element__inner">
                                             <div class="image-box shadow">
-                                                <img width="240" height="240" src="assets/img/pump-list/peristalticke-pumpe.jpg" alt="Peristaltičke pumpe">
+                                                <img width="240" height="240" src="assets/img/pump-list/peristalticke-pumpe.webp" alt="Peristaltičke pumpe">
                                             </div>
                                             <div class="title">
                                                 <p>Peristaltičke pumpe</p>
@@ -219,7 +219,7 @@
                                                 </p>
                                             </div>
                                             <div class="cta-wrapper">
-                                                <a class="button button-diagonal-arrow-down" href="#">Detailjnije</a>
+                                                <a class="button button-diagonal-arrow-down" href="#">Detaljnije</a>
                                             </div>
                                         </div>
                                     </div> <!-- Element end -->
@@ -228,7 +228,7 @@
                                     <div class="element">
                                         <div class="element__inner">
                                             <div class="image-box shadow">
-                                                <img width="240" height="240" src="assets/img/pump-list/macenator-pumpe.jpg" alt="Maceratori">
+                                                <img width="240" height="240" src="assets/img/pump-list/macenator-pumpe.webp" alt="Maceratori">
                                             </div>
                                             <div class="title">
                                                 <p>Maceratori</p>
@@ -239,7 +239,7 @@
                                                 </p>
                                             </div>
                                             <div class="cta-wrapper">
-                                                <a class="button button-diagonal-arrow-down" href="#">Detailjnije</a>
+                                                <a class="button button-diagonal-arrow-down" href="#">Detaljnije</a>
                                             </div>
                                         </div>
                                     </div> <!-- Element end -->
