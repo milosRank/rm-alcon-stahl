@@ -90,7 +90,7 @@
                                                     <ul>
                                                         <li><a href="vijcane-pumpe.php">Vijčane pumpe</a></li>
                                                         <li>
-                                                            <a href="#">Centrifugalne pumpe</a>
+                                                            <a href="centrifugalne-pumpe.php">Centrifugalne pumpe</a>
                                                             <ul>
                                                                 <li><a href="#">Pumpe sa zaptivačima vratila</a></li>
                                                                 <li><a href="#">Pumpe sa magnetnom spojnicom</a></li>
