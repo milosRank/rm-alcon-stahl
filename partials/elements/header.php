@@ -93,7 +93,7 @@
                                                             <a href="centrifugalne-pumpe.php">Centrifugalne pumpe</a>
                                                             <ul>
                                                                 <li><a href="centrifugalne-pumpe-sa-zaptivacima-vratila.php">Pumpe sa zaptivačima vratila</a></li>
-                                                                <li><a href="#">Pumpe sa magnetnom spojnicom</a></li>
+                                                                <li><a href="centrifugalne-pumpe-sa-magnetnom-spojnicom.php">Pumpe sa magnetnom spojnicom</a></li>
                                                                 <li><a href="#">Pumpe koje su potopljene u fluid</a></li>
                                                                 <li><a href="#">Višestepene pumpe</a></li>
                                                             </ul>
