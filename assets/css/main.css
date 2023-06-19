@@ -1756,11 +1756,27 @@ textarea:focus {
   right: 0 !important;
   top: -140px !important;
 }
+.text-and-heading .decoration.zavojne-pumpe {
+  top: -75px;
+  right: unset;
+  left: 260px;
+}
+.text-and-heading .decoration.prerada-voda-i-hemikalija {
+  top: 0 !important;
+}
 
 @media (max-width: 1400px) {
   .text-and-heading .container-extra-narrow img.decoration {
     width: 100%;
     height: auto;
+  }
+  .text-and-heading .decoration.zavojne-pumpe {
+    width: 100%;
+  }
+}
+@media (max-width: 991px) {
+  .text-and-heading .decoration.zavojne-pumpe {
+    left: 0;
   }
 }
 @media (max-width: 767px) {
@@ -1800,6 +1816,12 @@ textarea:focus {
         Description:             Table th and td are parallel
         Hook element selector:   .table
         Class to add:            table--parallel
+
+    3. Equal data cells
+
+        Description:             Equalizes data cells
+        Hook element selector:   .table
+        Class to add:            equal-cells
 */
 .table-and-image {
   margin-top: 150px;
@@ -1880,8 +1902,12 @@ textarea:focus {
   margin-right: 0;
   margin-left: 168px;
 }
-.table-and-image.table-on-right .container-extra-narrow .table-container {
+.table-and-image.table-on-right .container-extra-narrow .table-container,
+.table-and-image.table-on-right .container-medium-narrow .table-container {
   margin-left: 32px;
+}
+.table-and-image.table-on-right .container-medium-narrow .table-container {
+  width: calc(100% - 272px);
 }
 .table-and-image.table--parallel .table-and-image__inner {
   align-items: stretch;
@@ -1891,6 +1917,12 @@ textarea:focus {
   /*
   * Set table border style 
   */
+}
+.table-and-image.table--parallel .table.equal-cells th,
+.table-and-image.table--parallel .table.equal-cells td {
+  width: 50%;
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
 .table-and-image.table--parallel .table table {
   border-collapse: separate;
@@ -1926,6 +1958,7 @@ textarea:focus {
 .table-and-image.table--parallel .image-container {
   margin-top: 0;
 }
+.table-and-image .container-extra-narrow .table-container,
 .table-and-image .container-extra-narrow .table-container {
   width: 376px;
   margin-right: 32px;
@@ -2014,6 +2047,11 @@ textarea:focus {
   .table-and-image.table--parallel .image-container {
     margin-bottom: 30px;
     max-width: 240px;
+  }
+  .table-and-image.table--parallel .table.equal-cells th,
+  .table-and-image.table--parallel .table.equal-cells td {
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
 /*

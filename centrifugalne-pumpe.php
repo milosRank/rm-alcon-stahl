@@ -89,7 +89,7 @@
                                                 <p>Pumpe sa <br> zaptivačima vratila</p>
                                             </div>
                                             <div class="cta-wrapper">
-                                                <a class="button button-diagonal-arrow-down" href="#">Detaljnije</a>
+                                                <a class="button button-diagonal-arrow-down" href="centrifugalne-pumpe-sa-zaptivacima-vratila.php">Detaljnije</a>
                                             </div>
                                         </div>
                                     </div> <!-- Element end -->
@@ -104,7 +104,7 @@
                                                 <p>Pumpe sa <br> magnetnom spojnicom</p>
                                             </div>
                                             <div class="cta-wrapper">
-                                                <a class="button button-diagonal-arrow-down" href="#">Detaljnije</a>
+                                                <a class="button button-diagonal-arrow-down" href="centrifugalne-pumpe-sa-magnetnom-spojnicom.php">Detaljnije</a>
                                             </div>
                                         </div>
                                     </div> <!-- Element end -->
@@ -119,7 +119,7 @@
                                                 <p>Pumpe koje su <br> potopljene u fluid</p>
                                             </div>
                                             <div class="cta-wrapper">
-                                                <a class="button button-diagonal-arrow-down" href="#">Detaljnije</a>
+                                                <a class="button button-diagonal-arrow-down" href="centrifugalne-pumpe-koje-su-potopljene-u-fluid.php">Detaljnije</a>
                                             </div>
                                         </div>
                                     </div> <!-- Element end -->
@@ -134,7 +134,7 @@
                                                 <p>Višestepene pumpe</p>
                                             </div>
                                             <div class="cta-wrapper">
-                                                <a class="button button-diagonal-arrow-down" href="#">Detaljnije</a>
+                                                <a class="button button-diagonal-arrow-down" href="centrifugalne-pumpe-visestepene.php">Detaljnije</a>
                                             </div>
                                         </div>
                                     </div> <!-- Element end -->
