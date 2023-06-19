@@ -1756,11 +1756,24 @@ textarea:focus {
   right: 0 !important;
   top: -140px !important;
 }
+.text-and-heading .decoration.zavojne-pumpe {
+  top: -75px;
+  right: unset;
+  left: 260px;
+}
 
 @media (max-width: 1400px) {
   .text-and-heading .container-extra-narrow img.decoration {
     width: 100%;
     height: auto;
+  }
+  .text-and-heading .decoration.zavojne-pumpe {
+    width: 100%;
+  }
+}
+@media (max-width: 991px) {
+  .text-and-heading .decoration.zavojne-pumpe {
+    left: 0;
   }
 }
 @media (max-width: 767px) {

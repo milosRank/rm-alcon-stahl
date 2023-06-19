@@ -80,6 +80,12 @@
         right: 0 !important;
         top: -140px !important;
     }
+
+    .decoration.zavojne-pumpe {
+        top: -75px;
+        right: unset;
+        left: 260px;
+    }
 }
 
 
@@ -98,8 +104,22 @@
                 height: auto;
             }
         }
+
+        .decoration.zavojne-pumpe {
+            width: 100%;
+        }
     }
 }
+
+@media(max-width: 991px) {
+    
+    .text-and-heading {
+
+        .decoration.zavojne-pumpe {
+            left: 0;
+        }
+    }
+} 
 
 @media(max-width: 767px) {
 

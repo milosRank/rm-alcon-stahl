@@ -100,7 +100,7 @@
                                                         </li>
                                                         <li><a href="aksijalne-ili-propelerne.php">Aksijalne ili propelerne</a></li>
                                                         <li>
-                                                            <a href="#">Zavojne pumpe</a>
+                                                            <a href="zavojne-pumpe.php">Zavojne pumpe</a>
                                                             <ul>
                                                                 <li><a href="#">Pumpe za preradu otpadnih voda i otpadnih hemikalija</a></li>
                                                                 <li><a href="#">Dozirne pumpe</a></li>
