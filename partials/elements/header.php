@@ -98,7 +98,7 @@
                                                                 <li><a href="centrifugalne-pumpe-visestepene.php">Višestepene pumpe</a></li>
                                                             </ul>
                                                         </li>
-                                                        <li><a href="#">Aksijalne ili propelerne</a></li>
+                                                        <li><a href="aksijalne-ili-propelerne.php">Aksijalne ili propelerne</a></li>
                                                         <li>
                                                             <a href="#">Zavojne pumpe</a>
                                                             <ul>

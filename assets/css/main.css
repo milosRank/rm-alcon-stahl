@@ -1883,7 +1883,11 @@ textarea:focus {
 .table-and-image.table-on-right .container-extra-narrow .table-container {
   margin-left: 32px;
 }
+.table-and-image.table--parallel .table-and-image__inner {
+  align-items: stretch;
+}
 .table-and-image.table--parallel .table {
+  height: 100%;
   /*
   * Set table border style 
   */
@@ -1891,6 +1895,7 @@ textarea:focus {
 .table-and-image.table--parallel .table table {
   border-collapse: separate;
   border-spacing: 0;
+  height: 100%;
 }
 .table-and-image.table--parallel .table th {
   width: 30%;
