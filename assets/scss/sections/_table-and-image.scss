@@ -17,6 +17,12 @@
         Description:             Table th and td are parallel
         Hook element selector:   .table
         Class to add:            table--parallel
+
+    3. Equal data cells
+
+        Description:             Equalizes data cells
+        Hook element selector:   .table
+        Class to add:            equal-cells
 */
 
 .table-and-image {
@@ -105,10 +111,18 @@
             margin-left: 168px;
         }
 
-        .container-extra-narrow {
+        .container-extra-narrow,
+        .container-medium-narrow {
 
             .table-container {
                 margin-left: 32px;
+            }
+        }
+
+        .container-medium-narrow {
+
+            .table-container {
+                width: calc(100% - 272px);
             }
         }
     }
@@ -122,6 +136,17 @@
 
         .table {
             height: 100%;
+
+            // ==== Modificator 3. ====
+            &.equal-cells {
+
+                th,
+                td {
+                    width: 50%;
+                    padding-top: 8px;
+                    padding-bottom: 8px;
+                }
+            }
 
             table {
                 border-collapse: separate;
@@ -174,6 +199,7 @@
         }
     }
 
+    .container-extra-narrow,
     .container-extra-narrow {
 
         .table-container {
@@ -327,6 +353,15 @@
             .image-container {
                 margin-bottom: 30px;
                 max-width: 240px;
+            }
+
+            .table.equal-cells {
+    
+                th,
+                td {
+                    padding-left: 10px;
+                    padding-right: 10px;
+                }
             }
         }
     }
