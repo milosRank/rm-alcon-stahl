@@ -136,7 +136,7 @@
                                                 </p>
                                             </div>
                                             <div class="cta-wrapper">
-                                                <a class="button button-diagonal-arrow-down" href="#">Detaljnije</a>
+                                                <a class="button button-diagonal-arrow-down" href="vijcane-pumpe.php">Detaljnije</a>
                                             </div>
                                         </div>
                                     </div> <!-- Element end -->
@@ -158,7 +158,7 @@
                                                 </p>
                                             </div>
                                             <div class="cta-wrapper">
-                                                <a class="button button-diagonal-arrow-down" href="#">Detaljnije</a>
+                                                <a class="button button-diagonal-arrow-down" href="centrifugalne-pumpe.php">Detaljnije</a>
                                             </div>
                                         </div>
                                     </div> <!-- Element end -->
@@ -178,7 +178,7 @@
                                                 </p>
                                             </div>
                                             <div class="cta-wrapper">
-                                                <a class="button button-diagonal-arrow-down" href="#">Detaljnije</a>
+                                                <a class="button button-diagonal-arrow-down" href="aksijalne-ili-propelerne.php">Detaljnije</a>
                                             </div>
                                         </div>
                                     </div> <!-- Element end -->
@@ -199,7 +199,7 @@
                                                 </p>
                                             </div>
                                             <div class="cta-wrapper">
-                                                <a class="button button-diagonal-arrow-down" href="#">Detaljnije</a>
+                                                <a class="button button-diagonal-arrow-down" href="zavojne-pumpe.php">Detaljnije</a>
                                             </div>
                                         </div>
                                     </div> <!-- Element end -->
