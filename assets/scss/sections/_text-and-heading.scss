@@ -73,6 +73,13 @@
             right: -150px;
         }
     }
+
+    .decoration.centrifugalne-fluid {
+        width: 272px;
+        height: 478px;
+        right: 0 !important;
+        top: -140px !important;
+    }
 }
 
 
@@ -88,6 +95,7 @@
         
             img.decoration {
                 width: 100%;
+                height: auto;
             }
         }
     }
