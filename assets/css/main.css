@@ -1768,6 +1768,10 @@ textarea:focus {
   right: 100px;
   top: -100px;
 }
+.text-and-heading .decoration.prehrambena-industrija-pumpe {
+  right: 150px;
+  top: -30px;
+}
 
 @media (max-width: 1400px) {
   .text-and-heading .container-extra-narrow img.decoration {
@@ -1783,6 +1787,10 @@ textarea:focus {
     left: 0;
   }
   .text-and-heading .decoration.dozirne-pumpe {
+    top: 0;
+    right: 0;
+  }
+  .text-and-heading .decoration.prehrambena-industrija-pumpe {
     top: 0;
     right: 0;
   }
