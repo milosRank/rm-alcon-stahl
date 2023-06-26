@@ -1764,6 +1764,10 @@ textarea:focus {
 .text-and-heading .decoration.prerada-voda-i-hemikalija {
   top: 0 !important;
 }
+.text-and-heading .decoration.dozirne-pumpe {
+  right: 100px;
+  top: -100px;
+}
 
 @media (max-width: 1400px) {
   .text-and-heading .container-extra-narrow img.decoration {
@@ -1777,6 +1781,10 @@ textarea:focus {
 @media (max-width: 991px) {
   .text-and-heading .decoration.zavojne-pumpe {
     left: 0;
+  }
+  .text-and-heading .decoration.dozirne-pumpe {
+    top: 0;
+    right: 0;
   }
 }
 @media (max-width: 767px) {
