@@ -248,15 +248,15 @@ table {
 // ==== Text aligment ====
 
 .text-center {
-	text-align: center;
+	text-align: center !important;
 }
 
 .text-left {
-	text-align: left;
+	text-align: left !important;
 }
 
 .text-right {
-	text-align: right;
+	text-align: right !important;
 }
 
 
@@ -280,6 +280,18 @@ table {
 
 .rotate {
     transform: rotate(180deg);
+}
+
+
+
+// ==== Width and height ====
+
+.width-auto {
+    width: auto !important;
+}
+
+.height-auto {
+    height: auto !important;
 }
 
 
