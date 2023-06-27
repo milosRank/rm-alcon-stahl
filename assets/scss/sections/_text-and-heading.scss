@@ -105,6 +105,11 @@
         top: -50px;
         right: 150px;
     }
+
+    .decoration.zavojne-vertikalne-pumpe {
+        right: 350px;
+        top: -100px;
+    }
 }
 
 
@@ -126,6 +131,11 @@
 
         .decoration.zavojne-pumpe {
             width: 100%;
+        }
+
+        .decoration.zavojne-vertikalne-pumpe {
+            right: 0;
+            width: auto;
         }
     }
 }

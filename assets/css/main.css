@@ -1776,6 +1776,10 @@ textarea:focus {
   top: -50px;
   right: 150px;
 }
+.text-and-heading .decoration.zavojne-vertikalne-pumpe {
+  right: 350px;
+  top: -100px;
+}
 
 @media (max-width: 1400px) {
   .text-and-heading .container-extra-narrow img.decoration {
@@ -1784,6 +1788,10 @@ textarea:focus {
   }
   .text-and-heading .decoration.zavojne-pumpe {
     width: 100%;
+  }
+  .text-and-heading .decoration.zavojne-vertikalne-pumpe {
+    right: 0;
+    width: auto;
   }
 }
 @media (max-width: 991px) {
