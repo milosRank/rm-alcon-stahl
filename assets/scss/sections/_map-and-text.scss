@@ -24,6 +24,8 @@
         }
 
         .text {
+            display: flex;
+            flex-direction: column;
             padding-left: 168px;
             
             .title {
@@ -53,7 +55,7 @@
             }
 
             ul.pdf-list {
-                margin-top: 170px;
+                margin-top: auto;
             }
         }
     }
@@ -70,7 +72,7 @@
         .map-and-text__inner {
             
             .text {
-                padding-left: 70px;
+                padding-left: 60px;
             }
         }
     }

@@ -2250,6 +2250,8 @@ textarea:focus {
   max-width: 100%;
 }
 .map-and-text .map-and-text__inner .text {
+  display: flex;
+  flex-direction: column;
   padding-left: 168px;
 }
 .map-and-text .map-and-text__inner .text .title {
@@ -2272,12 +2274,12 @@ textarea:focus {
   margin-bottom: 20px;
 }
 .map-and-text .map-and-text__inner .text ul.pdf-list {
-  margin-top: 170px;
+  margin-top: auto;
 }
 
 @media (max-width: 1600px) {
   .map-and-text .map-and-text__inner .text {
-    padding-left: 70px;
+    padding-left: 60px;
   }
 }
 @media (max-width: 1400px) {

@@ -118,18 +118,24 @@
                                 </div>
                                 <div class="text">
                                     <div class="title">
-                                        <h2>Magacin veleprodaje, <br> mesto izdavanja robe</h2>
+                                        <h2>Prodaja i administracija</h2>
                                     </div>
                                     <div class="location">
                                         <p>
-                                            <strong>Šesta industrijska br.2, 22330 Nova Pazova</strong> <br>
+                                            <strong>Stevana Brakusa 4, 11030 Beograd</strong> <br>
                                             Radno vreme: ponedeljak - petak od 8:00h do 16:00 h
                                         </p>
                                     </div>
                                     <div class="contact-info">
-                                        <a class="underlined" href="mailto:goran@rmalkon.co.rs">goran@rmalkon.co.rs</a>
+                                        <a class="underlined" href="mailto:office@rmalkon.co.rs">office@rmalkon.co.rs</a>
                                         <div class="line-separator"></div>
-                                        <a class="text-color-black" href="tel:+38163301089">tel: +381 / (0)63 - 301 - 089</a>
+                                        <a class="text-color-black" href="tel:+381117540847">tel: +381-(0)11 / 7540-847</a>
+                                        <br>
+                                        <a class="text-color-black" href="tel:+381117549607">tel: +381-(0)11 / 7549-607</a>
+                                        <br>
+                                        <a class="text-color-black" href="tel:+381117554483">tel: +381-(0) 11 / 7554- 483</a>
+                                        <br>
+                                        <a class="text-color-black" href="tel:+381117555686">tel: +381-(0)11 / 7555-686</a>
                                     </div>
                                     <ul class="pdf-list">
                                         <li><a href="#" download>Kako doći do nas (PDF) </a></li>
