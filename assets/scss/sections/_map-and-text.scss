@@ -17,10 +17,14 @@
         grid-template-columns: 784px auto;
 
         .map {
-            margin-right: 168px;
+
+            iframe {
+                max-width: 100%;
+            }
         }
 
         .text {
+            padding-left: 168px;
             
             .title {
                 margin-bottom: 45px;
@@ -59,6 +63,20 @@
 
 // RESPONSIVE
 
+@media(max-width: 1600px) {
+
+    .map-and-text {
+
+        .map-and-text__inner {
+            
+            .text {
+                padding-left: 70px;
+            }
+        }
+    }
+}
+
+
 @media(max-width: 1400px) {
 
     .map-and-text {
@@ -75,11 +93,37 @@
         margin-top: 100px;
         margin-bottom: 100px;
 
+        & + .map-and-text {
+            margin-top: 150px;
+        }
+
         .map-and-text__inner {
             grid-template-columns: 1fr;
 
+            .text {
+                margin-bottom: 50px;
+                padding-left: 0;
+                order: -1;
+
+                ul.pdf-list {
+                    margin-top: 40px;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 576px) {
+
+    .map-and-text {
+
+        .map-and-text__inner {
+
             .map {
-                margin-right: 0;
+                
+                iframe {
+                    height: 300px;
+                }
             }
         }
     }

@@ -60,7 +60,16 @@
                             <!-- Map and text inner start -->
                             <div class="map-and-text__inner">
 
-                                <div class="map">MAP GOES HERE</div>
+                                <div class="map">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2823.6894459006708!2d20.192123686501574!3d44.94998079302042!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a59477782ef3f%3A0x397f94eda91cc97f!2sRm%20Alkon%20Stahl%20d.o.o.!5e0!3m2!1sen!2srs!4v1687886037963!5m2!1sen!2srs" 
+                                        width="784" 
+                                        height="541" 
+                                        style="border:0;" 
+                                        allowfullscreen="" 
+                                        loading="lazy" 
+                                        referrerpolicy="no-referrer-when-downgrade">
+                                </iframe>
+                                </div>
                                 <div class="text">
                                     <div class="title">
                                         <h2>Magacin veleprodaje, <br> mesto izdavanja robe</h2>
@@ -96,7 +105,17 @@
                             <!-- Map and text inner start -->
                             <div class="map-and-text__inner">
 
-                                <div class="map">MAP GOES HERE</div>
+                                <div class="map">
+                                <iframe 
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2832.3766006657897!2d20.408550075974333!3d44.77312707928254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a6e2d0cb0c9a7%3A0xf4fb078e73d462fb!2sRM%20Alkon%20Stahl!5e0!3m2!1sen!2srs!4v1687886223465!5m2!1sen!2srs" 
+                                    width="784" 
+                                    height="541" 
+                                    style="border:0;" 
+                                    allowfullscreen="" 
+                                    loading="lazy" 
+                                    referrerpolicy="no-referrer-when-downgrade">
+                                </iframe>
+                                </div>
                                 <div class="text">
                                     <div class="title">
                                         <h2>Magacin veleprodaje, <br> mesto izdavanja robe</h2>
