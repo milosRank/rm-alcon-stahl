@@ -45,7 +45,7 @@
                                 </div>
 
                                 <div class="cta-wrapper">
-                                    <a class="button button--secondary big-arrow-down">O nama</a>
+                                    <a href="#o-nama" class="button button--secondary big-arrow-down">O nama</a>
                                 </div>
 
                             </div> <!-- Hero inner end -->

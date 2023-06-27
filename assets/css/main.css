@@ -1764,6 +1764,22 @@ textarea:focus {
 .text-and-heading .decoration.prerada-voda-i-hemikalija {
   top: 0 !important;
 }
+.text-and-heading .decoration.dozirne-pumpe {
+  right: 100px;
+  top: -100px;
+}
+.text-and-heading .decoration.prehrambena-industrija-pumpe {
+  right: 150px;
+  top: -30px;
+}
+.text-and-heading .decoration.razne-industrije-pumpe {
+  top: -50px;
+  right: 150px;
+}
+.text-and-heading .decoration.zavojne-vertikalne-pumpe {
+  right: 350px;
+  top: -100px;
+}
 
 @media (max-width: 1400px) {
   .text-and-heading .container-extra-narrow img.decoration {
@@ -1773,10 +1789,26 @@ textarea:focus {
   .text-and-heading .decoration.zavojne-pumpe {
     width: 100%;
   }
+  .text-and-heading .decoration.zavojne-vertikalne-pumpe {
+    right: 0;
+    width: auto;
+  }
 }
 @media (max-width: 991px) {
   .text-and-heading .decoration.zavojne-pumpe {
     left: 0;
+  }
+  .text-and-heading .decoration.dozirne-pumpe {
+    top: 0;
+    right: 0;
+  }
+  .text-and-heading .decoration.prehrambena-industrija-pumpe {
+    top: 0;
+    right: 0;
+  }
+  .text-and-heading .decoration.razne-industrije-pumpe {
+    top: 0;
+    right: 0;
   }
 }
 @media (max-width: 767px) {
@@ -2230,8 +2262,13 @@ textarea:focus {
   display: grid;
   grid-template-columns: 784px auto;
 }
-.map-and-text .map-and-text__inner .map {
-  margin-right: 168px;
+.map-and-text .map-and-text__inner .map iframe {
+  max-width: 100%;
+}
+.map-and-text .map-and-text__inner .text {
+  display: flex;
+  flex-direction: column;
+  padding-left: 168px;
 }
 .map-and-text .map-and-text__inner .text .title {
   margin-bottom: 45px;
@@ -2253,9 +2290,14 @@ textarea:focus {
   margin-bottom: 20px;
 }
 .map-and-text .map-and-text__inner .text ul.pdf-list {
-  margin-top: 170px;
+  margin-top: auto;
 }
 
+@media (max-width: 1600px) {
+  .map-and-text .map-and-text__inner .text {
+    padding-left: 60px;
+  }
+}
 @media (max-width: 1400px) {
   .map-and-text .map-and-text__inner {
     grid-template-columns: repeat(2, 1fr);
@@ -2266,11 +2308,24 @@ textarea:focus {
     margin-top: 100px;
     margin-bottom: 100px;
   }
+  .map-and-text + .map-and-text {
+    margin-top: 150px;
+  }
   .map-and-text .map-and-text__inner {
     grid-template-columns: 1fr;
   }
-  .map-and-text .map-and-text__inner .map {
-    margin-right: 0;
+  .map-and-text .map-and-text__inner .text {
+    margin-bottom: 50px;
+    padding-left: 0;
+    order: -1;
+  }
+  .map-and-text .map-and-text__inner .text ul.pdf-list {
+    margin-top: 40px;
+  }
+}
+@media (max-width: 576px) {
+  .map-and-text .map-and-text__inner .map iframe {
+    height: 300px;
   }
 }
 /*

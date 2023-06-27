@@ -60,7 +60,16 @@
                             <!-- Map and text inner start -->
                             <div class="map-and-text__inner">
 
-                                <div class="map">MAP GOES HERE</div>
+                                <div class="map">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2823.6894459006708!2d20.192123686501574!3d44.94998079302042!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a59477782ef3f%3A0x397f94eda91cc97f!2sRm%20Alkon%20Stahl%20d.o.o.!5e0!3m2!1sen!2srs!4v1687886037963!5m2!1sen!2srs" 
+                                        width="784" 
+                                        height="541" 
+                                        style="border:0;" 
+                                        allowfullscreen="" 
+                                        loading="lazy" 
+                                        referrerpolicy="no-referrer-when-downgrade">
+                                </iframe>
+                                </div>
                                 <div class="text">
                                     <div class="title">
                                         <h2>Magacin veleprodaje, <br> mesto izdavanja robe</h2>
@@ -96,21 +105,37 @@
                             <!-- Map and text inner start -->
                             <div class="map-and-text__inner">
 
-                                <div class="map">MAP GOES HERE</div>
+                                <div class="map">
+                                <iframe 
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2832.3766006657897!2d20.408550075974333!3d44.77312707928254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a6e2d0cb0c9a7%3A0xf4fb078e73d462fb!2sRM%20Alkon%20Stahl!5e0!3m2!1sen!2srs!4v1687886223465!5m2!1sen!2srs" 
+                                    width="784" 
+                                    height="541" 
+                                    style="border:0;" 
+                                    allowfullscreen="" 
+                                    loading="lazy" 
+                                    referrerpolicy="no-referrer-when-downgrade">
+                                </iframe>
+                                </div>
                                 <div class="text">
                                     <div class="title">
-                                        <h2>Magacin veleprodaje, <br> mesto izdavanja robe</h2>
+                                        <h2>Prodaja i administracija</h2>
                                     </div>
                                     <div class="location">
                                         <p>
-                                            <strong>Šesta industrijska br.2, 22330 Nova Pazova</strong> <br>
+                                            <strong>Stevana Brakusa 4, 11030 Beograd</strong> <br>
                                             Radno vreme: ponedeljak - petak od 8:00h do 16:00 h
                                         </p>
                                     </div>
                                     <div class="contact-info">
-                                        <a class="underlined" href="mailto:goran@rmalkon.co.rs">goran@rmalkon.co.rs</a>
+                                        <a class="underlined" href="mailto:office@rmalkon.co.rs">office@rmalkon.co.rs</a>
                                         <div class="line-separator"></div>
-                                        <a class="text-color-black" href="tel:+38163301089">tel: +381 / (0)63 - 301 - 089</a>
+                                        <a class="text-color-black" href="tel:+381117540847">tel: +381-(0)11 / 7540-847</a>
+                                        <br>
+                                        <a class="text-color-black" href="tel:+381117549607">tel: +381-(0)11 / 7549-607</a>
+                                        <br>
+                                        <a class="text-color-black" href="tel:+381117554483">tel: +381-(0) 11 / 7554- 483</a>
+                                        <br>
+                                        <a class="text-color-black" href="tel:+381117555686">tel: +381-(0)11 / 7555-686</a>
                                     </div>
                                     <ul class="pdf-list">
                                         <li><a href="#" download>Kako doći do nas (PDF) </a></li>
