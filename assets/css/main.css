@@ -449,15 +449,15 @@ table tr:last-child td:last-child {
 }
 
 .text-center {
-  text-align: center;
+  text-align: center !important;
 }
 
 .text-left {
-  text-align: left;
+  text-align: left !important;
 }
 
 .text-right {
-  text-align: right;
+  text-align: right !important;
 }
 
 .relative {
@@ -474,6 +474,14 @@ table tr:last-child td:last-child {
 
 .rotate {
   transform: rotate(180deg);
+}
+
+.width-auto {
+  width: auto !important;
+}
+
+.height-auto {
+  height: auto !important;
 }
 
 .display-block {
@@ -1780,6 +1788,10 @@ textarea:focus {
   right: 350px;
   top: -100px;
 }
+.text-and-heading .decoration.macenatori {
+  right: 400px;
+  top: -50px;
+}
 
 @media (max-width: 1400px) {
   .text-and-heading .container-extra-narrow img.decoration {
@@ -1790,6 +1802,10 @@ textarea:focus {
     width: 100%;
   }
   .text-and-heading .decoration.zavojne-vertikalne-pumpe {
+    right: 0;
+    width: auto;
+  }
+  .text-and-heading .decoration.macenatori {
     right: 0;
     width: auto;
   }
@@ -1854,6 +1870,12 @@ textarea:focus {
         Description:             Equalizes data cells
         Hook element selector:   .table
         Class to add:            equal-cells
+
+    4. Multiple tables
+
+        Description:             Equalizes data cells
+        Hook element selector:   .table
+        Class to add:            multiple-tables
 */
 .table-and-image {
   margin-top: 150px;
@@ -1990,6 +2012,28 @@ textarea:focus {
 .table-and-image.table--parallel .image-container {
   margin-top: 0;
 }
+.table-and-image.multiple-tables .table {
+  display: flex;
+}
+.table-and-image.multiple-tables .table table th {
+  width: 80px;
+  text-align: center;
+  border-bottom: 1px solid #969696;
+  border-bottom-left-radius: 8px;
+}
+.table-and-image.multiple-tables .table table th + td {
+  width: 80px;
+  text-align: center;
+  border-radius: 0;
+  border-left: 1px solid #969696;
+}
+.table-and-image.multiple-tables .table table tr > td:first-child {
+  text-align: center;
+  border-radius: 0;
+}
+.table-and-image.multiple-tables .table table tr:last-child > :first-child {
+  border-bottom-left-radius: 0 !important;
+}
 .table-and-image .container-extra-narrow .table-container,
 .table-and-image .container-extra-narrow .table-container {
   width: 376px;
@@ -2009,6 +2053,24 @@ textarea:focus {
   }
   .table-and-image.table--parallel .table-container {
     margin-right: 32px;
+  }
+}
+@media (min-width: 992px) {
+  .table-and-image.multiple-tables .table {
+    display: flex;
+  }
+  .table-and-image.multiple-tables .table table:first-child td {
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+  }
+  .table-and-image.multiple-tables .table table:first-child th {
+    border-right: 0;
+  }
+  .table-and-image.multiple-tables .table table:last-child th {
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+    border-left: 0;
+    border-right: 0;
   }
 }
 @media (max-width: 991px) {
@@ -2049,10 +2111,35 @@ textarea:focus {
   .table-and-image.table--parallel .image-container {
     max-width: 30%;
   }
+  .table-and-image.multiple-tables .table-and-image__inner {
+    align-items: center;
+  }
+  .table-and-image.multiple-tables .table {
+    flex-direction: column;
+  }
+  .table-and-image.multiple-tables .table table + table {
+    margin-top: 50px;
+  }
+  .table-and-image.multiple-tables .table table th {
+    border-right: 0;
+  }
 }
 @media (max-width: 767px) {
   .table-and-image.margin-top-220 {
     margin-top: 0 !important;
+  }
+  .table-and-image.multiple-tables .table-and-image__inner {
+    flex-direction: column-reverse !important;
+    align-items: flex-start;
+  }
+  .table-and-image.multiple-tables .image-container {
+    margin-bottom: 30px;
+    max-width: 240px;
+  }
+  .table-and-image.multiple-tables .table-container {
+    margin-left: 0 !important;
+    margin-right: 0;
+    width: 100% !important;
   }
 }
 @media (max-width: 576px) {
@@ -2084,6 +2171,13 @@ textarea:focus {
   .table-and-image.table--parallel .table.equal-cells td {
     padding-left: 10px;
     padding-right: 10px;
+  }
+}
+@media (max-width: 400px) {
+  .table-and-image th,
+  .table-and-image td {
+    font-size: 1.5rem;
+    padding: 10px 15px;
   }
 }
 /*
@@ -2671,6 +2765,14 @@ textarea:focus {
 
 .margin-bottom-30 {
   margin-bottom: 30px !important;
+}
+
+.margin-right-30 {
+  margin-right: 30px !important;
+}
+
+.margin-left-30 {
+  margin-left: 30px !important;
 }
 
 .margin-top-40 {

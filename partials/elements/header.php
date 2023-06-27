@@ -109,8 +109,8 @@
                                                                 <li><a href="zavojne-pumpe-vertikalne.php">Vertikalne pumpe</a></li>
                                                             </ul>
                                                         </li>
-                                                        <li><a href="#">Peristaltičke pumpe</a></li>
-                                                        <li><a href="#">Macenatori</a></li>
+                                                        <li><a href="peristalticke-pumpe.php">Peristaltičke pumpe</a></li>
+                                                        <li><a href="macenatori.php">Macenatori</a></li>
                                                     </ul>
                                                 </li>
                                                 <li>
