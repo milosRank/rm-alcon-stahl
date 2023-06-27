@@ -437,7 +437,7 @@
 @media(max-width: 576px) {
 
     .table-and-image {
-    
+
         &.table--parallel {
 
             .table-and-image__inner {
@@ -480,6 +480,19 @@
                     padding-right: 10px;
                 }
             }
+        }
+    }
+}
+
+
+@media(max-width: 400px) {
+
+    .table-and-image {
+
+        th,
+        td {
+            font-size: $extra-small;
+            padding: 10px 15px;
         }
     }
 }

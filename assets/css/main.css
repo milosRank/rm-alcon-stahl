@@ -449,15 +449,15 @@ table tr:last-child td:last-child {
 }
 
 .text-center {
-  text-align: center;
+  text-align: center !important;
 }
 
 .text-left {
-  text-align: left;
+  text-align: left !important;
 }
 
 .text-right {
-  text-align: right;
+  text-align: right !important;
 }
 
 .relative {
@@ -474,6 +474,14 @@ table tr:last-child td:last-child {
 
 .rotate {
   transform: rotate(180deg);
+}
+
+.width-auto {
+  width: auto !important;
+}
+
+.height-auto {
+  height: auto !important;
 }
 
 .display-block {
@@ -1780,6 +1788,10 @@ textarea:focus {
   right: 350px;
   top: -100px;
 }
+.text-and-heading .decoration.macenatori {
+  right: 400px;
+  top: -50px;
+}
 
 @media (max-width: 1400px) {
   .text-and-heading .container-extra-narrow img.decoration {
@@ -1790,6 +1802,10 @@ textarea:focus {
     width: 100%;
   }
   .text-and-heading .decoration.zavojne-vertikalne-pumpe {
+    right: 0;
+    width: auto;
+  }
+  .text-and-heading .decoration.macenatori {
     right: 0;
     width: auto;
   }
@@ -2155,6 +2171,13 @@ textarea:focus {
   .table-and-image.table--parallel .table.equal-cells td {
     padding-left: 10px;
     padding-right: 10px;
+  }
+}
+@media (max-width: 400px) {
+  .table-and-image th,
+  .table-and-image td {
+    font-size: 1.5rem;
+    padding: 10px 15px;
   }
 }
 /*
@@ -2742,6 +2765,14 @@ textarea:focus {
 
 .margin-bottom-30 {
   margin-bottom: 30px !important;
+}
+
+.margin-right-30 {
+  margin-right: 30px !important;
+}
+
+.margin-left-30 {
+  margin-left: 30px !important;
 }
 
 .margin-top-40 {
