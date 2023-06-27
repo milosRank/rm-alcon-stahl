@@ -1854,6 +1854,12 @@ textarea:focus {
         Description:             Equalizes data cells
         Hook element selector:   .table
         Class to add:            equal-cells
+
+    4. Multiple tables
+
+        Description:             Equalizes data cells
+        Hook element selector:   .table
+        Class to add:            multiple-tables
 */
 .table-and-image {
   margin-top: 150px;
@@ -1990,6 +1996,28 @@ textarea:focus {
 .table-and-image.table--parallel .image-container {
   margin-top: 0;
 }
+.table-and-image.multiple-tables .table {
+  display: flex;
+}
+.table-and-image.multiple-tables .table table th {
+  width: 80px;
+  text-align: center;
+  border-bottom: 1px solid #969696;
+  border-bottom-left-radius: 8px;
+}
+.table-and-image.multiple-tables .table table th + td {
+  width: 80px;
+  text-align: center;
+  border-radius: 0;
+  border-left: 1px solid #969696;
+}
+.table-and-image.multiple-tables .table table tr > td:first-child {
+  text-align: center;
+  border-radius: 0;
+}
+.table-and-image.multiple-tables .table table tr:last-child > :first-child {
+  border-bottom-left-radius: 0 !important;
+}
 .table-and-image .container-extra-narrow .table-container,
 .table-and-image .container-extra-narrow .table-container {
   width: 376px;
@@ -2009,6 +2037,24 @@ textarea:focus {
   }
   .table-and-image.table--parallel .table-container {
     margin-right: 32px;
+  }
+}
+@media (min-width: 992px) {
+  .table-and-image.multiple-tables .table {
+    display: flex;
+  }
+  .table-and-image.multiple-tables .table table:first-child td {
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+  }
+  .table-and-image.multiple-tables .table table:first-child th {
+    border-right: 0;
+  }
+  .table-and-image.multiple-tables .table table:last-child th {
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+    border-left: 0;
+    border-right: 0;
   }
 }
 @media (max-width: 991px) {
@@ -2049,10 +2095,35 @@ textarea:focus {
   .table-and-image.table--parallel .image-container {
     max-width: 30%;
   }
+  .table-and-image.multiple-tables .table-and-image__inner {
+    align-items: center;
+  }
+  .table-and-image.multiple-tables .table {
+    flex-direction: column;
+  }
+  .table-and-image.multiple-tables .table table + table {
+    margin-top: 50px;
+  }
+  .table-and-image.multiple-tables .table table th {
+    border-right: 0;
+  }
 }
 @media (max-width: 767px) {
   .table-and-image.margin-top-220 {
     margin-top: 0 !important;
+  }
+  .table-and-image.multiple-tables .table-and-image__inner {
+    flex-direction: column-reverse !important;
+    align-items: flex-start;
+  }
+  .table-and-image.multiple-tables .image-container {
+    margin-bottom: 30px;
+    max-width: 240px;
+  }
+  .table-and-image.multiple-tables .table-container {
+    margin-left: 0 !important;
+    margin-right: 0;
+    width: 100% !important;
   }
 }
 @media (max-width: 576px) {

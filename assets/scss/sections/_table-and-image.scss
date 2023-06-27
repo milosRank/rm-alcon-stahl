@@ -23,6 +23,12 @@
         Description:             Equalizes data cells
         Hook element selector:   .table
         Class to add:            equal-cells
+
+    4. Multiple tables
+
+        Description:             Equalizes data cells
+        Hook element selector:   .table
+        Class to add:            multiple-tables
 */
 
 .table-and-image {
@@ -125,6 +131,7 @@
                 width: calc(100% - 272px);
             }
         }
+
     }
 
     // ==== Modificator 2. ====
@@ -199,6 +206,39 @@
         }
     }
 
+    // ==== Modificator 4. ====
+    &.multiple-tables {
+
+        .table {
+            display: flex;
+
+            table {
+
+                th {
+                    width: 80px;
+                    text-align: center;
+                    border-bottom: 1px solid #969696;
+                    border-bottom-left-radius: 8px;
+                }
+
+                th + td {
+                    width: 80px;
+                    text-align: center;
+                    border-radius: 0;
+                    border-left: 1px solid #969696;
+                }
+
+                tr > td:first-child {
+                    text-align: center;
+                    border-radius: 0;
+                }
+            }
+            table tr:last-child > :first-child {
+                border-bottom-left-radius: 0 !important;
+            }
+        }
+    }
+
     .container-extra-narrow,
     .container-extra-narrow {
 
@@ -241,6 +281,42 @@
 
             .table-container {
                 margin-right: 32px;
+            }
+        }
+    }
+}
+
+@media(min-width: 992px) {
+
+    .table-and-image {
+        
+        // ==== Modificator 4. ====
+        &.multiple-tables {
+
+            .table {
+                display: flex;
+
+                table:first-child {
+                    
+                    td {
+                        border-top-right-radius: 0 !important;
+                        border-bottom-right-radius: 0 !important;
+                    }
+
+                    th {
+                        border-right: 0;
+                    }
+                }
+
+                table:last-child {
+                    
+                    th {
+                        border-top-left-radius: 0 !important;
+                        border-bottom-left-radius: 0 !important;
+                        border-left: 0;
+                        border-right: 0;
+                    }
+                }
             }
         }
     }
@@ -304,6 +380,28 @@
                 max-width: 30%;
             }
         }
+
+        &.multiple-tables {
+
+            .table-and-image__inner {
+                align-items: center;
+            }
+
+            .table {
+                flex-direction: column;
+            }
+
+            .table {
+
+                table + table {
+                    margin-top: 50px;
+                }
+
+                table th {
+                    border-right: 0;
+                }
+            }
+        }
     }
 }
 
@@ -313,6 +411,25 @@
 
         &.margin-top-220 {
             margin-top: 0 !important;
+        }
+
+        &.multiple-tables {
+
+            .table-and-image__inner {
+                flex-direction: column-reverse !important;
+                align-items: flex-start;
+            }
+
+            .image-container {
+                margin-bottom: 30px;
+                max-width: 240px;
+            }
+
+            .table-container {
+                margin-left: 0 !important;
+                margin-right: 0;
+                width: 100% !important;
+            }
         }
     }
 }
