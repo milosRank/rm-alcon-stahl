@@ -103,10 +103,10 @@
                                                             <a href="zavojne-pumpe.php">Zavojne pumpe</a>
                                                             <ul>
                                                                 <li><a href="pumpe-za-preradu-otpadnih-voda-i-otpadnih-hemikalija.php">Pumpe za preradu otpadnih voda i otpadnih hemikalija</a></li>
-                                                                <li><a href="#">Dozirne pumpe</a></li>
-                                                                <li><a href="#">Pumpe za prehrambenu industriju</a></li>
-                                                                <li><a href="#">Pumpe za razne industrije</a></li>
-                                                                <li><a href="#">Vertikalne pumpe</a></li>
+                                                                <li><a href="dozirne-pumpe.php">Dozirne pumpe</a></li>
+                                                                <li><a href="zavojne-pumpe-za-prehrambenu-industriju.php">Pumpe za prehrambenu industriju</a></li>
+                                                                <li><a href="zavojne-pumpe-za-razne-industrije.php">Pumpe za razne industrije</a></li>
+                                                                <li><a href="zavojne-pumpe-vertikalne.php">Vertikalne pumpe</a></li>
                                                             </ul>
                                                         </li>
                                                         <li><a href="#">Peristaltičke pumpe</a></li>

@@ -90,6 +90,26 @@
     .decoration.prerada-voda-i-hemikalija {
         top: 0 !important;
     }
+
+    .decoration.dozirne-pumpe {
+        right: 100px;
+        top: -100px;
+    }
+
+    .decoration.prehrambena-industrija-pumpe {
+        right: 150px;
+        top: -30px;
+    }
+
+    .decoration.razne-industrije-pumpe {
+        top: -50px;
+        right: 150px;
+    }
+
+    .decoration.zavojne-vertikalne-pumpe {
+        right: 350px;
+        top: -100px;
+    }
 }
 
 
@@ -112,6 +132,11 @@
         .decoration.zavojne-pumpe {
             width: 100%;
         }
+
+        .decoration.zavojne-vertikalne-pumpe {
+            right: 0;
+            width: auto;
+        }
     }
 }
 
@@ -121,6 +146,21 @@
 
         .decoration.zavojne-pumpe {
             left: 0;
+        }
+
+        .decoration.dozirne-pumpe {
+            top: 0;
+            right: 0;
+        }
+
+        .decoration.prehrambena-industrija-pumpe {
+            top: 0;
+            right: 0;
+        }
+
+        .decoration.razne-industrije-pumpe {
+            top: 0;
+            right: 0;
         }
     }
 } 
