@@ -66,7 +66,7 @@
                                 <div class="text">
                                     <div class="text__inner">
                                         <div class="part-content">
-                                            <p><strong>RM Alkon Stahl</strong> je zastupnik firme <a href="#">YSTRAL GmbH</a> iz Nemačke. </p>
+                                            <p><strong>RM Alkon Stahl</strong> je zastupnik firme <a href="https://ystral.com/" target="_blank">YSTRAL GmbH</a> iz Nemačke. </p>
                                             <p>Ystral je već dugo vremena dobro poznato ime u procesnoj tehnologiji. </p>
                                             <p>Ystral je proizvođač miksera, dispergatora, homogenizatora kao i kombinovanih mešača - dispergatora.</p>
                                             <p>

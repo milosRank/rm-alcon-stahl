@@ -279,7 +279,7 @@
                                                 <tr>
                                                     <td data-label="Debljina">do 35 mm</td>
                                                     <td data-label="Format">2000 x 6000 mm</td>
-                                                    <td data-label="Tolerancija"><a href="#">DIN EN ISO 9013</a></td>
+                                                    <td data-label="Tolerancija"><a href="http://www.rmalkon.co.rs/downloads/Devijacija%20konture.pdf" target="_blanc">DIN EN ISO 9013</a></td>
                                                 </tr>
                                             </tbody>
                                         </table>

@@ -92,11 +92,11 @@
                             <h2>Upitnik</h2>
                             <p class="margin-bottom-50">
                                 Ukoliko ste zainteresovani za neku od pumpi ovde predstavljenih firmi, ili imate specifikacije na kojima želite 
-                                da baziramo ponudu, možete preuzeti upitnik u MS Word formatu i poslati nam ga <span class="text-color-blue">elektronskom poštom</span>
-                                ili faksom na:  +381-(0)11 / 3055-488.
+                                da baziramo ponudu, možete preuzeti upitnik u MS Word formatu i poslati nam ga <a href="mailto:office@rmalkon.co.rs?subject=RM%20Alcon%20Stahl%20Upit">elektronskom poštom</a>
+                                ili faksom na: <a href="tel:+381113055488">+381-(0)11 / 3055-488</a>.
                             </p>
                             <ul class="pdf-list">
-                                <li><a href="#">Upitnik za naručivanje pumpi</a></li>
+                                <li><a href="http://www.rmalkon.co.rs/downloads/UPITNIK1.doc" target="_blank" download>Upitnik za naručivanje pumpi</a></li>
                             </ul>
                         </div>
                     </div>
@@ -221,7 +221,7 @@
                                                 </p>
                                             </div>
                                             <div class="cta-wrapper">
-                                                <a class="button button-diagonal-arrow-down" href="#">Detaljnije</a>
+                                                <a class="button button-diagonal-arrow-down" href="peristalticke-pumpe.php">Detaljnije</a>
                                             </div>
                                         </div>
                                     </div> <!-- Element end -->
@@ -241,7 +241,7 @@
                                                 </p>
                                             </div>
                                             <div class="cta-wrapper">
-                                                <a class="button button-diagonal-arrow-down" href="#">Detaljnije</a>
+                                                <a class="button button-diagonal-arrow-down" href="macenatori.php">Detaljnije</a>
                                             </div>
                                         </div>
                                     </div> <!-- Element end -->

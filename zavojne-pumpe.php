@@ -88,7 +88,7 @@
                                                     <p>Pumpe za preradu otpadnih voda i otpadnih hemikalija</p>
                                                 </div>
                                                 <div class="cta-wrapper">
-                                                    <a class="button button-diagonal-arrow-down" href="#">Detaljnije</a>
+                                                    <a class="button button-diagonal-arrow-down" href="pumpe-za-preradu-otpadnih-voda-i-otpadnih-hemikalija.php">Detaljnije</a>
                                                 </div>
                                             </div>
                                         </div> <!-- Element end -->
@@ -103,7 +103,7 @@
                                                     <p>Dozirne pumpe</p>
                                                 </div>
                                                 <div class="cta-wrapper">
-                                                    <a class="button button-diagonal-arrow-down" href="#">Detaljnije</a>
+                                                    <a class="button button-diagonal-arrow-down" href="dozirne-pumpe.php">Detaljnije</a>
                                                 </div>
                                             </div>
                                         </div> <!-- Element end -->
@@ -118,7 +118,7 @@
                                                     <p>Pumpe za <br> prehrambenu industriju</p>
                                                 </div>
                                                 <div class="cta-wrapper">
-                                                    <a class="button button-diagonal-arrow-down" href="#">Detaljnije</a>
+                                                    <a class="button button-diagonal-arrow-down" href="zavojne-pumpe-za-prehrambenu-industriju.php">Detaljnije</a>
                                                 </div>
                                             </div>
                                         </div> <!-- Element end -->
@@ -133,7 +133,7 @@
                                                     <p>Pumpe za <br> razne industrije</p>
                                                 </div>
                                                 <div class="cta-wrapper">
-                                                    <a class="button button-diagonal-arrow-down" href="#">Detaljnije</a>
+                                                    <a class="button button-diagonal-arrow-down" href="zavojne-pumpe-za-razne-industrije.php">Detaljnije</a>
                                                 </div>
                                             </div>
                                         </div> <!-- Element end -->
@@ -148,7 +148,7 @@
                                                     <p>Vertikalne pumpe</p>
                                                 </div>
                                                 <div class="cta-wrapper">
-                                                    <a class="button button-diagonal-arrow-down" href="#">Detaljnije</a>
+                                                    <a class="button button-diagonal-arrow-down" href="zavojne-pumpe-vertikalne.php">Detaljnije</a>
                                                 </div>
                                             </div>
                                         </div> <!-- Element end -->

@@ -69,7 +69,8 @@
                                         style="border:0;" 
                                         allowfullscreen="" 
                                         loading="lazy" 
-                                        referrerpolicy="no-referrer-when-downgrade">
+                                        referrerpolicy="no-referrer-when-downgrade"
+                                        title="Google map Nova Pazova">
                                 </iframe>
                                 </div>
                                 <div class="text">
@@ -88,7 +89,7 @@
                                         <a class="text-color-black" href="tel:+38163301089">tel: +381 / (0)63 - 301 - 089</a>
                                     </div>
                                     <ul class="pdf-list">
-                                        <li><a href="#" download>Kako doći do nas (PDF) </a></li>
+                                        <li><a href="#" download>Kako doći do nas (PDF)</a></li>
                                     </ul>
                                 </div>
                             </div> <!-- Map and text inner end -->
@@ -115,7 +116,8 @@
                                     style="border:0;" 
                                     allowfullscreen="" 
                                     loading="lazy" 
-                                    referrerpolicy="no-referrer-when-downgrade">
+                                    referrerpolicy="no-referrer-when-downgrade"
+                                    title="Google map Banovo brdo">
                                 </iframe>
                                 </div>
                                 <div class="text">

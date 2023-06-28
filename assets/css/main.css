@@ -810,7 +810,7 @@ header .links-holder .links-holder__inner a {
 }
 
 header.floating-header {
-  transform: 0.2s ease-out;
+  transition: transform 0.2s ease-out;
 }
 
 header .links-holder .header__links-list > .dropdown-parent > ul {

@@ -77,14 +77,14 @@
                                                 trgovina na veliko materijalima i poluproizvodima od nerđajućeg čelika (Inox / Prohrom), kao i zastupanje sledećih firmi:
                                             </p>
                                             <p>
-                                                ALLWEILER, renomiranog proizvođača vijčanih i centrifugalnih pumpi koji je članica Circor korporacije.
+                                                <a href="http://www.allweiler.com/" target="_blanc">ALLWEILER</a>, renomiranog proizvođača vijčanih i centrifugalnih pumpi koji je članica <a href="https://www.circor.com/" target="_blanc">Circor korporacije</a>.
                                             </p>
                                             <p>
-                                                LEWA, renomiranog proizvođača dozirnih pumpi, u čijem programu isporuke se nalaze proizvodi još nekoliko 
+                                                <a href="https://www.lewa.at/de/" target="_blanc">LEWA</a>, renomiranog proizvođača dozirnih pumpi, u čijem programu isporuke se nalaze proizvodi još nekoliko 
                                                 vodećih proizvođača pumpi za hemijsku i prehrambenu industriju.
                                             </p>
                                             <p>
-                                                YSTRAL, renomiranog proizvođača miksera, dispergatora, i homogenizatora.
+                                                <a href="https://ystral.com/" target="_blanc">YSTRAL</a>, renomiranog proizvođača miksera, dispergatora, i homogenizatora.
                                             </p>
                                             <p>
                                                 Stalnim ulaganjem u proširenje asortimana, stručnim i odgovornim radom zaposlenih i pravovremnim isporukama robe 
