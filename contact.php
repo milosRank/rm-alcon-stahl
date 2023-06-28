@@ -171,9 +171,6 @@
                                         <div class="input-wrapper">
                                             <input name="user-name" type="text" placeholder="Ime/firma">
                                         </div>
-                                        <div class="input-wrapper">
-                                            <input name="user-email" type="email" placeholder="Email">
-                                        </div>
                                         <textarea name="message" cols="30" rows="14" placeholder="Poruka"></textarea>
 
                                         <a href="#" class="button button--primary send-mail-trigger" type="submit">Pošalji</a>
