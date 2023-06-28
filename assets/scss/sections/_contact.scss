@@ -65,16 +65,11 @@
         }
 
         .input-wrapper {
-            width: calc(50% - 18px);
-            display: inline-block;
+            display: block;
             margin-bottom: 32px;
 
             input {
                 width: 100%;
-            }
-
-            &:nth-child(odd) {
-                margin-right: 32px;
             }
         }
 

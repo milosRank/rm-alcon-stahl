@@ -5,6 +5,8 @@
 
     <!-- Meta -->
     <?php include 'partials/resources/meta.php';?>
+    <meta name="description" content="RM Alkon Stahl, uvoz i trgovina na veliko materijalima i poluproizvodima od nerđajućeg čelika,  Beograd, Srbija" />
+    <meta name="keywords" content="RM Alkon Stahl, O nama, Profil firme, Srbija, Beograd, Pumpe, Nerdjajuci celik, Inox, Inox ograda" />
     
     <!-- CSS -->
     <?php include 'partials/resources/styles.php';?>
@@ -86,7 +88,7 @@
                                                     <p>Pumpe za preradu otpadnih voda i otpadnih hemikalija</p>
                                                 </div>
                                                 <div class="cta-wrapper">
-                                                    <a class="button button-diagonal-arrow-down" href="#">Detaljnije</a>
+                                                    <a class="button button-diagonal-arrow-down" href="pumpe-za-preradu-otpadnih-voda-i-otpadnih-hemikalija.php">Detaljnije</a>
                                                 </div>
                                             </div>
                                         </div> <!-- Element end -->
@@ -101,7 +103,7 @@
                                                     <p>Dozirne pumpe</p>
                                                 </div>
                                                 <div class="cta-wrapper">
-                                                    <a class="button button-diagonal-arrow-down" href="#">Detaljnije</a>
+                                                    <a class="button button-diagonal-arrow-down" href="dozirne-pumpe.php">Detaljnije</a>
                                                 </div>
                                             </div>
                                         </div> <!-- Element end -->
@@ -116,7 +118,7 @@
                                                     <p>Pumpe za <br> prehrambenu industriju</p>
                                                 </div>
                                                 <div class="cta-wrapper">
-                                                    <a class="button button-diagonal-arrow-down" href="#">Detaljnije</a>
+                                                    <a class="button button-diagonal-arrow-down" href="zavojne-pumpe-za-prehrambenu-industriju.php">Detaljnije</a>
                                                 </div>
                                             </div>
                                         </div> <!-- Element end -->
@@ -131,7 +133,7 @@
                                                     <p>Pumpe za <br> razne industrije</p>
                                                 </div>
                                                 <div class="cta-wrapper">
-                                                    <a class="button button-diagonal-arrow-down" href="#">Detaljnije</a>
+                                                    <a class="button button-diagonal-arrow-down" href="zavojne-pumpe-za-razne-industrije.php">Detaljnije</a>
                                                 </div>
                                             </div>
                                         </div> <!-- Element end -->
@@ -146,7 +148,7 @@
                                                     <p>Vertikalne pumpe</p>
                                                 </div>
                                                 <div class="cta-wrapper">
-                                                    <a class="button button-diagonal-arrow-down" href="#">Detaljnije</a>
+                                                    <a class="button button-diagonal-arrow-down" href="zavojne-pumpe-vertikalne.php">Detaljnije</a>
                                                 </div>
                                             </div>
                                         </div> <!-- Element end -->

@@ -5,6 +5,8 @@
 
     <!-- Meta -->
     <?php include 'partials/resources/meta.php';?>
+    <meta name="description" content="RM Alkon Stahl, uvoz i trgovina na veliko materijalima i poluproizvodima od nerđajućeg čelika,  Beograd, Srbija" />
+    <meta name="keywords" content="RM Alkon Stahl, O nama, Profil firme, Srbija, Beograd, Pumpe, Nerdjajuci celik, Inox, Inox ograda" />
     
     <!-- CSS -->
     <?php include 'partials/resources/styles.php';?>
@@ -67,7 +69,8 @@
                                         style="border:0;" 
                                         allowfullscreen="" 
                                         loading="lazy" 
-                                        referrerpolicy="no-referrer-when-downgrade">
+                                        referrerpolicy="no-referrer-when-downgrade"
+                                        title="Google map Nova Pazova">
                                 </iframe>
                                 </div>
                                 <div class="text">
@@ -86,7 +89,7 @@
                                         <a class="text-color-black" href="tel:+38163301089">tel: +381 / (0)63 - 301 - 089</a>
                                     </div>
                                     <ul class="pdf-list">
-                                        <li><a href="#" download>Kako doći do nas (PDF) </a></li>
+                                        <li><a href="#" download>Kako doći do nas (PDF)</a></li>
                                     </ul>
                                 </div>
                             </div> <!-- Map and text inner end -->
@@ -113,7 +116,8 @@
                                     style="border:0;" 
                                     allowfullscreen="" 
                                     loading="lazy" 
-                                    referrerpolicy="no-referrer-when-downgrade">
+                                    referrerpolicy="no-referrer-when-downgrade"
+                                    title="Google map Banovo brdo">
                                 </iframe>
                                 </div>
                                 <div class="text">
@@ -170,9 +174,6 @@
 
                                         <div class="input-wrapper">
                                             <input name="user-name" type="text" placeholder="Ime/firma">
-                                        </div>
-                                        <div class="input-wrapper">
-                                            <input name="user-email" type="email" placeholder="Email">
                                         </div>
                                         <textarea name="message" cols="30" rows="14" placeholder="Poruka"></textarea>
 
