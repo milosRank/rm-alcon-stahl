@@ -5,6 +5,8 @@
 
     <!-- Meta -->
     <?php include 'partials/resources/meta.php';?>
+    <meta name="description" content="RM Alkon Stahl, uvoz i trgovina na veliko materijalima i poluproizvodima od nerđajućeg čelika,  Beograd, Srbija" />
+    <meta name="keywords" content="RM Alkon Stahl, O nama, Profil firme, Srbija, Beograd, Pumpe, Nerdjajuci celik, Inox, Inox ograda" />
     
     <!-- CSS -->
     <?php include 'partials/resources/styles.php';?>
