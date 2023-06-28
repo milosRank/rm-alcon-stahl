@@ -225,7 +225,7 @@ header {
 
 // ==== Modificator 2. ====
 header.floating-header {
-    transform: 0.2s ease-out;
+    transition: transform 0.2s ease-out;
 }
 
 // Dropdown start

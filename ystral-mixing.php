@@ -5,6 +5,8 @@
 
     <!-- Meta -->
     <?php include 'partials/resources/meta.php';?>
+    <meta name="description" content="RM Alkon Stahl, uvoz i trgovina na veliko materijalima i poluproizvodima od nerđajućeg čelika,  Beograd, Srbija" />
+    <meta name="keywords" content="RM Alkon Stahl, O nama, Profil firme, Srbija, Beograd, Pumpe, Nerdjajuci celik, Inox, Inox ograda" />
     
     <!-- CSS -->
     <?php include 'partials/resources/styles.php';?>
@@ -64,7 +66,7 @@
                                 <div class="text">
                                     <div class="text__inner">
                                         <div class="part-content">
-                                            <p><strong>RM Alkon Stahl</strong> je zastupnik firme <a href="#">YSTRAL GmbH</a> iz Nemačke. </p>
+                                            <p><strong>RM Alkon Stahl</strong> je zastupnik firme <a href="https://ystral.com/" target="_blank">YSTRAL GmbH</a> iz Nemačke. </p>
                                             <p>Ystral je već dugo vremena dobro poznato ime u procesnoj tehnologiji. </p>
                                             <p>Ystral je proizvođač miksera, dispergatora, homogenizatora kao i kombinovanih mešača - dispergatora.</p>
                                             <p>

@@ -810,7 +810,7 @@ header .links-holder .links-holder__inner a {
 }
 
 header.floating-header {
-  transform: 0.2s ease-out;
+  transition: transform 0.2s ease-out;
 }
 
 header .links-holder .header__links-list > .dropdown-parent > ul {
@@ -1063,6 +1063,7 @@ footer .footer__content-holder .box .box__title h6 {
   font-weight: 500;
   color: #A7BFC7;
   margin-bottom: 0;
+  font-size: 1.6rem;
 }
 footer .footer__content-holder .box .box__content-subtitle {
   margin-bottom: 20px;
@@ -2290,15 +2291,11 @@ textarea:focus {
   font-weight: 300;
 }
 .contact .form__inner .input-wrapper {
-  width: calc(50% - 18px);
-  display: inline-block;
+  display: block;
   margin-bottom: 32px;
 }
 .contact .form__inner .input-wrapper input {
   width: 100%;
-}
-.contact .form__inner .input-wrapper:nth-child(odd) {
-  margin-right: 32px;
 }
 .contact .form__inner textarea {
   width: 100%;
