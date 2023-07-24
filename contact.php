@@ -89,7 +89,7 @@
                                         <a class="text-color-black" href="tel:+38163301089">tel: +381 / (0)63 - 301 - 089</a>
                                     </div>
                                     <ul class="pdf-list">
-                                        <li><a href="#" download>Kako doći do nas (PDF)</a></li>
+                                        <li><a href="http://www.rmalkon.co.rs/downloads/kako-do-nas-pazova.pdf" download>Kako doći do nas (PDF)</a></li>
                                     </ul>
                                 </div>
                             </div> <!-- Map and text inner end -->
@@ -142,7 +142,7 @@
                                         <a class="text-color-black" href="tel:+381117555686">tel: +381-(0)11 / 7555-686</a>
                                     </div>
                                     <ul class="pdf-list">
-                                        <li><a href="#" download>Kako doći do nas (PDF) </a></li>
+                                        <li><a href="http://www.rmalkon.co.rs/downloads/kako-do-nas-banovo-brdo.pdf" download>Kako doći do nas (PDF) </a></li>
                                     </ul>
                                 </div>
                             </div> <!-- Map and text inner end -->
