@@ -84,7 +84,7 @@
             padding-left: 48px;
             backdrop-filter: blur(20px);
             position: relative;
-            transition-property: background-color;
+            transform: 0.2s ease;
 
             &::before {
                 @include pseudo("",14px,13px,absolute);
@@ -97,12 +97,14 @@
             }
 
             &:hover {
-                color: $sixth-color;
+                transform: scale(1.1);
+                transform: 0.2s ease;
+                background-color: transparent;
             }
 
-            &:hover::before {
-                background-image: url("../img/icons/button/icon--arrow-right-blue.svg");
-            }
+            // &:hover::before {
+            //     background-image: url("../img/icons/button/icon--arrow-right-blue.svg");
+            // }
         }
     }
 }

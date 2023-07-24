@@ -35,21 +35,6 @@ function floatingHeader() {
     // Top distance of the scroll
     var offsetTop = document.documentElement.scrollTop;
 
-    // If scroll direction is "downscroll" and if dropdown is not active
-    // if(scrollDirection == "downscroll" && !isDropdownActive() && offsetTop >= 122)
-    // {
-    //     // Hide header
-    //     HEADER.classList.add("hide");
-
-    //     // Exit
-    //     return;
-    // }
-    // else
-    // {
-    //     // Show header
-    //     HEADER.classList.remove("hide");
-    // }
-
     // If header is 114px or more distance from the top
     if(offsetTop >= 122)
     {
@@ -98,7 +83,7 @@ var toggleActiveMenuButton = (...buttons) => buttons.map((btn) => btn.classList.
 
 OPEN_MOB_MENU_BTN.addEventListener("click", function() {
     openMenu(); // Open menu
-    toggleActiveMenuButton(OPEN_MOB_MENU_BTN,CLOSE_MOB_MENU_BTN); // Toggle active button
+    toggleActiveMenuButton(OPEN_MOB_MENU_BTN, CLOSE_MOB_MENU_BTN); // Toggle active button
 
     // If screen width is 576px or less lock screen when mobile menu is active (menu is 100% width of the screen)
     if(window.innerWidth <= 576) lockScreen();

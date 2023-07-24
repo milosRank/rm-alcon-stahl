@@ -104,10 +104,10 @@
                                                 <h2>Osnovni podaci</h2>
                                             </div>
                                             <ul class="pdf-list">
-                                                <li><a href="#" download>Osnovni podaci o preduzeću <span class="text-color-blue">(PDF)</span></a></li>
-                                                <li><a href="#" download>Potvrda o PDV evidenciji <span class="text-color-blue">(PDF)</span></a></li>
-                                                <li><a href="#" download>Politika kvaliteta <span class="text-color-blue">(PDF)</span></a></li>
-                                                <li><a href="#" download>Potvrda o registraciji PIB <span class="text-color-blue">(PDF)</span></a></li>
+                                                <li><a href="http://www.rmalkon.co.rs/downloads/osnovni-podaci-o-preduzecu.pdf" download>Osnovni podaci o preduzeću <span class="text-color-blue">(PDF)</span></a></li>
+                                                <li><a href="http://www.rmalkon.co.rs/downloads/potvrda-o-pdv-evidenciji.pdf" download>Potvrda o PDV evidenciji <span class="text-color-blue">(PDF)</span></a></li>
+                                                <li><a href="http://www.rmalkon.co.rs/downloads/politika-kvaliteta.pdf" download>Politika kvaliteta <span class="text-color-blue">(PDF)</span></a></li>
+                                                <li><a href="http://www.rmalkon.co.rs/downloads/potvrda-o-registraciji-pib.pdf" download>Potvrda o registraciji PIB <span class="text-color-blue">(PDF)</span></a></li>
                                             </ul>
                                         </div>
                                     </div>

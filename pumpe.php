@@ -34,7 +34,7 @@
         <main>
 
             <!-- Page header start -->
-            <section class="page-header page-header-bg--pumpe">
+            <section class="page-header page-header-bg--pumpe margin-bottom-150">
                 <div class="container-fluid">
                     <div class="wrapper">
                         <div class="container">
@@ -54,7 +54,7 @@
             </section> <!-- Page header end -->
 
             <!-- Section normal start -->
-            <section class="normal margin-bottom-300">
+            <section class="normal margin-bottom-150 margin-top-0">
                 <div class="container-fluid">
                     <div class="wrapper">
                         <div class="container">

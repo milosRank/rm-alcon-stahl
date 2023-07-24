@@ -126,12 +126,12 @@
                                             </div>
                                             <ul class="pdf-list">
                                                 <li><a href="http://rmalkon.co.rs/downloads/Q-railing_katalog.pdf" target="_blanc" download>Q-railing katalog 2021/2022 <span class="text-color-blue">(PDF)</span></a></li>
-                                                <li><a href="#" target="_blanc" download>Q-Glass - Bezbednosno staklo se može prepoznati po pečatu <span class="text-color-blue">(PDF)</span></a></li>
-                                                <li><a href="#" target="_blanc" download>Easy Glass System brošura - 2011 <span class="text-color-blue">(PDF)</span></a></li>
-                                                <li><a href="#" target="_blanc" download>Easy Glass System - Brzo se sastavlja i instalira, štedeći Vaše vreme i novac <span class="text-color-blue">(PDF)</span></a></li>
-                                                <li><a href="#" target="_blanc" download>Square Line - Revolucionaran kvalitetni koncept kvadratnih profila <span class="text-color-blue">(PDF)</span></a></li>
-                                                <li><a href="#" target="_blanc" download>Q-Smart - Pametan način instalacije sistema ograda <span class="text-color-blue">(PDF)</span></a></li>
-                                                <li><a href="#" target="_blanc" download>Q-Railing ekskluzivni sistem staklenih ograda <span class="text-color-blue">(PDF)</span></a></li>
+                                                <li><a href="http://rmalkon.co.rs/downloads/q-railing-q-glass.pdf" target="_blanc" download>Q-Glass - Bezbednosno staklo se može prepoznati po pečatu <span class="text-color-blue">(PDF)</span></a></li>
+                                                <li><a href="http://rmalkon.co.rs/downloads/Easy_Glas_RM_Alkon.pdf" target="_blanc" download>Easy Glass System brošura - 2011 <span class="text-color-blue">(PDF)</span></a></li>
+                                                <li><a href="http://rmalkon.co.rs/downloads/Q-railing-Easy Glass-2008-de-uk_lr.pdf" target="_blanc" download>Easy Glass System - Brzo se sastavlja i instalira, štedeći Vaše vreme i novac <span class="text-color-blue">(PDF)</span></a></li>
+                                                <li><a href="http://rmalkon.co.rs/downloads/Q-railing-Square Line-2008-de-uk_lr.pdf" target="_blanc" download>Square Line - Revolucionaran kvalitetni koncept kvadratnih profila <span class="text-color-blue">(PDF)</span></a></li>
+                                                <li><a href="http://rmalkon.co.rs/downloads/Q-railing-Q-smart-2008-de-uk_lr.pdf" target="_blanc" download>Q-Smart - Pametan način instalacije sistema ograda <span class="text-color-blue">(PDF)</span></a></li>
+                                                <li><a href="http://rmalkon.co.rs/downloads/Arhitekton.pdf" target="_blanc" download>Q-Railing ekskluzivni sistem staklenih ograda <span class="text-color-blue">(PDF)</span></a></li>
                                                 
                                             </ul>
                                         </div>
