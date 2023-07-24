@@ -126,9 +126,9 @@ a.button {
 
 .button-diagonal-arrow-down {
     padding-left: 51px;
-    border: 1px solid #104867;
-    color: #104867;
-    transition: background-color 0.3s ease;
+    border: 1px solid $sixth-color;
+    color: $sixth-color;
+    transition: 0.3s ease;
 
     &::after {
         @include pseudo("",16px,16px,absolute);
@@ -141,12 +141,7 @@ a.button {
     }
 
     &:hover {
-        transition: background-color 0.3s ease;
-        color: $white;
-        background-color: #104867;
-    }
-
-    &:hover::after {
-        background-image: url("../img/icons/button/icon--big-diagonal-arrow-down-white.svg");
+        transform: scale(1.1);
+        transition: 0.3s ease;
     }
 } 

@@ -70,11 +70,13 @@
                                             <h4>Prodaja i administracija</h4>
                                         </div>
                                         <p>Stevana Brakusa 4, 11030 Beograd</p>
-                                        <a href="tel:+381117540847">+381-(0)11/7540-847</a>
-                                        <a href="tel:+381117549607">+381-(0)11/7549-607</a>
-                                        <a href="tel:+381117554483">+381-(0)11/7554-483</a>
-                                        <a href="tel:+381117555686">+381-(0)11/7555-686</a>
-                                        <a href="tel:+381113055488">+381-(0)11/3055-488</a>
+                                        <div class="phone-contact">
+                                            <a href="tel:+381117540847">+381-(0)11/7540-847</a>
+                                            <a href="tel:+381117549607">+381-(0)11/7549-607</a>
+                                            <a href="tel:+381117554483">+381-(0)11/7554-483</a>
+                                            <a href="tel:+381117555686">+381-(0)11/7555-686</a>
+                                            <a href="tel:+381113055488">+381-(0)11/3055-488</a>
+                                        </div>
                                         <p>Radno vreme: <br> ponedeljak - petak od 8:00h do 16:00h</p>
                                         <a href="mailto:office@rmalkon.co.rs">office@rmalkon.co.rs</a>
                                         <!-- Subarea end -->
