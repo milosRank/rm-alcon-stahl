@@ -59,6 +59,9 @@
                     <div class="wrapper">
                         <div class="container">
 
+                            <!-- Section decoration -->
+                            <img class="decoration" src="assets/img/decorations/shapes/square.webp" alt="Square shaped section decoration" width="920" height="920">
+
                             <!-- Text and heading inner start -->
                             <div class="text-and-heading__inner">
 
@@ -307,6 +310,9 @@
                     <div class="wrapper">
                         <div class="container">
 
+                            <!-- Section decoration -->
+                            <img class="decoration" src="assets/img/decorations/shapes/circle.webp" alt="Square shaped section decoration" width="920" height="920">
+                            
                             <!-- Text and heading inner start -->
                             <div class="text-and-heading__inner">
 
@@ -549,6 +555,9 @@
                 <div class="container-fluid">
                     <div class="wrapper">
                         <div class="container">
+
+                        <!-- Section decoration -->
+                        <img class="decoration" src="assets/img/decorations/shapes/ring.webp" alt="Square shaped section decoration" width="920" height="920">
 
                             <!-- Text and heading inner start -->
                             <div class="text-and-heading__inner">
@@ -810,6 +819,9 @@
                     <div class="wrapper">
                         <div class="container">
 
+                        <!-- Section decoration -->
+                        <img class="decoration" src="assets/img/decorations/shapes/union-regular.webp" alt="Square shaped section decoration" width="920" height="920">
+
                             <!-- Text and heading inner start -->
                             <div class="text-and-heading__inner">
 
@@ -1040,6 +1052,9 @@
                 <div class="container-fluid">
                     <div class="wrapper">
                         <div class="container">
+
+                        <!-- Section decoration -->
+                        <img class="decoration" src="assets/img/decorations/shapes/union-g.webp" alt="Square shaped section decoration" width="920" height="920">
 
                             <!-- Text and heading inner start -->
                             <div class="text-and-heading__inner">

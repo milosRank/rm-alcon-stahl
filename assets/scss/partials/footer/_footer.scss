@@ -121,6 +121,13 @@ footer {
                 display: block;
             }
         }
+
+        .box.box__contact .phone-contact {
+
+            a {
+                margin-bottom: 7px;
+            }
+        }
     }
 }
 
@@ -135,13 +142,6 @@ footer {
         .footer__content-holder .box.box__menu {
             margin-right: 50px;
         }
-    }
-}
-
-@media(min-width: 992px) {
-    
-    footer {
-        margin-top: 300px;
     }
 }
 
@@ -186,10 +186,6 @@ footer {
         .footer__inner {
             padding-top: 100px;
             padding-bottom: 100px;
-        }
-
-        .footer__inner .footer__logo-holder {
-            display: none;
         }
 
         .footer__content-holder .footer__content-holder__inner {

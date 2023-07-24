@@ -33,7 +33,7 @@
         <main> <!-- Main start -->
 
             <!-- Text and heading start -->
-            <section class="text-and-heading margin-bottom-200">
+            <section class="text-and-heading margin-top-150 margin-bottom-200">
                 <div class="container-fluid">
                     <div class="wrapper">
                         <div class="container container-medium-narrow">

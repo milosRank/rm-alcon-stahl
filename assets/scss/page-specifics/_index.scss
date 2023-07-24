@@ -1,15 +1,27 @@
 
+@media(max-width: 1199px) {
+
+    .homepage {
+
+        .hero-section {
+            margin-top: -122px;
+            padding-top: 180px;
+            height: 100vh;
+        }
+
+        header:not(.floating-header) {
+            background-color: transparent;
+        }
+    }
+}
+
 @media(max-width: 576px) {
 
     .homepage {
 
         .hero-section {
             margin-top: -88px;
-            height: 100vh;
-        }
-
-        header:not(.floating-header) {
-            background-color: transparent;
+            padding-top: 150px;
         }
     }
 }

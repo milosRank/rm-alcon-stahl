@@ -134,11 +134,8 @@
                                         <a class="underlined" href="mailto:office@rmalkon.co.rs">office@rmalkon.co.rs</a>
                                         <div class="line-separator"></div>
                                         <a class="text-color-black" href="tel:+381117540847">tel: +381-(0)11 / 7540-847</a>
-                                        <br>
                                         <a class="text-color-black" href="tel:+381117549607">tel: +381-(0)11 / 7549-607</a>
-                                        <br>
                                         <a class="text-color-black" href="tel:+381117554483">tel: +381-(0) 11 / 7554- 483</a>
-                                        <br>
                                         <a class="text-color-black" href="tel:+381117555686">tel: +381-(0)11 / 7555-686</a>
                                     </div>
                                     <ul class="pdf-list">
