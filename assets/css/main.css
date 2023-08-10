@@ -508,6 +508,10 @@ table tr:last-child td:last-child {
   display: none;
 }
 
+.text-underlined {
+  text-decoration: underline;
+}
+
 @media (min-width: 1700px) {
   .container {
     max-width: 1600px;

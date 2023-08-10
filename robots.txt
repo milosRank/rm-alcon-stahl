@@ -1,1 +1,1 @@
-Sitemap: https://www.vas-sajt.com/sitemap.xml
+Sitemap:http://rmalkon.co.rs//sitemap.xml
