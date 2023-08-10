@@ -80,7 +80,7 @@
                                                     </ul>
                                                 </li>
                                                 <li>
-                                                    <a href="#">Inox ograde</a>
+                                                    <a href="staklene-ograde.php">Staklene ograde</a>
                                                 </li>
                                                 <li>
                                                     <a href="ystral-mixing.php">YSTRAL Mixing solutions</a>
