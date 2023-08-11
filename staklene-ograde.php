@@ -86,9 +86,8 @@
                                             </p>
                                         </div>
                                         <div class="part-content">
-                                           
                                             <ul class="pdf-list">
-                                                <li><a href="http://www.rmalkon.co.rs/downloads/BUS-EN-catalogue_neutral.pdf" download>Potvrda o registraciji PIB <span class="text-color-blue">(PDF)</span></a></li>
+                                                <li><a href="http://www.rmalkon.co.rs/downloads/BUS-EN-catalogue_neutral.pdf" download>Q - railing 2023<span class="text-color-blue">(PDF)</span></a></li>
                                             </ul>
                                         </div>
                                     </div>
