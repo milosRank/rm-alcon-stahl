@@ -91,6 +91,18 @@ OPEN_MOB_MENU_BTN.addEventListener("click", function() {
 
 CLOSE_MOB_MENU_BTN.addEventListener("click", function() {
     closeMenu(); // Close menu
-    toggleActiveMenuButton(OPEN_MOB_MENU_BTN,CLOSE_MOB_MENU_BTN);  // Toggle active button
+    toggleActiveMenuButton(OPEN_MOB_MENU_BTN, CLOSE_MOB_MENU_BTN);  // Toggle active button
     unlockScreen(); // Unlock screen
+});
+
+
+
+window.addEventListener("click", function(event) {
+
+    // Hide menu on click away
+    if(event.target.closest("header") == null && isMobileMenuActive()) {
+        closeMenu(); // Close menu
+        toggleActiveMenuButton(OPEN_MOB_MENU_BTN, CLOSE_MOB_MENU_BTN);  // Toggle active button
+    }
+
 });
