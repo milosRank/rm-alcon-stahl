@@ -55,18 +55,6 @@
 
                                         <!-- Subarea start -->
                                         <div class="box__content-subtitle">
-                                            <h4>Magacin veleprodaje,mesto izdavanja robe</h4>
-                                        </div>
-                                        <p>Sesta industrijska br.2, 22330 Nova Pazova</p>
-                                        <p>Radno vreme: <br> ponedeljak - petak od 8:00h do 16:00h</p>
-                                        <a href="mailto:goran@rmalkon.co.rs">goran@rmalkon.co.rs</a>
-                                        <!-- Subarea end -->
-
-                                        <!-- Separator -->
-                                        <div class="line-separator narrow"></div>
-
-                                        <!-- Subarea start -->
-                                        <div class="box__content-subtitle">
                                             <h4>Prodaja i administracija</h4>
                                         </div>
                                         <p>Stevana Brakusa 4, 11030 Beograd</p>
@@ -79,6 +67,18 @@
                                         </div>
                                         <p>Radno vreme: <br> ponedeljak - petak od 8:00h do 16:00h</p>
                                         <a href="mailto:office@rmalkon.co.rs">office@rmalkon.co.rs</a>
+                                        <!-- Subarea end -->
+                                        
+                                        <!-- Separator -->
+                                        <div class="line-separator narrow"></div>
+
+                                        <!-- Subarea start -->
+                                        <div class="box__content-subtitle">
+                                            <h4>Magacin veleprodaje,mesto izdavanja robe</h4>
+                                        </div>
+                                        <p>Sesta industrijska br.2, 22330 Nova Pazova</p>
+                                        <p>Radno vreme: <br> ponedeljak - petak od 8:00h do 16:00h</p>
+                                        <a href="mailto:goran@rmalkon.co.rs">goran@rmalkon.co.rs</a>
                                         <!-- Subarea end -->
 
                                     </div>
