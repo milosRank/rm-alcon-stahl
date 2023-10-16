@@ -122,10 +122,10 @@
                                     <div class="text__inner">
                                         <div class="part-content">
                                             <div class="title">
-                                                <h2>Inox ograde</h2>
+                                                <h2>Staklene ograde</h2>
                                             </div>
                                             <ul class="pdf-list">
-                                                <li><a href="http://rmalkon.co.rs/downloads/Q-railing_katalog.pdf" target="_blanc" download>Q-railing katalog 2021/2022 <span class="text-color-blue">(PDF)</span></a></li>
+                                                <li><a href="http://rmalkon.co.rs/downloads/Q-railing_katalog.pdf" target="_blanc" download>Q-railing katalog 2022/2023 <span class="text-color-blue">(PDF)</span></a></li>
                                                 <li><a href="http://rmalkon.co.rs/downloads/q-railing-q-glass.pdf" target="_blanc" download>Q-Glass - Bezbednosno staklo se može prepoznati po pečatu <span class="text-color-blue">(PDF)</span></a></li>
                                                 <li><a href="http://rmalkon.co.rs/downloads/Easy_Glas_RM_Alkon.pdf" target="_blanc" download>Easy Glass System brošura - 2011 <span class="text-color-blue">(PDF)</span></a></li>
                                                 <li><a href="http://rmalkon.co.rs/downloads/Q-railing-Easy Glass-2008-de-uk_lr.pdf" target="_blanc" download>Easy Glass System - Brzo se sastavlja i instalira, štedeći Vaše vreme i novac <span class="text-color-blue">(PDF)</span></a></li>
