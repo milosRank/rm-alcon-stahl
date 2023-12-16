@@ -14,7 +14,7 @@
     <!-- FAVICON -->
     <?php include 'partials/resources/favicon.php';?>
 
-    <title>Preuzmi | RM Alcon Stahl</title>
+    <title>Preuzmi | RM Alkon Stahl</title>
 
 </head>
 

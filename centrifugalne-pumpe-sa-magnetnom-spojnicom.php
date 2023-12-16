@@ -14,7 +14,7 @@
     <!-- FAVICON -->
     <?php include 'partials/resources/favicon.php';?>
 
-    <title>Centrifugalne pumpe sa magnetnom spojnicom | RM Alcon Stahl</title>
+    <title>Centrifugalne pumpe sa magnetnom spojnicom | RM Alkon Stahl</title>
 
 </head>
 

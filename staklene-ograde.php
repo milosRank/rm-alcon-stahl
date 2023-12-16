@@ -13,7 +13,7 @@
     <!-- FAVICON -->
     <?php include 'partials/resources/favicon.php';?>
 
-    <title>Staklene ograde | RM Alcon Stahl</title>
+    <title>Staklene ograde | RM Alkon Stahl</title>
 
 </head>
 

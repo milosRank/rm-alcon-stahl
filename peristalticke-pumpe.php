@@ -14,7 +14,7 @@
     <!-- FAVICON -->
     <?php include 'partials/resources/favicon.php';?>
 
-    <title>Peristaltičke pumpe | RM Alcon Stahl</title>
+    <title>Peristaltičke pumpe | RM Alkon Stahl</title>
 
 </head>
 

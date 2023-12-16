@@ -13,7 +13,7 @@
     <!-- FAVICON -->
     <?php include 'partials/resources/favicon.php';?>
 
-    <title>Homepage | RM Alcon Stahl</title>
+    <title>Homepage | RM Alkon Stahl</title>
 
 </head>
 
