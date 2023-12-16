@@ -14,7 +14,7 @@
     <!-- FAVICON -->
     <?php include 'partials/resources/favicon.php';?>
 
-    <title>Centrifugalne pumpe sa zaptivačima vratila | RM Alcon Stahl</title>
+    <title>Centrifugalne pumpe sa zaptivačima vratila | RM Alkon Stahl</title>
 
 </head>
 

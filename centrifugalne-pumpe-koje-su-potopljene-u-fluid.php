@@ -14,7 +14,7 @@
     <!-- FAVICON -->
     <?php include 'partials/resources/favicon.php';?>
 
-    <title>Centrifugalne pumpe koje su potopljene u fluid | RM Alcon Stahl</title>
+    <title>Centrifugalne pumpe koje su potopljene u fluid | RM Alkon Stahl</title>
 
 </head>
 

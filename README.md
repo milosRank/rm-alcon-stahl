@@ -1,4 +1,4 @@
-# rm-alcon-stahl
+# rm-alkon-stahl
 RM Alkon Stahl website
 
 # build css files

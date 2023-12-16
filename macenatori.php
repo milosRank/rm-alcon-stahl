@@ -14,7 +14,7 @@
     <!-- FAVICON -->
     <?php include 'partials/resources/favicon.php';?>
 
-    <title>Maceratori | RM Alcon Stahl</title>
+    <title>Maceratori | RM Alkon Stahl</title>
 
 </head>
 

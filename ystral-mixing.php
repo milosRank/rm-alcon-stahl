@@ -14,7 +14,7 @@
     <!-- FAVICON -->
     <?php include 'partials/resources/favicon.php';?>
 
-    <title>YSTRAL Mixing | RM Alcon Stahl</title>
+    <title>YSTRAL Mixing | RM Alkon Stahl</title>
 
 </head>
 

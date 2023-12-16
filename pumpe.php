@@ -14,7 +14,7 @@
     <!-- FAVICON -->
     <?php include 'partials/resources/favicon.php';?>
 
-    <title>Pumpe | RM Alcon Stahl</title>
+    <title>Pumpe | RM Alkon Stahl</title>
 
 </head>
 
@@ -92,7 +92,7 @@
                             <h2>Upitnik</h2>
                             <p class="margin-bottom-50">
                                 Ukoliko ste zainteresovani za neku od pumpi ovde predstavljenih firmi, ili imate specifikacije na kojima želite 
-                                da baziramo ponudu, možete preuzeti upitnik u MS Word formatu i poslati nam ga <a href="mailto:office@rmalkon.co.rs?subject=RM%20Alcon%20Stahl%20Upit">elektronskom poštom</a>
+                                da baziramo ponudu, možete preuzeti upitnik u MS Word formatu i poslati nam ga <a href="mailto:office@rmalkon.co.rs?subject=RM%20Alkon%20Stahl%20Upit">elektronskom poštom</a>
                                 ili faksom na: <a href="tel:+381113055488">+381-(0)11 / 3055-488</a>.
                             </p>
                             <ul class="pdf-list">

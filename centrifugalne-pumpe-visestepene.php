@@ -14,7 +14,7 @@
     <!-- FAVICON -->
     <?php include 'partials/resources/favicon.php';?>
 
-    <title>Centrifugalne višestepene pumpe | RM Alcon Stahl</title>
+    <title>Centrifugalne višestepene pumpe | RM Alkon Stahl</title>
 
 </head>
 

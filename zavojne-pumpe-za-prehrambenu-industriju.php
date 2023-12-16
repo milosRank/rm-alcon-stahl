@@ -14,7 +14,7 @@
     <!-- FAVICON -->
     <?php include 'partials/resources/favicon.php';?>
 
-    <title>Zavojne pumpe za prehrambenu industriju | RM Alcon Stahl</title>
+    <title>Zavojne pumpe za prehrambenu industriju | RM Alkon Stahl</title>
 
 </head>
 
