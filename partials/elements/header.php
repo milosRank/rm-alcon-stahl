@@ -11,7 +11,7 @@
                                 <!-- Logo holder start -->
                                 <div class="logo-holder">
                                     <div class="logo-holder__inner">
-                                        <a href="index.php" aria-label="Go to homepage of RM Alcon Stahl">
+                                        <a href="index.php" aria-label="Go to homepage of RM Alkon Stahl">
                                             <svg class="site-logo desktop" xmlns="http://www.w3.org/2000/svg" width="232" height="38" fill="none" itemprop="logo">
                                                 <path class="logo__figure" d="M22.826 19.42c-3.79 0-7.05 2.347-8.43 5.704-.888 2.163-2.964 3.592-5.27 3.592H4.613c-2.513 0-4.601-2.045-4.627-4.615-.013-2.583 2.037-4.681 4.563-4.681h18.276ZM4.563 38c3.79 0 7.05-2.347 8.43-5.704.888-2.164 2.963-3.593 5.27-3.593h4.512c2.513 0 4.601 2.046 4.627 4.616.013 2.583-2.037 4.68-4.563 4.68H4.563Z" />
                                                 <path class="logo__figure" d="M37.352 38h-1.65C35.702 17.964 19.682 1.678 0 1.678V0c9.976 0 19.36 3.947 26.41 11.133C33.46 18.305 37.351 27.85 37.351 38Z" />

@@ -14,7 +14,7 @@
     <!-- FAVICON -->
     <?php include 'partials/resources/favicon.php';?>
 
-    <title>Nerdjajući čelici | RM Alcon Stahl</title>
+    <title>Nerdjajući čelici | RM Alkon Stahl</title>
 
 </head>
 

@@ -14,7 +14,7 @@
     <!-- FAVICON -->
     <?php include 'partials/resources/favicon.php';?>
 
-    <title>Aksijalne ili propelerne | RM Alcon Stahl</title>
+    <title>Aksijalne ili propelerne | RM Alkon Stahl</title>
 
 </head>
 

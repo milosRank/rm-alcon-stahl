@@ -8,9 +8,9 @@
 <!-- OG tags -->
 <meta property="og:locale" content="sh" />
 <meta property="og:type" content="website" />
-<meta property="og:title" content="RM Alcon Stahl - trgovina na veliko materijalima i poluproizvodima od nerđajućeg čelika" />
+<meta property="og:title" content="RM Alkon Stahl - trgovina na veliko materijalima i poluproizvodima od nerđajućeg čelika" />
 <meta property="og:description" content="RM Alkon Stahl, uvoz i trgovina na veliko materijalima i poluproizvodima od nerđajućeg čelika,  Beograd, Srbija" />
-<meta property="og:site_name" content="RM Alcon Stahl" />
+<meta property="og:site_name" content="RM Alkon Stahl" />
 <meta property="og:image" content="http://www.rmalkon.co.rs/assets/img/hero/hero-section-background.jpg" />
 <meta property="og:image:secure_url" content="http://www.rmalkon.co.rs/assets/img/hero/hero-section-background.jpg" />
 <meta property="og:image:width" content="747" />

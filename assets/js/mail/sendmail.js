@@ -30,7 +30,7 @@ function sendMail(sendMailTrigger,event) {
     }
 
     // Mail subject
-    let subject = encodeURIComponent('RM Alcon Stahl Upit');
+    let subject = encodeURIComponent('RM Alkon Stahl Upit');
 
     // Encode email body(message)
     emailBody = encodeURIComponent(emailBody);

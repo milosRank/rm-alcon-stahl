@@ -14,7 +14,7 @@
     <!-- FAVICON -->
     <?php include 'partials/resources/favicon.php';?>
 
-    <title>Contact | RM Alcon Stahl</title>
+    <title>Contact | RM Alkon Stahl</title>
 
 </head>
 

@@ -14,7 +14,7 @@
     <!-- FAVICON -->
     <?php include 'partials/resources/favicon.php';?>
 
-    <title>Pumpe za preradu otpadnih voda i otpadnih hemikalija | RM Alcon Stahl</title>
+    <title>Pumpe za preradu otpadnih voda i otpadnih hemikalija | RM Alkon Stahl</title>
 
 </head>
 
