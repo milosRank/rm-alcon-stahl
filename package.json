@@ -29,6 +29,7 @@
     "postcss-cli": "^10.1.0"
   },
   "dependencies": {
-    "bootstrap": "^5.2.3"
+    "bootstrap": "^5.2.3",
+    "sass": "^1.69.5"
   }
 }
