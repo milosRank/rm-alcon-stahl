@@ -7,6 +7,17 @@
     <?php include 'partials/resources/meta.php';?>
     <meta name="description" content="RM Alkon Stahl, uvoz i trgovina na veliko materijalima i poluproizvodima od nerđajućeg čelika,  Beograd, Srbija" />
     <meta name="keywords" content="RM Alkon Stahl, O nama, Profil firme, Srbija, Beograd, Pumpe, Nerdjajuci celik, Inox, Inox ograda" />
+    
+    <!-- Structured data -->
+    <script type="application/ld+json">
+        {
+            "@context" : "https://schema.org",
+            "@type" : "WebSite",
+            "name" : "RM Alkon Stahl",
+            "url" : "https://rmalkon.co.rs/"
+        }
+    </script>
+
     <!-- CSS -->
     <?php include 'partials/resources/styles.php';?>
 

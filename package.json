@@ -19,10 +19,6 @@
   },
   "author": "Milos Rankovic",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/milosRank/rm-alcon-stahl/issues"
-  },
-  "homepage": "https://github.com/milosRank/rm-alcon-stahl#readme",
   "devDependencies": {
     "autoprefixer": "^10.4.13",
     "postcss": "^8.4.21",
