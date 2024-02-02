@@ -25,7 +25,7 @@ function sendMail(sendMailTrigger,event) {
     if(emailBody == null || emailBody == "" || emailBody == undefined || senderName == null || senderName == "" || emailBody == undefined) 
     {
         event.preventDefault();
-        alert("Morate uneti sve podatke!");
+        alert("Sva polja su obavezna!");
         return;
     }
 
@@ -43,14 +43,15 @@ function sendMail(sendMailTrigger,event) {
 
     // Append mailto link to link
     sendMailTrigger.href = mailtoLink;
+
 }
 
-
-
 if(sendMailWrapper) {
+
     let mailToTrigger = sendMailWrapper.querySelector(".send-mail-trigger");
 
     mailToTrigger.addEventListener("click", function(event) {
         sendMail(this,event);
     });
+
 }
