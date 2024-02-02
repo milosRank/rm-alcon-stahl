@@ -127,7 +127,7 @@
                                 <!-- Image start -->
                                 <div class="image">
                                     <div class="image__inner">
-                                        <img width="648" height="670" src="assets/img/corporate/about-us.jpg" alt="About us">
+                                        <img width="648" height="1207" src="assets/img/corporate/about-us.jpg" alt="About us">
                                     </div>
                                 </div> <!-- Image end -->
 
