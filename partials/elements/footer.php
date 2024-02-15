@@ -29,7 +29,7 @@
                                 <!-- Box menu start -->
                                 <div class="box box__menu">
                                     <div class="box__title">
-                                        <h3>Menu</h3>
+                                        <h3>Meni</h3>
                                     </div>
                                     <div class="box__content">
                                         <nav>
