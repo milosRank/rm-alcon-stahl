@@ -6,7 +6,7 @@
 
                 <!-- Postfooter inner start -->
                 <div class="postfooter__inner">
-                    <p>© 1995 - 2024 /  RM Alkon Stahl, all rights reserved.</p>
+                    <p>© 1995 - <?php echo date("Y"); ?> /  RM Alkon Stahl, all rights reserved.</p>
                 </div> <!-- Postfooter inner end -->
 
             </div>
